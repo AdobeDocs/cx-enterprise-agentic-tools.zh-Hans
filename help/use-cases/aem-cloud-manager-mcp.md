@@ -2,7 +2,7 @@
 title: 放心地部署到AEM as a Cloud Service
 description: 在不离开AI客户端的情况下检查环境运行状况、查看管道历史记录以及触发或管理部署。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480352/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 管理Adobe Experience Manager环境通常意味着登录到Cloud Manager，通过管道和环境导航，并切换上下文以跟踪部署状态。 此演练展示了如何使用AEM Cloud Manager MCP服务器从人工智能客户端处理这些操作，因此开发人员和运营团队可以在不离开其人工智能环境的情况下检查状态、审查管道并对部署详细信息执行操作。
 
@@ -130,6 +130,7 @@ What is the status of the production environment?
 
 +++
 
+
 ## 步骤2：查看管道运行
 
 查看最近的管道历史记录，了解部署模式并捕获故障，以防它们阻止您的下一个版本。
@@ -144,6 +145,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++
 
+
 ## 步骤3：触发管道
 
 启动直接从您的AI客户端运行的管道。 服务器在启动之前确认目标环境并请求审批。
@@ -157,6 +159,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 ![显示管道触发器确认的AI客户端和反映正在运行的管道的Cloud Manager UI](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -175,6 +178,7 @@ What is the status of the triggered pipeline?
 ![AI客户端显示触发的管道运行的状态](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
 
 +++
+
 
 ## 您完成了哪些工作
 
@@ -268,10 +272,11 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 +++
 
+
 ## 更多信息
 
 | 资源 | 您将找到什么 |
 | --- | --- |
 | [AEM Cloud Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | 完整的Cloud Manager应用程序文档 |
-| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
+| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
 | [MCP服务器](../tools/mcp-servers.md) | 将AI客户端连接到Adobe MCP服务器 |

@@ -2,7 +2,7 @@
 title: 在不构建报表的情况下显示营销活动见解
 description: 使用CX Enterprise MCP Gateway以简单的语言询问Customer Journey Analytics性能问题，无需浏览Report Builder即可获得答案。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -86,6 +86,7 @@ What data views are available in my CJA account?
 
 +++
 
+
 ## 步骤2：提取营销活动效果数据
 
 识别数据视图后，按收入和转化率要求营销活动效果。 AI会从数据视图解析量度和维度名称，而无需技术ID。
@@ -99,6 +100,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 ![AI客户端，按Omni-Channel — 多行业数据视图中的收入和转化率显示热门促销活动](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -118,6 +120,7 @@ What factors are driving the results for these campaign groups?
 
 +++
 
+
 ## 步骤4：深入了解特定促销活动类型
 
 通过请求区段级别划分来跟进特定发现。 这揭示了哪些客户类型正在提升营销活动类型的性能。
@@ -132,6 +135,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++
 
+
 ## 步骤5：对所找到的内容执行操作
 
 根据会议中展示的所有内容，要求优先推荐。 请求业务价值评估可帮助您决定首先在何处采取行动。
@@ -145,6 +149,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 ![AI客户端推荐具有估计业务值的优先级操作](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -262,6 +267,7 @@ Save this analysis as a Workspace project for executive reporting.
 
 +++
 
+
 ## 更多信息
 
 | 资源 | 您将找到什么 |
@@ -269,4 +275,4 @@ Save this analysis as a Workspace project for executive reporting.
 | [CJA MCP Server文档](https://developer.adobe.com/analytics-mcp/docs/cja/) | 完整的工具参考和设置指南 |
 | [CJA MCP使用指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | 详细使用指南 |
 | AI注册表中的[CJA MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP服务器工具和可用性 |
-| [Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing) | 完整的CJA应用程序文档 |
+| [Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | 完整的CJA应用程序文档 |
