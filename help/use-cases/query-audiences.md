@@ -2,7 +2,7 @@
 title: 了解您的受众及其激活位置
 description: 使用CX Enterprise MCP Gateway监视受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前发现问题。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
@@ -82,6 +82,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++
 
+
 ## 第2步：确定最有价值的区段
 
 鉴于受众前景，询问哪些区段规模最大，以及哪些区段具有战略价值。
@@ -95,6 +96,7 @@ Which audiences are the largest and what makes them valuable?
 ![AI客户端，用于识别最大的受众并解释其价值所在](../assets/use-cases/query-audiences/query-audiences-step2.gif)
 
 +++
+
 
 ## 步骤3：查看激活和目标
 
@@ -110,6 +112,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++
 
+
 ## 步骤4：获取战略建议
 
 CX Enterprise MCP Gateway的RTCDP工具是只读的 — 它们会显示激活状态、目标运行状况和数据流数据，但不会修改配置。 确定问题后，将在应用程序中修复。
@@ -123,6 +126,7 @@ If you were our audience strategist, what would you prioritize next and why?
 ![提供优先级受众策略建议的AI客户端](../assets/use-cases/query-audiences/query-audiences-step4.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -219,6 +223,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 ```
 
 +++
+
 
 ## 更多信息
 

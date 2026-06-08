@@ -2,17 +2,16 @@
 title: 在旅程问题影响客户之前对其进行捕获
 description: 使用CX Enterprise MCP Gateway可以监控活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1008'
 ht-degree: 3%
 
 ---
 
 
 # 在旅程问题影响客户之前对其进行捕获
-
-<!-- last-modified: 2026-06-02 -->
+<!-- last-modified: 2026-06-08 -->
 
 ![查看历程](https://placehold.co/1600x900?text=Review+AJO+Journeys)
 
@@ -26,6 +25,7 @@ ht-degree: 3%
 | 先决条件 | 与MCP兼容的AI客户端、AJO访问 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
+
 
 ## 开始之前
 
@@ -72,6 +72,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >某些工具在执行之前会提示您审批。 查看请求并批准或拒绝 — 未经您的确认不会采取任何操作。
 
+
 ## 步骤1：发现活动历程及其用途
 
 首先，请求提供活动历程及其背后的业务目标的清单。 这可提供您在任何特定旅程中的完整情况。
@@ -85,6 +86,8 @@ What customer journeys are currently available and what business objectives do t
 ![AI客户端列出可用的客户历程及其业务目标](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
 
 +++
+
+
 
 ## 步骤2：查看历程的步骤和客户体验
 
@@ -100,9 +103,11 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++
 
+
 >[!NOTE]
 >
 >将`[journey name]`替换为步骤1结果中的历程名称。
+
 
 ## 步骤3：查看营销活动、受众和目标
 
@@ -118,6 +123,8 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++
 
+
+
 ## 步骤4：了解营销活动和历程如何关联
 
 要求您的AI客户将营销活动和历程之间的圆点连接起来，并解释他们如何共同努力实现共享参与目标。
@@ -131,6 +138,8 @@ How do our campaigns and journeys work together to improve customer engagement?
 ![AI客户端，用于说明营销活动与历程之间的关系](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
 
 +++
+
+
 
 ## 步骤5：获取优先推荐
 
@@ -146,13 +155,16 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++
 
+
 >[!NOTE]
 >
 >AJO MCP服务器可显示历程和营销活动信息，但无法修改历程、营销活动或内容。 要实施推荐，请直接转到AJO应用程序，或连接AEM Content MCP Server以查看同一会话中的内容更改。
 
+
 ## 您完成了哪些工作
 
-您将AI客户端连接到Adobe Journey Optimizer，并通过五个提示全面了解您的旅程和活动组合。 您清点活动历程及其业务目标，审查特定历程的分步客户体验，将活动营销活动映射到其受众和预期结果，了解营销活动和历程如何关联，并收到关于下一步关注位置的优先级推荐。 这样无需打开AJO界面，即可让生命周期营销和营销活动经理从战略上了解情况。
+您将AI客户端连接到Adobe Journey Optimizer，并通过五个提示全面了解您的旅程和活动组合。 您清点活动历程及其业务目标，审查特定历程的分步客户体验，将活动营销活动映射到其受众和预期结果，了解营销活动和历程如何协作，并收到关于下一步重点位置的优先级建议。 这样无需打开AJO界面，即可让生命周期营销和营销活动经理从战略上了解情况。
+
 
 ## 您可以完成更多任务
 
@@ -233,6 +245,8 @@ What channel configurations are set up in our AJO environment?
 ```
 
 +++
+
+
 
 ## 更多信息
 

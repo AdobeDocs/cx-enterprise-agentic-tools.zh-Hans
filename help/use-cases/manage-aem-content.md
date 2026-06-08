@@ -2,7 +2,7 @@
 title: 保持内容最新，更快地发送更新
 description: 使用AEM Content MCP Server查找、查看、更新和发布AEM内容，而无需在工具之间切换。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -88,6 +88,7 @@ From WKND Dev environment, find all ski related content.
 
 +++
 
+
 ## 第2步：查看特定页面
 
 找到相关内容后，请让您的AI客户端向您显示特定页面。 您可以按名称或路径引用页面。 MCP服务器解析引用并返回内容结构。
@@ -102,6 +103,7 @@ Show me the US English Home Page.
 
 +++
 
+
 ## 步骤3：改进内容
 
 查看页面内容后，请让您的AI客户端提出改进或应用改进。 AI可以根据页面当前所显示的内容提出副本更改，并在编写任何内容之前请求确认。
@@ -115,6 +117,7 @@ Improve the Hero CTAs.
 ![AI客户端在应用更改之前提出带有确认提示的改进Hero CTA副本](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -133,6 +136,7 @@ Publish the changes and share the URL.
 ![AI客户端确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
 
 +++
+
 
 ## 您完成了哪些工作
 
@@ -253,6 +257,7 @@ Promote the May Updates launch to production.
 ```
 
 +++
+
 
 ## 更多信息
 

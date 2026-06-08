@@ -2,7 +2,7 @@
 title: 运行跨渠道营销活动审核
 description: 在单次AI会话中使用CX Enterprise MCP网关可跨历程、受众和性能统一查看AJO、CJA和Real-Time CDP营销活动运行状况。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -99,6 +99,7 @@ What journeys are currently active in AJO?
 
 +++
 
+
 ## 步骤2：检查受众激活状态
 
 查看历程后，验证为这些营销活动提供支持的受众是否正确流向其目标。
@@ -122,6 +123,7 @@ Show me the activation status for the high-value loyalty segment.
 
 +++
 
+
 ## 步骤3：从CJA中提取性能指标
 
 建立历程和受众上下文后，使用CJA评估这些营销活动的转化方式以及参与度的下降位置。
@@ -143,6 +145,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 综合转化率：3.8%。 Email CTR与之前30天相比增长了1.2%。 推送转化保持不变。
 
 +++
+
 
 ## 步骤4：综合营销活动运行状况摘要
 
@@ -170,6 +173,7 @@ Give me a summary of our campaign health: what is running, which audiences are a
 未检测到严重问题。 上述两项内容值得在下一次营销活动启动之前审查。
 
 +++
+
 
 这就是多服务器方法取得成效的地方：在一次对话中跨越历程配置、受众状态和性能数据的AI客户端原因。
 
@@ -199,6 +203,7 @@ For each flag you identified, what should I do and where should I go to do it?
 您想从哪个开始？
 
 +++
+
 
 ## 您完成了哪些工作
 
@@ -279,6 +284,7 @@ Which channel has the highest conversion rate across all active campaigns?
 ```
 
 +++
+
 
 ## 更多信息
 
