@@ -269,4 +269,4 @@ Save this analysis as a Workspace project for executive reporting.
 | [CJA MCP Server文档](https://developer.adobe.com/analytics-mcp/docs/cja/) | 完整的工具参考和设置指南 |
 | [CJA MCP使用指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | 详细使用指南 |
 | AI注册表中的[CJA MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP服务器工具和可用性 |
-| [Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | 完整的CJA应用程序文档 |
+| [Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing) | 完整的CJA应用程序文档 |
