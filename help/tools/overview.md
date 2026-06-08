@@ -2,9 +2,9 @@
 title: 代理工具
 description: 比较MCP服务器、代理技能和Builders的API ，并为Adobe CX Enterprise工作流选择合适的代理工具。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,80 @@ CARDS
   {image = ../assets/apis-card.png}
 
 -->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="MCP Servers">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="mcp-servers.md" title="MCP服务器" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-servers-card.png" alt="MCP服务器"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="mcp-servers.md" target="_blank" rel="referrer" title="MCP服务器">MCP服务器</a>
+                    </p>
+                    <p class="is-size-6">将任何兼容的AI客户端连接到Adobe CX Enterprise数据和工作流。 无需编码。</p>
+                </div>
+                <a href="mcp-servers.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">浏览MCP服务器</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Agent Skills">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="agent-skills.md" title="座席技能" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="座席技能"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="agent-skills.md" target="_blank" rel="referrer" title="座席技能">代理技能</a>
+                    </p>
+                    <p class="is-size-6">由Adobe策划的工作流说明，可指导代理始终如一地完成CX Enterprise任务。</p>
+                </div>
+                <a href="agent-skills.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索代理技能</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="APIs for Builders">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="apis.md" title="用于构建器的API" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/apis-card.png" alt="用于构建器的API"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        生成器的<a href="apis.md" target="_blank" rel="referrer" title="用于构建器的API">API</a>
+                    </p>
+                    <p class="is-size-6">使用支持Adobe产品的相同API构建自定义应用程序和集成。</p>
+                </div>
+                <a href="apis.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">浏览生成器的API</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 
 ## 比较代理工具
 
@@ -85,7 +159,7 @@ CARDS
 
 [浏览座席技能](agent-skills.md)
 
->[!TAB 生成器的 API]
+>生成器的[!TAB API]
 
 API是构建块。 借助这些功能，开发人员可以使用支持Adobe自身产品的相同API，以编程方式直接访问Adobe数据和操作。 使用它们构建按您的计划、条款和栈栈运行的项目。
 
