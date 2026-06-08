@@ -214,7 +214,7 @@ CARDS
 
 [浏览座席技能](tools/agent-skills.md)
 
->生成器的[!TAB API]
+>[!TAB 生成器的 API]
 
 以编程方式直接访问支持Adobe产品的相同API。 构建自定义应用程序和集成，让您的团队能够专注并管理特定CX Enterprise工作流的访问。
 
