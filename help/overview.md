@@ -14,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491255/?captions=chi_hans&learn=on&enablevpops)
 
 为您的AI提供到&#x200B;**Adobe CX Enterprise**&#x200B;数据、工作流和自动化的直接连接。 从任何兼容的AI客户端或开发工具以&#x200B;**纯语言**&#x200B;查询营销活动、激活受众和管理历程。
 
