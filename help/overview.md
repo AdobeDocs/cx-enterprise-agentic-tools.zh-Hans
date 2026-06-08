@@ -67,7 +67,7 @@ CARDS
 
 将Adobe CX Enterprise功能集成到自定义应用程序和代理中。
 
-- 按功能区域浏览生成器](tools/apis.md)的[API，并连接到开发环境中的[MCP服务器](tools/mcp-servers.md)
+- 按功能区域浏览生成器[&#128279;](tools/apis.md)的API，并连接到开发环境中的[MCP服务器](tools/mcp-servers.md)
 - 将AI辅助编码工具（如[Claude Code](https://docs.anthropic.com/en/docs/claude-code/mcp)和[Cursor](https://cursor.com/docs/mcp)）与Adobe API一起使用
 - 在[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/)中设置身份验证和凭据
 - 有关支持的AI客户端和设置说明的完整列表，请参阅[MCP服务器](tools/mcp-servers.md)
