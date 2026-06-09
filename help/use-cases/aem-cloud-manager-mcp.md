@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480352/?captions=chi_hans&learn=on&enablevpops)
 
 管理Adobe Experience Manager环境通常意味着登录到Cloud Manager，通过管道和环境导航，并切换上下文以跟踪部署状态。 此演练展示了如何使用AEM Cloud Manager MCP服务器从人工智能客户端处理这些操作，因此开发人员和运营团队可以在不离开其人工智能环境的情况下检查状态、审查管道并对部署详细信息执行操作。
 
