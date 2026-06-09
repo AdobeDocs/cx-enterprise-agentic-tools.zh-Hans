@@ -3,9 +3,9 @@ title: 用于构建器的API
 description: 使用Adobe CX Enterprise API构建自定义应用程序和集成。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '747'
 ht-degree: 11%
 
 ---
@@ -103,11 +103,11 @@ API项目设置、身份验证和凭据管理。
 
 >[!ENDTABS]
 
-## 开始使用面向构建器的API
+## 使用API构建
 
 ![连接到Adobe CX Enterprise API的IDE](../assets/hero-connect-apis.gif)
 
-Adobe CX Enterprise API在构建之前需要两个条件：来自Adobe Developer Console的经过身份验证的凭据，以及添加到项目中的API文档，以便编码代理可以可靠地与Adobe API一起使用。
+编码代理（如Claude Code、Cursor和OpenAI Codex）非常适合于使用Adobe CX Enterprise API进行构建 — 可以在项目中添加OpenAPI规范，该代理可以在无需手动布线的情况下发现端点、构建请求以及有关API行为的理由。 首先，您需要以下两项内容：来自Adobe Developer Console的经过身份验证的凭据以及添加到项目中的API文档。
 
 ### 在Adobe Developer Console中设置API凭据
 
@@ -192,15 +192,3 @@ project/
 **保持规格为最新**
 
 当Adobe发布新的API版本时：将新的快照下载到`/specs`中，更新`README.md`中的日期，并重新生成索引和`AGENTS.md`。
-
-## Builders与MCP服务器的API
-
-当您需要完全控制系统集成或构建自定义应用程序时，请使用API。 当您希望AI代理直接使用Adobe工作流时，请使用MCP服务器。
-
-| | API | MCP服务器 |
-| --- | --- | --- |
-| 直接系统集成 | 是 | 有时 |
-| 代理友好的编排 | 有限 | 是 |
-| 原始数据访问 | 是 | 通常被抽象化 |
-| 自定义应用程序开发 | 主要用例 | 辅助 |
-| 人工智能辅助的工作流 | 受支持 | 主要用例 |

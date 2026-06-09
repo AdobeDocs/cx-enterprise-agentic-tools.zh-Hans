@@ -3,10 +3,10 @@ title: 座席技能
 description: 由Adobe策划的工作流和说明，可引导AI代理始终如一地完成CX Enterprise任务。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '440'
+ht-degree: 1%
 
 ---
 
@@ -57,17 +57,13 @@ Adobe CX Enterprise的![代理技能](../assets/hero-agent-skills.png)
 
 >[!ENDTABS]
 
-## 座席技能的工作方式
+## 添加座席技能
 
 ![座席技能的工作方式](../assets/hero-connect-agent-skills.gif)
 
 座席技能是一组指令，用于告知AI座席如何使用Adobe座席工具完成任务。 当代理加载技能时，它会遵循该工作流，而不是即兴操作。
 
-- 座席每次都以相同的方式完成任务
-- 域专业知识编码一次，并在对话中重用
-- 技能可以将多个代理工具和操作链接到单个工作流中
-
-## 快速入门
+### 安装代理技能
 
 代理技能是根据您使用的AI客户端安装的。 某些客户端支持从命令行直接安装：
 
@@ -86,12 +82,3 @@ Adobe CX Enterprise的![代理技能](../assets/hero-agent-skills.png)
 - **克劳德代码**： `claude /plugin list`
 - **节点环境**： `npx skills list`
 - **GitHub CLI**： `gh upskill list`
-
-## 代理技能vs MCP服务器vs API for Builder
-
-| | 座席技能 | MCP服务器 | 用于构建器的API |
-| --- | --- | --- | --- |
-| 用途 | 引导式工作流和最佳实践 | Adobe数据和工作流访问 | 直接系统集成 |
-| 编码域专业知识 | 是 | 否 | 否 |
-| 需要编码 | 否 | 否 | 是 |
-| 最适合 | 可重复、引导式任务 | 数据查询和工作流操作 | 自定义应用程序开发 |
