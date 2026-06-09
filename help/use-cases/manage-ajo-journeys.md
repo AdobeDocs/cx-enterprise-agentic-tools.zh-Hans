@@ -3,7 +3,7 @@ title: 在旅程问题影响客户之前对其进行捕获
 description: 使用CX Enterprise MCP监视活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 3%
@@ -20,10 +20,10 @@ ht-degree: 3%
 
 | 方案详细信息 | |
 | --- | --- |
-| **CX Enterprise应用程序** | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home) |
-| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **受众** | 营销活动经理、营销人员 |
-| **预修课程** | 与MCP兼容的AI客户端、AJO访问 |
+| CX企业级应用程序 | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home) |
+| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| 受众 | 营销活动经理、营销人员 |
+| 先决条件 | 与MCP兼容的AI客户端、AJO访问 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 

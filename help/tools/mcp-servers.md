@@ -3,7 +3,7 @@ title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 9c62818daecf3c20230457da5b9b8086d954260f
+source-git-commit: 25d2a09ed7ca8357fd4d9eff93233732fe81a2d5
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 3%
@@ -128,7 +128,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 >[!TAB 克劳德.ai]
 
-### ![推荐](../assets/badge-recommended.svg)使用托管连接器
+### ![推荐](../assets/icons/star.svg)使用托管连接器
 
 转到[Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=connector)并搜索Adobe应用程序。 如果列出了Claude连接器（例如[Adobe Experience Manager连接器](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)），请按照其设置说明进行操作，而不是执行以下步骤。
 
