@@ -293,7 +293,7 @@ Which channel has the highest conversion rate across all active campaigns?
 | --- | --- |
 | [AJO文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home) | 完整的AJO应用程序文档 |
 | [Analytics MCP文档](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP设置和工具参考 |
-| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP设置指南 |
+| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP设置指南 |
 | AI注册表中的[AJO MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP服务器工具和可用性 |
 | AI注册表中的[CJA MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP服务器工具和可用性 |
 | [MCP服务器](../tools/mcp-servers.md) | 将AI客户端连接到Adobe MCP服务器 |

@@ -279,5 +279,5 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 | 资源 | 您将找到什么 |
 | --- | --- |
 | [AEM Cloud Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | 完整的Cloud Manager应用程序文档 |
-| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
+| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
 | [MCP服务器](../tools/mcp-servers.md) | 将AI客户端连接到Adobe MCP服务器 |
