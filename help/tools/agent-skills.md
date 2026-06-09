@@ -1,8 +1,9 @@
 ---
 title: 座席技能
 description: 由Adobe策划的工作流和说明，可引导AI代理始终如一地完成CX Enterprise任务。
+last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 6%
@@ -206,7 +207,7 @@ CARDS
 - **节点环境**： `npx skills add adobe/skills`
 - **GitHub CLI**： `gh upskill adobe/skills`
 
-其他客户端要求您下载技能文件并将其直接添加到您的AI客户端。 有关客户端的完整安装说明，请参阅GitHub[&#128279;](https://github.com/adobe/skills#installation)上的Adobe技能自述文件。
+其他客户端要求您下载技能文件并将其直接添加到您的AI客户端。 有关客户端的完整安装说明，请参阅GitHub](https://github.com/adobe/skills#installation)上的[Adobe技能自述文件。
 
 ### 查找座席技能
 

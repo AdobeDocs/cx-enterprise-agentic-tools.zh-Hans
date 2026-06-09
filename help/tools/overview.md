@@ -1,8 +1,9 @@
 ---
 title: 代理工具
 description: 比较MCP服务器、代理技能和Builders的API ，并为Adobe CX Enterprise工作流选择合适的代理工具。
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: bb341fa02a8e1e8b3efbf832359846c94441df88
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -155,7 +156,7 @@ CARDS
 
 [浏览座席技能](agent-skills.md)
 
->[!TAB 生成器的 API]
+>生成器的[!TAB API]
 
 API是构建块。 借助这些功能，开发人员可以使用支持Adobe自身产品的相同API，以编程方式直接访问Adobe数据和操作。 使用它们构建集中的自定义体验，通过组织需求的护栏简化特定业务工作流。
 

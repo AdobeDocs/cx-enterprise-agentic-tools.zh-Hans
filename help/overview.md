@@ -1,8 +1,9 @@
 ---
 title: Adobe CX Enterprise Agentic Tools
 description: 使用MCP服务器、代理技能和API将AI代理和开发工具连接到Adobe CX Enterprise功能。
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: b9ed1988d395169decd601cae567d200f8993f04
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 3%
@@ -14,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491255/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 让AI成为您的Adobe CX Enterprise同事。 将您的AI客户端连接到营销策划、受众、历程和内容，并通过您已经使用的任何工具以纯语言与它们交互。 没有新接口，没有上下文切换，无需编码即可开始。
 
@@ -140,7 +141,7 @@ CARDS
 
 [浏览座席技能](tools/agent-skills.md)
 
->[!TAB 生成器的 API]
+>生成器的[!TAB API]
 
 以编程方式直接访问支持Adobe产品的相同API。 构建自定义应用程序和集成，让您的团队能够专注并管理特定CX Enterprise工作流的访问。
 

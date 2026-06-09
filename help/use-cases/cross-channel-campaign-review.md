@@ -1,8 +1,9 @@
 ---
 title: 运行跨渠道营销活动审核
 description: 在单次AI会话中使用CX Enterprise MCP网关可跨历程、受众和性能统一查看AJO、CJA和Real-Time CDP营销活动运行状况。
+last-substantial-update: 2026-05-21T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -292,7 +293,7 @@ Which channel has the highest conversion rate across all active campaigns?
 | --- | --- |
 | [AJO文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home) | 完整的AJO应用程序文档 |
 | [Analytics MCP文档](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP设置和工具参考 |
-| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP设置指南 |
+| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP设置指南 |
 | AI注册表中的[AJO MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP服务器工具和可用性 |
 | AI注册表中的[CJA MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP服务器工具和可用性 |
 | [MCP服务器](../tools/mcp-servers.md) | 将AI客户端连接到Adobe MCP服务器 |
