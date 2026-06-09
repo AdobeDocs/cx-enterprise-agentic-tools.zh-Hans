@@ -3,7 +3,7 @@ title: 用于构建器的API
 description: 使用Adobe CX Enterprise API构建自定义应用程序和集成。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 11%
@@ -107,7 +107,7 @@ API项目设置、身份验证和凭据管理。
 
 ![连接到Adobe CX Enterprise API的IDE](../assets/hero-connect-apis.gif)
 
-编码代理（如Claude Code、Cursor和OpenAI Codex）非常适合于使用Adobe CX Enterprise API进行构建 — 可以在项目中添加OpenAPI规范，该代理可以在无需手动布线的情况下发现端点、构建请求以及有关API行为的理由。 首先，您需要以下两项内容：来自Adobe Developer Console的经过身份验证的凭据以及添加到项目中的API文档。
+编码代理（如Claude Code 、 Cursor和OpenAI Codex ）非常适合于使用Adobe CX Enterprise API进行构建。 将OpenAPI规范添加到您的项目中，代理程序无需手动布线即可发现端点、构建请求以及有关API行为的原因。 首先，您需要以下两项内容：来自Adobe Developer Console的经过身份验证的凭据以及添加到项目中的API文档。
 
 ### 在Adobe Developer Console中设置API凭据
 

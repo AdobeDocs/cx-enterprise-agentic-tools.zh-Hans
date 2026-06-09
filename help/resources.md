@@ -3,7 +3,7 @@ title: 资源
 description: 所有Adobe CX Enterprise Agentic Tools文档、注册表、API和开发人员指南的单一入口点。
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 16%
@@ -33,7 +33,7 @@ ht-degree: 16%
 |---|---|
 | [Analytics MCP文档](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP服务器安装指南和工具参考 |
 | [Analytics MCP指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP服务器的详细使用指南 |
-| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | 《RTCDP MCP服务器安装指南》 |
+| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | 《RTCDP MCP服务器安装指南》 |
 
 ## 座席技能
 
@@ -74,10 +74,10 @@ ht-degree: 16%
 
 | 资源 | 您将找到什么 |
 |---|---|
-| [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home) | 完整的AEP应用程序文档 |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home) | 完整的AEP应用程序文档 |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home) | 完整的AJO应用程序文档 |
 | [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) | 完整的Real-Time CDP应用程序文档 |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing) | 完整的CJA应用程序文档 |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | 完整的CJA应用程序文档 |
 | [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/landing) | 完整的Adobe Analytics文档 |
 | [AEP目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home) | 目标设置和管理 |
 | [AJO教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview) | AJO视频教程和学习路径 |

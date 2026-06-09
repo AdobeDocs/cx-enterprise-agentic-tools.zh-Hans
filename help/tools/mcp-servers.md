@@ -3,7 +3,7 @@ title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-09 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491332/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Adobe CX Enterprise MCP服务器允许任何兼容的AI客户端直接、受管地访问Adobe数据和工作流。 连接一次，您就可以查询营销活动效果、激活受众、查看历程、管理内容等，所有这些操作都以纯语言进行，而无需离开您的AI环境。 由于MCP服务器位于AI客户端和Adobe的基础系统之间，因此您可以在组织保持有效的访问控制和数据治理的同时获得自然语言的灵活性。
 
@@ -58,13 +58,13 @@ Adobe Experience Manager有多台MCP服务器用于不同的工作流。
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| [AEM（代码模式）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 通过自然语言查找、读取、写入和删除，直接通过REST API访问AEM |
+| [AEM（代码模式）](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 通过自然语言查找、读取、写入和删除，直接通过REST API访问AEM |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理项目、环境、管道和存储库 |
-| [AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理页面、内容片段、资源和启动项 |
-| [AEM内容（只读）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查询页面、内容片段以及没有写入权限的启动项 |
+| [AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理页面、内容片段、资源和启动项 |
+| [AEM内容（只读）](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查询页面、内容片段以及没有写入权限的启动项 |
 | AEM文档创作 | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 在文档创作中管理文件、版本历史记录和媒体引用 |
 | [AEM体验管理](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | 根据品牌准则和合规性规则评估内容和图像 |
-| [AEM Experience Production](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | 使用AI驱动的内容简报大规模转换和创建AEM页面 |
+| [AEM Experience Production](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | 使用AI驱动的内容简报大规模转换和创建AEM页面 |
 
 >[!NOTE]
 >
@@ -84,11 +84,11 @@ Adobe Experience Manager有多台MCP服务器用于不同的工作流。
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 |
 
 >[!NOTE]
 >
->Marketo Engage MCP使用Marketo原生服务凭据，而不是Adobe IMS。 有关身份验证设置，请参阅[Marketo Engage MCP Server文档](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server)。 访问取决于您的Marketo Engage订阅和API用户的权限。
+>Marketo Engage MCP使用Marketo原生服务凭据，而不是Adobe IMS。 有关身份验证设置，请参阅[Marketo Engage MCP Server文档](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server)。 访问取决于您的Marketo Engage订阅和API用户的权限。
 
 >[!TAB Target]
 
@@ -96,7 +96,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 查看活动、选件、受众、mbox和性能报表 |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 查看活动、选件、受众、mbox和性能报表 |
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 在手动配置之前，请检查[Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=connector)以获取AI客户端和Adobe应用程序的托管连接器。 受管连接器会自动处理身份验证。 如果某个连接器可用于您的客户端和应用程序，请使用该连接器，而不是执行以下手动步骤。
 
-以下步骤使用CX Enterprise MCP端点作为示例。 同一过程适用于任何Adobe MCP服务器 — 交换要连接的服务器的端点URL。
+以下步骤使用CX Enterprise MCP端点作为示例。 同一过程适用于任何Adobe MCP服务器：交换要连接的服务器的端点URL。
 
 ![连接到Adobe MCP服务器的AI代理](../assets/hero-connect-mcp-servers.gif)
 
@@ -138,7 +138,7 @@ Claude.ai通过帐户设置中的自定义连接器支持远程MCP服务器。
 
 1. 转到&#x200B;**设置>集成**。
 2. 单击&#x200B;**添加自定义连接器**。
-3. 输入服务器端点，作为URL — 例如，CX Enterprise MCP的`https://cx-enterprise.adobe.io/mcp` — 以及您选择的显示名称。
+3. 输入服务器端点，作为URL（例如，CX Enterprise MCP为`https://cx-enterprise.adobe.io/mcp`）和您选择的显示名称。
 4. 单击&#x200B;**连接**&#x200B;并使用您的Adobe ID登录。 选择正确的IMS组织。
 
 完整设置： [Claude.ai自定义连接器文档](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -209,7 +209,7 @@ ChatGPT通过Pro、Plus、Business、Enterprise和Education计划提供的[开�
 1. 在&#x200B;**ChatGPT设置**&#x200B;中启用开发人员模式。
 2. 转到&#x200B;**设置>集成**。
 3. 单击&#x200B;**添加自定义连接器**&#x200B;并选择&#x200B;**远程MCP服务器**。
-4. 输入服务器端点，作为URL — 例如，CX Enterprise MCP的`https://cx-enterprise.adobe.io/mcp` — 以及您选择的显示名称。
+4. 输入服务器端点，作为URL（例如，CX Enterprise MCP为`https://cx-enterprise.adobe.io/mcp`）和您选择的显示名称。
 5. 将身份验证设置为&#x200B;**OAuth**。
 6. 单击&#x200B;**连接**&#x200B;并使用您的Adobe ID登录。 选择正确的IMS组织。
 
@@ -243,7 +243,7 @@ Microsoft Copilot Studio使用“MCP载入向导”连接到远程MCP服务器�
 1. 在Copilot Studio中打开您的代理。
 2. 转到&#x200B;**工具**&#x200B;页面。
 3. 选择&#x200B;**添加工具>新建工具>模型上下文协议**。
-4. 在MCP载入向导中，输入服务器详细信息 — 例如，对于CX Enterprise MCP：
+4. 在MCP载入向导中，输入服务器详细信息。 例如，对于CX Enterprise MCP ：
    - **服务器名称：** `Adobe CX Enterprise`
    - **服务器URL：** `https://cx-enterprise.adobe.io/mcp`
 5. 将身份验证设置为&#x200B;**OAuth 2.0**，并使用Adobe IMS授权和令牌URL进行配置。
