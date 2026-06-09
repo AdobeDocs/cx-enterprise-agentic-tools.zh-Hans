@@ -20,8 +20,8 @@ ht-degree: 1%
 
 | 方案详细信息 | |
 | --- | --- |
-| **CX Enterprise应用程序** | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
-| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **CX Enterprise应用程序** | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP Server](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | **受众** | 营销活动经理、内容策划师、营销运营 |
 | **预修课程** | 与MCP兼容的AI客户端、CJA访问、AEM as a Cloud Service访问 |
 
@@ -257,7 +257,7 @@ Publish all confirmed changes and share the updated URLs.
 | 资源 | 您将找到什么 |
 | --- | --- |
 | [CJA MCP Server文档](https://developer.adobe.com/analytics-mcp/docs/cja/) | CJA MCP设置和工具参考 |
-| [AEM Content MCP Server文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | 《AEM Content MCP设置和使用指南》 |
+| [AEM Content MCP Server文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | 《AEM Content MCP设置和使用指南》 |
 | AI注册表中的[CJA MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP服务器工具和可用性 |
 | AI注册表中的[AEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Server工具和可用性 |
 | [MCP服务器](../tools/mcp-servers.md) | 将AI客户端连接到Adobe MCP服务器 |
