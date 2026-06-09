@@ -1,11 +1,11 @@
 ---
 title: 在旅程问题影响客户之前对其进行捕获
-description: 使用CX Enterprise MCP Gateway可以监控活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
+description: 使用CX Enterprise MCP监视活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 3%
 
 ![AI客户端使用执行摘要总结活动和历程策略](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
-清楚地了解哪些历程处于活动状态、哪些条件驱动它们以及营销活动的配置方式通常意味着打开Adobe Journey Optimizer并导航其界面。 本演练展示了如何使用CX Enterprise MCP Gateway通过AI客户端获得同样的可见性，并通过纯语言问题查询AJO历程和营销活动数据。
+清楚地了解哪些历程处于活动状态、哪些条件驱动它们以及营销活动的配置方式通常意味着打开Adobe Journey Optimizer并导航其界面。 本演练展示了如何通过AI客户端获得同样的可见性，并使用CX Enterprise MCP通过纯语言问题查询AJO历程和营销活动数据。
 
-| | |
+| 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | Adobe Journey Optimizer (AJO) |
-| 代理工具 | CX Enterprise MCP网关 |
-| 受众 | 营销活动经理、营销人员 |
-| 先决条件 | 与MCP兼容的AI客户端、AJO访问 |
+| **CX Enterprise应用程序** | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **受众** | 营销活动经理、营销人员 |
+| **预修课程** | 与MCP兼容的AI客户端、AJO访问 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 >[!TAB 克劳德.ai]
 
-将CX Enterprise MCP Gateway作为自定义连接器连接以访问Adobe Journey Optimizer工具。
+将CX Enterprise MCP作为自定义连接器连接以访问Adobe Journey Optimizer工具。
 
 1. 转到Claude.ai中的&#x200B;**设置>集成**。
 2. 选择&#x200B;**添加自定义连接器**&#x200B;并输入服务器URL： `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro 、 Plus 、 Business 、 Enterprise或Education计划）连接CX Enterprise MCP Gateway。
+使用ChatGPT Developer Mode （需要Pro 、 Plus 、 Business 、 Enterprise或Education计划）连接CX Enterprise MCP。
 
 1. 在&#x200B;**ChatGPT设置**&#x200B;中启用&#x200B;**开发人员模式**。
 2. 转到&#x200B;**设置>集成**，然后选择&#x200B;**添加自定义连接器>远程MCP服务器**。
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 >[!TAB 其他AI客户端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用此端点连接到CX Enterprise MCP网关：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用以下端点连接到CX Enterprise MCP：
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >在首次连接时，您的AI客户端可能会要求您选择IMS组织或指定沙盒。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
 >
->某些工具在执行之前会提示您审批。 查看请求并批准或拒绝 — 未经您的确认不会采取任何操作。
+>某些工具在执行之前会提示您审批。 查看请求并批准或拒绝。 未经确认，不执行任何操作。
 
 
 ## 步骤1：发现活动历程及其用途
@@ -169,7 +169,7 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 ## 您可以完成更多任务
 
-CX Enterprise MCP Gateway可以显示范围广泛的AJO历程和促销活动详细信息。 展开下面的方案以查看可在同一会话中尝试的提示。
+CX Enterprise MCP可以显示范围广泛的AJO历程和促销活动详细信息。 展开下面的方案以查看可在同一会话中尝试的提示。
 
 +++在进行更改之前了解实时内容
 

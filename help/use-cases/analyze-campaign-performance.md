@@ -1,11 +1,11 @@
 ---
 title: 在不构建报表的情况下显示营销活动见解
-description: 使用CX Enterprise MCP Gateway以简单的语言询问Customer Journey Analytics性能问题，无需浏览Report Builder即可获得答案。
-last-substantial-update: 2026-06-02T00:00:00Z
+description: 使用CX Enterprise MCP以简单的语言询问Customer Journey Analytics性能问题，并且无需浏览Report Builder即可获得答案。
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 以前，营销活动分析需要在单独的工具中构建报表，但现在该对话了。 此演练展示了如何将AI客户端连接到Customer Journey Analytics (CJA)，并以简单的语言询问性能问题。 这样可以加快到insight的时间，而无需手动构建报表。
 
-| | |
+| 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | Customer Journey Analytics (CJA) |
-| 代理工具 | CX Enterprise MCP网关 |
-| 受众 | 分析员、营销活动经理 |
-| 先决条件 | 与MCP兼容的AI客户端、CJA访问 |
+| **CX Enterprise应用程序** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **受众** | 分析员、营销活动经理 |
+| **预修课程** | 与MCP兼容的AI客户端、CJA访问 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TAB 克劳德.ai]
 
-将CX Enterprise MCP Gateway作为自定义连接器连接以访问Customer Journey Analytics工具。
+将CX Enterprise MCP作为自定义连接器连接以访问Customer Journey Analytics工具。
 
 1. 转到Claude.ai中的&#x200B;**设置>集成**。
 2. 选择&#x200B;**添加自定义连接器**&#x200B;并输入服务器URL： `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro 、 Plus 、 Business 、 Enterprise或Education计划）连接CX Enterprise MCP Gateway。
+使用ChatGPT Developer Mode （需要Pro 、 Plus 、 Business 、 Enterprise或Education计划）连接CX Enterprise MCP。
 
 1. 在&#x200B;**ChatGPT设置**&#x200B;中启用&#x200B;**开发人员模式**。
 2. 转到&#x200B;**设置>集成**，然后选择&#x200B;**添加自定义连接器>远程MCP服务器**。
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!TAB 其他AI客户端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用此端点连接到CX Enterprise MCP网关：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用以下端点连接到CX Enterprise MCP：
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >在首次连接时，您的AI客户端可能会要求您选择IMS组织或指定沙盒。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
 >
->某些工具在执行之前会提示您审批。 查看请求并批准或拒绝 — 未经您的确认不会采取任何操作。
+>某些工具在执行之前会提示您审批。 查看请求并批准或拒绝。 未经确认，不执行任何操作。
 
 ## 步骤1：发现可用的数据视图
 
@@ -154,7 +154,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->通过CX Enterprise MCP Gateway访问的CJA工具可以在同一会话中在CJA中创建区段、计算量度和Workspace项目。 要更新其他应用程序中的促销活动、历程或内容，请连接相关的MCP服务器或直接转到应用程序。
+>通过CX Enterprise MCP访问的CJA工具可以在同一会话中在CJA中创建区段、计算量度和Workspace项目。 要更新其他应用程序中的促销活动、历程或内容，请连接相关的MCP服务器或直接转到应用程序。
 
 ## 您完成了哪些工作
 
@@ -162,7 +162,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 ## 您可以完成更多任务
 
-CX Enterprise MCP Gateway可呈现的Customer Journey Analytics见解远多于演练所涵盖的内容。 展开下面的方案以查看可在同一会话中尝试的提示。
+CX Enterprise MCP可以呈现比演练涵盖的更多Customer Journey Analytics见解。 展开下面的方案以查看可在同一会话中尝试的提示。
 
 +++查找有效内容和无效内容
 
@@ -194,7 +194,7 @@ Show me conversion performance by traffic source.
 
 +++了解促成结果的因素
 
-标题指标告诉您发生了什么。 这些提示可帮助您了解为什么会出现这种情况 — 数字背后是哪些区段、渠道和接触点。
+标题指标告诉您发生了什么。 这些提示有助于您了解原因：数字背后是哪些区段、渠道和接触点。
 
 **提示**
 
@@ -246,7 +246,7 @@ What would have the biggest impact on revenue?
 
 +++将见解转化为行动
 
-通过CX Enterprise MCP Gateway访问的CJA工具可以直接在CJA中创建区段、受众、计算量度和Workspace项目，而无需离开您的AI会话。 使用这些提示根据您的发现执行操作。
+通过CX Enterprise MCP访问的CJA工具可以直接在CJA中创建区段、受众、计算量度和Workspace项目，而无需离开您的AI会话。 使用这些提示根据您的发现执行操作。
 
 **提示**
 

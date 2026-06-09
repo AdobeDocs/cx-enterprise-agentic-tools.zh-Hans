@@ -1,12 +1,12 @@
 ---
 title: 运行跨渠道营销活动审核
-description: 在单次AI会话中使用CX Enterprise MCP网关可跨历程、受众和性能统一查看AJO、CJA和Real-Time CDP营销活动运行状况。
-last-substantial-update: 2026-05-21T00:00:00Z
+description: 在单次AI会话中使用CX Enterprise MCP可跨历程、受众和性能统一查看AJO、CJA和Real-Time CDP营销活动运行状况。
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 4%
+source-wordcount: '1458'
+ht-degree: 5%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 要全面了解营销活动的运行状况，需要来自多个系统的数据：来自AJO的活动历程、来自Real-Time CDP的受众激活状态以及来自CJA的性能指标。 本演练展示了如何在单个AI会话中连接所有三个，以使您能够通过一次会话而不是通过三个单独的工具从历程状态转变为受众健康状况以及性能趋势。
 
-| | |
+| 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | Adobe Journey Optimizer、Customer Journey Analytics、Real-Time CDP |
-| 代理工具 | CX Enterprise MCP网关 |
-| 受众 | 营销活动经理、营销运营 |
-| 先决条件 | 与MCP兼容的人工智能客户端，访问AJO、CJA和Real-Time CDP |
+| **CX Enterprise应用程序** | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **受众** | 营销活动经理、营销运营 |
+| **预修课程** | 与MCP兼容的人工智能客户端，访问AJO、CJA和Real-Time CDP |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 >[!TAB 克劳德.ai]
 
-将CX Enterprise MCP Gateway作为自定义连接器连接。 通过一个连接，您可以访问AJO、CJA和Real-Time CDP工具。
+将CX Enterprise MCP作为自定义连接器连接。 通过一个连接，您可以访问AJO、CJA和Real-Time CDP工具。
 
 1. 转到Claude.ai中的&#x200B;**设置>集成**。
 2. 选择&#x200B;**添加自定义连接器**&#x200B;并输入服务器URL： `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro 、 Plus 、 Business 、 Enterprise或Education计划）连接CX Enterprise MCP Gateway。
+使用ChatGPT Developer Mode （需要Pro 、 Plus 、 Business 、 Enterprise或Education计划）连接CX Enterprise MCP。
 
 1. 在&#x200B;**ChatGPT设置**&#x200B;中启用&#x200B;**开发人员模式**。
 2. 转到&#x200B;**设置>集成**，然后选择&#x200B;**添加自定义连接器>远程MCP服务器**。
@@ -55,7 +55,7 @@ ht-degree: 4%
 
 >[!TAB 其他AI客户端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用此端点连接到CX Enterprise MCP网关：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用以下端点连接到CX Enterprise MCP：
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >在首次连接时，您的AI客户端可能会要求您选择IMS组织或指定沙盒。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
 >
->某些工具在执行之前会提示您审批。 查看请求并批准或拒绝 — 未经您的确认不会采取任何操作。
+>某些工具在执行之前会提示您审批。 查看请求并批准或拒绝。 未经确认，不执行任何操作。
 
 ## 步骤1：查看活动历程和营销活动
 
@@ -87,14 +87,14 @@ What journeys are currently active in AJO?
 
 | 历程 | 渠道 | 上次修改时间 |
 | --- | --- | --- |
-| 欢迎系列 — 新成员 | 电子邮件、推送 | 2026年5月18日 |
+| 欢迎系列：新成员 | 电子邮件、推送 | 2026年5月18日 |
 | 购买后跟进 | 电子邮件、短信 | 2026年5月14日 |
 | 忠诚度重新参与 | 电子邮件 | 2026年5月20日 |
-| 已放弃的购物车 — 24小时 | 电子邮件、短信 | 2026年5月10日 |
+| 已放弃的购物车：24小时 | 电子邮件、短信 | 2026年5月10日 |
 | Spring Promotion | 电子邮件、推送 | 2026年5月19日 |
-| 回馈 — 90天不活动 | 电子邮件 | 2026年4月28日 |
+| 回送：90天不活动 | 电子邮件 | 2026年4月28日 |
 | 生日奖励 | 电子邮件 | 2026年4月15日 |
-| 重新参与 — 推送选择退出 | 短信 | 2026年5月12日 |
+| 重新参与：推送选择退出 | 短信 | 2026年5月12日 |
 
 过去7天内修改了3个历程。 要了解其中任何一项的详细信息吗？
 
@@ -111,7 +111,7 @@ Show me the activation status for the high-value loyalty segment.
 
 +++查看示例响应
 
-**高价值忠诚度区段** — 目标之间的激活状态：
+**高价值忠诚度区段**：目标之间的激活状态：
 
 | 目标 | 状态 | 上次成功运行 | 受众规模 |
 | --- | --- | --- | --- |
@@ -136,7 +136,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 +++查看示例响应
 
-**忠诚度重新参与活动** — 2026年4月21日至5月21日：
+**忠诚度重新参与营销活动**： 2026年4月21日至5月21日：
 
 | 渠道 | 发送 | CTR | 转化 | 同意 评价 |
 | --- | --- | --- | --- | --- |
@@ -169,7 +169,7 @@ Give me a summary of our campaign health: what is running, which audiences are a
 **要注意的标志：**
 
 - 回溯历程（90天不活动）上次修改于23天前，最近未审查过。
-- 推送转化率连续3个周期保持平稳 — 值得回顾消息传递或时间安排。
+- 推送转化率连续3个周期保持平稳，值得审查消息传送或时间安排。
 
 未检测到严重问题。 上述两项内容值得在下一次营销活动启动之前审查。
 
