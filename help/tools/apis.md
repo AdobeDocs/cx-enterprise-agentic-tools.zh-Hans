@@ -3,10 +3,10 @@ title: 用于构建器的API
 description: 使用Adobe CX Enterprise API构建自定义应用程序和集成。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 9318512ab3280356be3f64a17f5320e30a9c4f8d
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 23%
+source-wordcount: '935'
+ht-degree: 24%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 23%
 Adobe CX Enterprise API允许开发人员和人工智能辅助编码代理工具直接访问Adobe数据和工作流。 使用它们可以构建自定义应用程序、自动集成，并将Adobe功能嵌入您自己的系统中。 当您需要以编程方式全面控制系统集成，或需要在Adobe数据的基础上构建应用程序时，API是您的正确选择。 有关对Adobe工作流的代理驱动对话访问，请参阅[MCP服务器](mcp-servers.md)。
 
 ## Adobe CX Enterprise API
-
-Adobe CX Enterprise API公开了支持Adobe Experience Platform、Journey Optimizer和Customer Journey Analytics等产品的核心数据和操作。 每个API都遵循API优先的设计，允许开发人员和人工智能辅助编码代理工具直接、可编程地访问Adobe内部使用的相同功能。 使用它们构建自定义应用程序、自动化工作流并将Adobe数据集成到您自己的系统中。
 
 <!--
 CARDS
@@ -68,7 +66,7 @@ CARDS
   {target = _blank}
   {image = ../assets/apis-cxenterprise-card.png}
 
-* https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/home
+* https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home
   {title = Privacy}
   {description = Privacy workflows, data governance, and data subject requests.}
   {cta = Explore API}
@@ -398,19 +396,6 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-
-## Builders与MCP服务器的API
-
-当您需要完全控制系统集成或构建自定义应用程序时，请使用API。 当您希望AI代理直接使用Adobe工作流时，请使用MCP服务器。
-
-| | API | MCP服务器 |
-| --- | --- | --- |
-| 直接系统集成 | 是 | 有时 |
-| 代理友好的编排 | 有限 | 是 |
-| 原始数据访问 | 是 | 通常被抽象化 |
-| 自定义应用程序开发 | 主要用例 | 辅助 |
-| 人工智能辅助的工作流 | 受支持 | 主要用例 |
-
 ## 开始使用面向构建器的API
 
 ![连接到Adobe CX Enterprise API的IDE](../assets/hero-connect-apis.gif)
@@ -500,3 +485,15 @@ project/
 **保持规格为最新**
 
 当Adobe发布新的API版本时：将新的快照下载到`/specs`中，更新`README.md`中的日期，并重新生成索引和`AGENTS.md`。
+
+## Builders与MCP服务器的API
+
+当您需要完全控制系统集成或构建自定义应用程序时，请使用API。 当您希望AI代理直接使用Adobe工作流时，请使用MCP服务器。
+
+| | API | MCP服务器 |
+| --- | --- | --- |
+| 直接系统集成 | 是 | 有时 |
+| 代理友好的编排 | 有限 | 是 |
+| 原始数据访问 | 是 | 通常被抽象化 |
+| 自定义应用程序开发 | 主要用例 | 辅助 |
+| 人工智能辅助的工作流 | 受支持 | 主要用例 |
