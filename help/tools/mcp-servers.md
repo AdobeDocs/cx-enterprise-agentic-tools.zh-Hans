@@ -3,7 +3,7 @@ title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: e37222abaf2d2502dfbc2f8588ae9ece94fffbd1
+source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -296,7 +296,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/analyze-campaign-performance.md" title="分析营销活动效果" target="_blank" rel="referrer">
+                    <a href="../use-cases/analyze-campaign-performance.md" title="分析营销活动效果">
                         <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="分析营销活动效果"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -305,11 +305,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" title="分析营销活动效果">分析营销活动效果</a>
+                        <a href="../use-cases/analyze-campaign-performance.md" title="分析营销活动效果">分析营销活动效果</a>
                     </p>
                     <p class="is-size-6">使用CX Enterprise MCP从任何AI客户端显示Customer Journey Analytics指标和见解。</p>
                 </div>
-                <a href="../use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="../use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
                 </a>
             </div>
@@ -319,7 +319,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/query-audiences.md" title="查询受众" target="_blank" rel="referrer">
+                    <a href="../use-cases/query-audiences.md" title="查询受众">
                         <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="查询受众"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -328,11 +328,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/query-audiences.md" target="_blank" rel="referrer" title="查询受众">查询受众</a>
+                        <a href="../use-cases/query-audiences.md" title="查询受众">查询受众</a>
                     </p>
                     <p class="is-size-6">使用CX Enterprise MCP通过纯语言提示查询Real-Time CDP受众和目标数据。</p>
                 </div>
-                <a href="../use-cases/query-audiences.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
                 </a>
             </div>
@@ -342,7 +342,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/manage-ajo-journeys.md" title="查看AJO历程" target="_blank" rel="referrer">
+                    <a href="../use-cases/manage-ajo-journeys.md" title="查看AJO历程">
                         <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="查看AJO历程"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -351,11 +351,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" title="查看AJO历程">查看AJO历程</a>
+                        <a href="../use-cases/manage-ajo-journeys.md" title="查看AJO历程">查看AJO历程</a>
                     </p>
                     <p class="is-size-6">使用CX Enterprise MCP从AI客户端访问AJO历程、营销活动状态和历程条件。</p>
                 </div>
-                <a href="../use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="../use-cases/manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
                 </a>
             </div>
@@ -365,7 +365,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/manage-aem-content.md" title="使用AI管理AEM内容" target="_blank" rel="referrer">
+                    <a href="../use-cases/manage-aem-content.md" title="使用AI管理AEM内容">
                         <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="使用AI管理AEM内容"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -374,11 +374,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/manage-aem-content.md" target="_blank" rel="referrer" title="使用AI管理AEM内容">使用AI管理AEM内容</a>
+                        <a href="../use-cases/manage-aem-content.md" title="使用AI管理AEM内容">使用AI管理AEM内容</a>
                     </p>
                     <p class="is-size-6">使用自然语言在AEM中发现、更新和发布页面和内容片段。</p>
                 </div>
-                <a href="../use-cases/manage-aem-content.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="../use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
                 </a>
             </div>
@@ -388,7 +388,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/optimize-content-with-performance-data.md" title="根据性能数据优化内容" target="_blank" rel="referrer">
+                    <a href="../use-cases/optimize-content-with-performance-data.md" title="根据性能数据优化内容">
                         <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="根据性能数据优化内容"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -397,11 +397,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" title="根据性能数据优化内容">根据性能数据优化内容</a>
+                        <a href="../use-cases/optimize-content-with-performance-data.md" title="根据性能数据优化内容">根据性能数据优化内容</a>
                     </p>
                     <p class="is-size-6">将CX Enterprise MCP与AEM Content MCP Server结合使用，找出性能不佳的内容并在一个会话中进行更新。</p>
                 </div>
-                <a href="../use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="../use-cases/optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
                 </a>
             </div>

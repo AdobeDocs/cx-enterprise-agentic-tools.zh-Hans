@@ -3,7 +3,7 @@ title: Adobe CX Enterprise Agentic Tools
 description: 使用MCP服务器、代理技能和API将AI代理和开发工具连接到Adobe CX Enterprise功能。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 3%
@@ -49,7 +49,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="tools/mcp-servers.md" title="MCP服务器" target="_blank" rel="referrer">
+                    <a href="tools/mcp-servers.md" title="MCP服务器">
                         <img class="is-bordered-r-small" src="assets/mcp-servers-card.png" alt="MCP服务器"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -58,11 +58,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/mcp-servers.md" target="_blank" rel="referrer" title="MCP服务器">MCP服务器</a>
+                        <a href="tools/mcp-servers.md" title="MCP服务器">MCP服务器</a>
                     </p>
                     <p class="is-size-6">将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。 在不离开AI工具的情况下查询数据、分析营销活动并访问受众。</p>
                 </div>
-                <a href="tools/mcp-servers.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">浏览MCP服务器</span>
                 </a>
             </div>
@@ -72,7 +72,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="tools/agent-skills.md" title="座席技能" target="_blank" rel="referrer">
+                    <a href="tools/agent-skills.md" title="座席技能">
                         <img class="is-bordered-r-small" src="assets/agent-skills-card.png" alt="座席技能"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -81,11 +81,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/agent-skills.md" target="_blank" rel="referrer" title="座席技能">代理技能</a>
+                        <a href="tools/agent-skills.md" title="座席技能">代理技能</a>
                     </p>
                     <p class="is-size-6">由Adobe策划的工作流，可引导代理完成CX Enterprise任务。 域专业知识编码一次，应用一致。</p>
                 </div>
-                <a href="tools/agent-skills.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索代理技能</span>
                 </a>
             </div>
@@ -95,7 +95,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="tools/apis.md" title="用于构建器的API" target="_blank" rel="referrer">
+                    <a href="tools/apis.md" title="用于构建器的API">
                         <img class="is-bordered-r-small" src="assets/apis-card.png" alt="用于构建器的API"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -104,11 +104,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        生成器的<a href="tools/apis.md" target="_blank" rel="referrer" title="用于构建器的API">API</a>
+                        生成器的<a href="tools/apis.md" title="用于构建器的API">API</a>
                     </p>
                     <p class="is-size-6">使用代理编码工具（如Claude Code和Cursor ）构建自定义Adobe CX Enterprise应用程序。</p>
                 </div>
-                <a href="tools/apis.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">浏览生成器的API</span>
                 </a>
             </div>
@@ -177,7 +177,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/analyze-campaign-performance.md" title="分析营销活动效果" target="_blank" rel="referrer">
+                    <a href="use-cases/analyze-campaign-performance.md" title="分析营销活动效果">
                         <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="分析营销活动效果"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -186,11 +186,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" title="分析营销活动效果">分析营销活动效果</a>
+                        <a href="use-cases/analyze-campaign-performance.md" title="分析营销活动效果">分析营销活动效果</a>
                     </p>
                     <p class="is-size-6">通过简单的语言问题显示Customer Journey Analytics比较和转化趋势。 使用CX Enterprise MCP。</p>
                 </div>
-                <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
                 </a>
             </div>
@@ -200,7 +200,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/manage-aem-content.md" title="使用AI管理AEM内容" target="_blank" rel="referrer">
+                    <a href="use-cases/manage-aem-content.md" title="使用AI管理AEM内容">
                         <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="使用AI管理AEM内容"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -209,11 +209,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/manage-aem-content.md" target="_blank" rel="referrer" title="使用AI管理AEM内容">使用AI管理AEM内容</a>
+                        <a href="use-cases/manage-aem-content.md" title="使用AI管理AEM内容">使用AI管理AEM内容</a>
                     </p>
                     <p class="is-size-6">使用自然语言在AEM中发现、更新和发布页面和内容片段。</p>
                 </div>
-                <a href="use-cases/manage-aem-content.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
                 </a>
             </div>
