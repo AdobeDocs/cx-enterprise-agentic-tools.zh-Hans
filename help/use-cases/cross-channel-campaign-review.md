@@ -1,8 +1,9 @@
 ---
 title: 运行跨渠道营销活动审核
 description: 在单次AI会话中使用CX Enterprise MCP网关可跨历程、受众和性能统一查看AJO、CJA和Real-Time CDP营销活动运行状况。
+last-substantial-update: 2026-05-21T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%

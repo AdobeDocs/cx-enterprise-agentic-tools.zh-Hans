@@ -1,8 +1,9 @@
 ---
 title: 放心地部署到AEM as a Cloud Service
 description: 在不离开AI客户端的情况下检查环境运行状况、查看管道历史记录以及触发或管理部署。
+last-substantial-update: 2026-05-21T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%

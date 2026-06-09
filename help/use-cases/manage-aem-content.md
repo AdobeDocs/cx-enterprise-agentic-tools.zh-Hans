@@ -1,8 +1,9 @@
 ---
 title: 保持内容最新，更快地发送更新
 description: 使用AEM Content MCP Server查找、查看、更新和发布AEM内容，而无需在工具之间切换。
+last-substantial-update: 2026-05-22T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%

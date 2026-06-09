@@ -1,8 +1,9 @@
 ---
 title: 在旅程问题影响客户之前对其进行捕获
 description: 使用CX Enterprise MCP Gateway可以监控活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%
