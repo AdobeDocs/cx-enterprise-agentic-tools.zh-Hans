@@ -3,7 +3,7 @@ title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -120,7 +120,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 在手动配置之前，请检查[Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=connector)以获取AI客户端和Adobe应用程序的托管连接器。 受管连接器会自动处理身份验证。 如果某个连接器可用于您的客户端和应用程序，请使用该连接器，而不是执行以下手动步骤。
 
-以下步骤使用CX Enterprise MCP端点作为示例。 同一过程适用于任何Adobe MCP服务器 — 交换要连接的服务器的端点URL。
+以下步骤使用CX Enterprise MCP端点作为示例。 同一过程适用于任何Adobe MCP服务器：交换要连接的服务器的端点URL。
 
 ![连接到Adobe MCP服务器的AI代理](../assets/hero-connect-mcp-servers.gif)
 
@@ -138,7 +138,7 @@ Claude.ai通过帐户设置中的自定义连接器支持远程MCP服务器。
 
 1. 转到&#x200B;**设置>集成**。
 2. 单击&#x200B;**添加自定义连接器**。
-3. 输入服务器端点，作为URL — 例如，CX Enterprise MCP的`https://cx-enterprise.adobe.io/mcp` — 以及您选择的显示名称。
+3. 输入服务器端点，作为URL（例如，CX Enterprise MCP为`https://cx-enterprise.adobe.io/mcp`）和您选择的显示名称。
 4. 单击&#x200B;**连接**&#x200B;并使用您的Adobe ID登录。 选择正确的IMS组织。
 
 完整设置： [Claude.ai自定义连接器文档](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -209,7 +209,7 @@ ChatGPT通过Pro、Plus、Business、Enterprise和Education计划提供的[开�
 1. 在&#x200B;**ChatGPT设置**&#x200B;中启用开发人员模式。
 2. 转到&#x200B;**设置>集成**。
 3. 单击&#x200B;**添加自定义连接器**&#x200B;并选择&#x200B;**远程MCP服务器**。
-4. 输入服务器端点，作为URL — 例如，CX Enterprise MCP的`https://cx-enterprise.adobe.io/mcp` — 以及您选择的显示名称。
+4. 输入服务器端点，作为URL（例如，CX Enterprise MCP为`https://cx-enterprise.adobe.io/mcp`）和您选择的显示名称。
 5. 将身份验证设置为&#x200B;**OAuth**。
 6. 单击&#x200B;**连接**&#x200B;并使用您的Adobe ID登录。 选择正确的IMS组织。
 
@@ -243,7 +243,7 @@ Microsoft Copilot Studio使用“MCP载入向导”连接到远程MCP服务器�
 1. 在Copilot Studio中打开您的代理。
 2. 转到&#x200B;**工具**&#x200B;页面。
 3. 选择&#x200B;**添加工具>新建工具>模型上下文协议**。
-4. 在MCP载入向导中，输入服务器详细信息 — 例如，对于CX Enterprise MCP：
+4. 在MCP载入向导中，输入服务器详细信息。 例如，对于CX Enterprise MCP ：
    - **服务器名称：** `Adobe CX Enterprise`
    - **服务器URL：** `https://cx-enterprise.adobe.io/mcp`
 5. 将身份验证设置为&#x200B;**OAuth 2.0**，并使用Adobe IMS授权和令牌URL进行配置。

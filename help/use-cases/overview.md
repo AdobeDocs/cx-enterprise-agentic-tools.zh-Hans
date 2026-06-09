@@ -3,7 +3,7 @@ title: 正在运行的代理工具
 description: 分步说明Adobe CX Enterprise Agentic Tools如何应用于实际的业务工作流。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# 正在运行的代理工具
+# 正在使用的代理工具
 
 <!-- last-modified: 2026-06-08 -->
 
