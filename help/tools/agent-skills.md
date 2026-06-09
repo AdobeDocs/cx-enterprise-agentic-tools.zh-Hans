@@ -3,9 +3,9 @@ title: 座席技能
 description: 由Adobe策划的工作流和说明，可引导AI代理始终如一地完成CX Enterprise任务。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ Adobe CX Enterprise的![代理技能](../assets/hero-agent-skills.png)
 ## Adobe CX企业代理技能
 
 所有代理技能都保留在[Adobe Skills GitHub存储库](https://github.com/adobe/skills)中。 选择下面的功能区域以探索该工作流的技能。
-
-### Adobe应用程序
 
 <!--
 CARDS

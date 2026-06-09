@@ -3,9 +3,9 @@ title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 0fb630143968f07246f2a693cec5c8c3432f64f2
+source-git-commit: e37222abaf2d2502dfbc2f8588ae9ece94fffbd1
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2078'
 ht-degree: 3%
 
 ---
@@ -128,7 +128,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 >[!TAB 克劳德.ai]
 
-### ![推荐](../assets/icons/star.svg)使用托管连接器
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="推荐">使用托管连接器
 
 转到[Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=connector)并搜索Adobe应用程序。 如果列出了Claude连接器（例如[Adobe Experience Manager连接器](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)），请按照其设置说明进行操作，而不是执行以下步骤。
 
@@ -198,7 +198,7 @@ Adobe MCP服务器使用OAuth。 在首次调用工具时，克劳德代码会�
 
 >[!TAB ChatGPT]
 
-### ![推荐](../assets/badge-recommended.svg)使用托管连接器
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="推荐">使用托管连接器
 
 转到[Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=connector)并搜索Adobe应用程序。 如果列出了ChatGPT连接器，请按照其设置说明进行操作，而不是执行以下步骤。
 
