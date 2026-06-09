@@ -3,9 +3,9 @@ user-guide-title: Adobe CX Enterprise Agentic Tools
 breadcrumb-title: 代理工具
 user-guide-description: 使用MCP服务器、代理技能和API将AI代理和开发工具连接到Adobe CX Enterprise功能。
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '90'
 ht-degree: 5%
 
 ---
@@ -28,5 +28,4 @@ ht-degree: 5%
    + [在旅程问题影响客户之前对其进行捕获](/help/use-cases/manage-ajo-journeys.md)
    + [保持内容最新，更快地发送更新](/help/use-cases/manage-aem-content.md)
    + [根据性能数据优化内容](/help/use-cases/optimize-content-with-performance-data.md)
-   + [运行跨渠道营销活动审核](/help/use-cases/cross-channel-campaign-review.md)
    + [放心地部署到AEM as a Cloud Service](/help/use-cases/aem-cloud-manager-mcp.md)
