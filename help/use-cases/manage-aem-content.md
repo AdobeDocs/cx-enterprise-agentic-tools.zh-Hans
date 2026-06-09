@@ -3,9 +3,9 @@ title: 保持内容最新，更快地发送更新
 description: 使用AEM Content MCP Server查找、查看、更新和发布AEM内容，而无需在工具之间切换。
 last-substantial-update: 2026-05-22T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-22 -->
 
-![使用AI管理AEM内容](https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI)
+![AI客户端确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
 Adobe Experience Manager中的内容操作（从查找页面和查看内容到进行更新和发布）通常需要直接在AEM界面中进行导航。 本演练展示了如何使用AEM Content MCP Server通过AI客户端处理这些操作，以便内容团队可以更快速地移动，而无需在工具之间切换上下文。
 

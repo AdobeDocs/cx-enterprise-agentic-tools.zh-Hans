@@ -3,10 +3,10 @@ title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76242d3d26596139c0ea7c2e81b698a4ef891370
+source-git-commit: a580957c41e750578b03688bb7ef980103a97781
 workflow-type: tm+mt
-source-wordcount: '2296'
-ht-degree: 4%
+source-wordcount: '1965'
+ht-degree: 3%
 
 ---
 
@@ -21,11 +21,11 @@ Adobe CX Enterprise MCP服务器允许任何兼容的AI客户端直接、受管�
 
 Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextprotocol.io/docs/getting-started/intro)标准。 任何与MCP兼容的AI客户端都连接到任何Adobe MCP服务器。
 
-## Adobe MCP服务器
+## CX Enterprise MCP服务器
 
 ![CX Enterprise MCP将您的AI客户端连接到整个Adobe CX Enterprise套件中的工具](../assets/mcp-gateway-hero.gif)
 
-选择应用程序以查看端点、功能和可用工具。
+选择一个应用程序以查看端点和功能。
 
 >[!BEGINTABS]
 
@@ -39,36 +39,46 @@ Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextpro
 https://cx-enterprise.adobe.io/mcp
 ```
 
-| 应用程序 | 您可以做什么 | 工具 |
-| --- | --- | --- |
-| Adobe Journey Optimizer | 查看历程、营销活动和渠道配置 | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
-| Adobe Journey Optimizer B2B edition | 管理B2B历程、帐户计划、购买组和个性化 | TODO：验证 |
-| Customer Journey Analytics | 查询报表、发现数据视图和创作工作区 | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | 检查受众激活状态、目标运行状况和数据流运行状况 | [查看工具](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
-| Adobe Analytics | 报表包发现、区段创作和工作区创建 | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
-| Adobe Experience Platform | 数据集发现、架构浏览和沙盒管理 | — |
+| CX企业级应用程序 | 您可以做什么 |
+| --- | --- |
+| Adobe Analytics | 报表包发现、区段创作和工作区创建 |
+| Adobe Experience Platform | 数据集发现、架构浏览和沙盒管理 |
+| Adobe Journey Optimizer | 查看历程、营销活动和渠道配置 |
+| Adobe Journey Optimizer B2B edition | 管理B2B历程、帐户计划、购买组和个性化 |
+| Customer Journey Analytics | 查询报表、发现数据视图和创作工作区 |
+| Real-Time CDP | 检查受众激活状态、目标运行状况和数据流运行状况 |
+
+>[!NOTE]
+>
+>对每个CX Enterprise应用程序的访问取决于贵组织在Adobe Admin Console中的权利和用户权限。
 
 >[!TAB Experience Manager]
 
 Adobe Experience Manager有多台MCP服务器用于不同的工作流。
 
-| MCP服务器 | 终结点 | 您可以做什么 | 工具 |
-| --- | --- | --- | --- |
-| [AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理页面、内容片段、资源和启动项 | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [AEM内容（只读）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查询页面、内容片段以及没有写入权限的启动项 | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
-| [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理项目、环境、管道和存储库 | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM（代码模式）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 通过自然语言查找、读取、写入和删除，直接通过REST API访问AEM | — |
-| [AEM文档创作]（TODO：验证） | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 在文档创作中管理文件、版本历史记录和媒体引用 | — |
-| [AEM体验管理](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | 根据品牌准则和合规性规则评估内容和图像 | — |
-| [AEM Experience Production](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | 使用AI驱动的内容简报大规模转换和创建AEM页面 | — |
+| MCP服务器 | 终结点 | 您可以做什么 |
+| --- | --- | --- |
+| [AEM（代码模式）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 通过自然语言查找、读取、写入和删除，直接通过REST API访问AEM |
+| [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理项目、环境、管道和存储库 |
+| [AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理页面、内容片段、资源和启动项 |
+| [AEM内容（只读）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查询页面、内容片段以及没有写入权限的启动项 |
+| [AEM文档创作]（TODO：验证） | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 在文档创作中管理文件、版本历史记录和媒体引用 |
+| [AEM体验管理](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | 根据品牌准则和合规性规则评估内容和图像 |
+| [AEM Experience Production](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | 使用AI驱动的内容简报大规模转换和创建AEM页面 |
 
->[!TAB Target]
+>[!NOTE]
+>
+>对每个AEM环境的访问取决于贵组织的AEM Cloud Service权利和用户在该环境中的权限。
 
-Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只读。 已计划正式提供写入工具。
+>[!TAB Experience Platform]
 
-| MCP服务器 | 终结点 | 您可以做什么 | 工具 |
-| --- | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 查看活动、选件、受众、mbox和性能报表 | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
+| MCP服务器 | 终结点 | 您可以做什么 |
+| --- | --- | --- |
+| [Adobe Marketing Agent]（TODO：验证） | `https://aep-ai-ama.adobe.io/mcp` | 跨AEP应用程序编排受众分析、AEP诊断和AJO B2B历程构建 |
+
+>[!NOTE]
+>
+>访问取决于贵组织的Adobe Experience Platform权利和用户的权限。
 
 >[!TAB Marketo Engage]
 
@@ -76,43 +86,37 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 >
 >Marketo Engage MCP使用Marketo原生服务凭据，而不是Adobe IMS。 有关身份验证设置说明，请参阅[Marketo Engage MCP Server文档](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server)。
 
-| MCP服务器 | 终结点 | 您可以做什么 | 工具 |
-| --- | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 | TODO：验证 |
+| MCP服务器 | 终结点 | 您可以做什么 |
+| --- | --- | --- |
+| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 |
 
->[!TAB Experience Platform]
+>[!NOTE]
+>
+>访问取决于您的Marketo Engage订阅和API用户的权限。
 
-| MCP服务器 | 终结点 | 您可以做什么 | 工具 |
-| --- | --- | --- | --- |
-| [Adobe Marketing Agent]（TODO：验证） | `https://aep-ai-ama.adobe.io/mcp` | 跨AEP应用程序编排受众分析、AEP诊断和AJO B2B历程构建 | TODO：验证 |
+>[!TAB Target]
+
+Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只读。 已计划正式提供写入工具。
+
+| MCP服务器 | 终结点 | 您可以做什么 |
+| --- | --- | --- |
+| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 查看活动、选件、受众、mbox和性能报表 |
+
+>[!NOTE]
+>
+>访问权限取决于您的Adobe Target权利和用户的权限。
 
 >[!TAB Workfront]
 
-| MCP服务器 | 终结点 | 您可以做什么 | 工具 |
-| --- | --- | --- | --- |
-| [Adobe Workfront]（TODO：验证） | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 | TODO：验证 |
+| MCP服务器 | 终结点 | 您可以做什么 |
+| --- | --- | --- |
+| [Adobe Workfront]（TODO：验证） | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 |
+
+>[!NOTE]
+>
+>访问取决于您的Adobe Workfront许可证和用户的权限。
 
 >[!ENDTABS]
-
-## MCP服务器端点
-
-[Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=connector)中列出了所有端点。 此表是一个快速参考 — 在连接之前获取端点URL并扫描可用工具。
-
-| Server | 终结点 | 工具 |
-| --- | --- | --- |
-| [CX Enterprise MCP](#adobe-mcp-servers) | `https://cx-enterprise.adobe.io/mcp` | · [Adobe Journey Optimizer工具](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [Customer Journey Analytics工具](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [Real-Time CDP工具](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp)<br>· [Adobe Analytics工具](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
-| [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
-| [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [AEM内容（只读）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
-| [AEM（代码模式）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | — |
-| [AEM文档创作]（TODO：验证） | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | — |
-| [AEM体验管理](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | — |
-| [AEM Experience Production](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | — |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | [查看工具](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | TODO：验证 |
-| [Adobe Marketing Agent]（TODO：验证） | `https://aep-ai-ama.adobe.io/mcp` | TODO：验证 |
-| [Adobe Workfront]（TODO：验证） | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | TODO：验证 |
 
 ## 连接到您的AI客户端
 
@@ -257,42 +261,6 @@ Microsoft Copilot Studio使用“MCP载入向导”连接到远程MCP服务器�
 
 >[!ENDTABS]
 
-## 故障排除
-
-+++切换Adobe组织
-
-如果您的Adobe用户属于多个IMS组织，并且您看到错误的组织的工具或数据，请断开MCP服务器的连接，在浏览器中注销Adobe会话，然后重新连接。 在登录过程中，系统将提示您选择组织。
-
-Adobe CX Enterprise MCP服务器一次只能向一个IMS组织进行身份验证，即使您的用户帐户有权访问多个组织也是如此。
-
-+++
-
-+++指定沙盒、报表包、环境或其他会话资源
-
-某些Adobe CX Enterprise MCP服务器在返回结果之前需要您指定资源。 根据应用程序，这可能是一个沙盒、程序、环境、报表包或数据视图。
-
-如果不确定您有权访问哪些资源，请咨询AI客户端。 例如：“列出可用的沙盒”或“我有权访问哪些报表包？” Adobe CX Enterprise MCP服务器通常可以返回用户可用的资源的完整列表。
-
-设置会话资源后，您可以随时通过通知AI客户端要使用哪个会话资源来切换该资源。
-
-+++
-
-+++权限和访问错误
-
-AI客户端使用OAuth代表您的Adobe用户帐户。 当您登录到Adobe应用程序时应用的权限和访问控制在您使用MCP服务器时同样适用。
-
-如果操作失败或未返回任何结果，请检查您的用户是否在Adobe Admin Console和相关CX Enterprise应用程序中拥有所需的权限。 如果您需要调整访问权限，请联系您的Adobe系统管理员。
-
-+++
-
-+++丢失会话后重新进行身份验证
-
-Adobe CX Enterprise MCP服务器使用OAuth来验证您的Adobe用户帐户。 如果身份验证状态丢失，则在您重新进行身份验证之前，将不再成功调用工具。
-
-要重新进行身份验证：打开AI客户端的MCP服务器配置，选择Adobe CX Enterprise MCP服务器条目，然后重新连接。 系统将提示您再次使用Adobe ID登录。
-
-+++
-
 ## 正在使用的代理工具
 
 请参阅应用于实际业务工作流的Adobe CX Enterprise MCP服务器。
@@ -338,7 +306,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/analyze-campaign-performance.md" title="分析营销活动效果" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="分析营销活动效果"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="分析营销活动效果"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -361,7 +329,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/query-audiences.md" title="查询受众" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Query+Audiences" alt="查询受众"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="查询受众"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -384,7 +352,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/manage-ajo-journeys.md" title="查看AJO历程" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Review+AJO+Journeys" alt="查看AJO历程"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="查看AJO历程"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -407,7 +375,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/manage-aem-content.md" title="使用AI管理AEM内容" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="使用AI管理AEM内容"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="使用AI管理AEM内容"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -430,7 +398,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/optimize-content-with-performance-data.md" title="根据性能数据优化内容" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data" alt="根据性能数据优化内容"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="根据性能数据优化内容"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -473,3 +441,39 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+## 故障排除
+
++++切换Adobe组织
+
+如果您的Adobe用户属于多个IMS组织，并且您看到错误的组织的工具或数据，请断开MCP服务器的连接，在浏览器中注销Adobe会话，然后重新连接。 在登录过程中，系统将提示您选择组织。
+
+Adobe CX Enterprise MCP服务器一次只能向一个IMS组织进行身份验证，即使您的用户帐户有权访问多个组织也是如此。
+
++++
+
++++指定沙盒、报表包、环境或其他会话资源
+
+某些Adobe CX Enterprise MCP服务器在返回结果之前需要您指定资源。 根据应用程序，这可能是一个沙盒、程序、环境、报表包或数据视图。
+
+如果不确定您有权访问哪些资源，请咨询AI客户端。 例如：“列出可用的沙盒”或“我有权访问哪些报表包？” Adobe CX Enterprise MCP服务器通常可以返回用户可用的资源的完整列表。
+
+设置会话资源后，您可以随时通过通知AI客户端要使用哪个会话资源来切换该资源。
+
++++
+
++++权限和访问错误
+
+AI客户端使用OAuth代表您的Adobe用户帐户。 当您登录到Adobe应用程序时应用的权限和访问控制在您使用MCP服务器时同样适用。
+
+如果操作失败或未返回任何结果，请检查您的用户是否在Adobe Admin Console和相关CX Enterprise应用程序中拥有所需的权限。 如果您需要调整访问权限，请联系您的Adobe系统管理员。
+
++++
+
++++丢失会话后重新进行身份验证
+
+Adobe CX Enterprise MCP服务器使用OAuth来验证您的Adobe用户帐户。 如果身份验证状态丢失，则在您重新进行身份验证之前，将不再成功调用工具。
+
+要重新进行身份验证：打开AI客户端的MCP服务器配置，选择Adobe CX Enterprise MCP服务器条目，然后重新连接。 系统将提示您再次使用Adobe ID登录。
+
++++

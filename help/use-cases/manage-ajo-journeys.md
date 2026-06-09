@@ -3,9 +3,9 @@ title: 在旅程问题影响客户之前对其进行捕获
 description: 使用CX Enterprise MCP Gateway可以监控活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 # 在旅程问题影响客户之前对其进行捕获
 <!-- last-modified: 2026-06-08 -->
 
-![查看历程](https://placehold.co/1600x900?text=Review+AJO+Journeys)
+![AI客户端使用执行摘要总结活动和历程策略](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
 清楚地了解哪些历程处于活动状态、哪些条件驱动它们以及营销活动的配置方式通常意味着打开Adobe Journey Optimizer并导航其界面。 本演练展示了如何使用CX Enterprise MCP Gateway通过AI客户端获得同样的可见性，并通过纯语言问题查询AJO历程和营销活动数据。
 

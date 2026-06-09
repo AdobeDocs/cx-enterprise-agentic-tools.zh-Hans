@@ -3,9 +3,9 @@ title: 根据性能数据优化内容
 description: 在一次AI会话中同时使用CJA和AEM来查找具有转化缺口的营销活动、诊断原因并更新内容，而无需切换工具。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 # 根据性能数据优化内容
 <!-- last-modified: 2026-06-08 -->
 
-![根据性能数据优化内容](https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data)
+![AI客户端并排比较原始页面内容和更新的页面内容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
 通常情况下，关闭营销活动效果数据和内容更新之间的循环意味着在分析工具和CMS之间切换。 本演练说明如何在同一AI会话中连接Customer Journey Analytics和AEM — 显示存在转化差距的营销活动、诊断驱动它们的因素、检查内容、获取有针对性的推荐并在不离开对话的情况下应用更改。
 

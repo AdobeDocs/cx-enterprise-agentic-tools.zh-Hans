@@ -3,7 +3,7 @@ title: 在不构建报表的情况下显示营销活动见解
 description: 使用CX Enterprise MCP Gateway以简单的语言询问Customer Journey Analytics性能问题，无需浏览Report Builder即可获得答案。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- last-modified: 2026-06-02 -->
 
-![分析营销活动效果](https://placehold.co/1600x900?text=Analyze+Campaign+Performance)
+![AI客户端显示改善营销活动性能的建议后续步骤](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
 
 以前，营销活动分析需要在单独的工具中构建报表，但现在该对话了。 此演练展示了如何将AI客户端连接到Customer Journey Analytics (CJA)，并以简单的语言询问性能问题。 这样可以加快到insight的时间，而无需手动构建报表。
 
