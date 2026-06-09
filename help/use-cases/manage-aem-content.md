@@ -3,7 +3,7 @@ title: 保持内容最新，更快地发送更新
 description: 使用AEM Content MCP Server查找、查看、更新和发布AEM内容，而无需在工具之间切换。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 2%
@@ -21,10 +21,10 @@ Adobe Experience Manager中的内容操作（从查找页面和查看内容到�
 
 | 方案详细信息 | |
 | --- | --- |
-| **CX Enterprise应用程序** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
-| **代理工具** | [AEM Content MCP Server](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
-| **受众** | 内容经理、营销团队 |
-| **预修课程** | 与MCP兼容的AI客户端、AEM as a Cloud Service访问 |
+| CX企业级应用程序 | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
+| 代理工具 | [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| 受众 | 内容经理、营销团队 |
+| 先决条件 | 与MCP兼容的AI客户端、AEM as a Cloud Service访问 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -264,8 +264,8 @@ Promote the May Updates launch to production.
 
 | 资源 | 您将找到什么 |
 | --- | --- |
-| [AEM Content MCP Server文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | 《 MCP服务器安装和使用指南》 |
+| [AEM Content MCP Server文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | 《 MCP服务器安装和使用指南》 |
 | AI注册表中的[AEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | 工具列表和可用性 |
-| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
-| [AEM内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | 内容片段创作引用 |
+| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
+| [AEM内容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | 内容片段创作引用 |
 | [MCP服务器](../tools/mcp-servers.md) | 将AI客户端连接到Adobe MCP服务器 |

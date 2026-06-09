@@ -3,7 +3,7 @@ title: 在不构建报表的情况下显示营销活动见解
 description: 使用CX Enterprise MCP以简单的语言询问Customer Journey Analytics性能问题，并且无需浏览Report Builder即可获得答案。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 | 方案详细信息 | |
 | --- | --- |
-| **CX Enterprise应用程序** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
-| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **受众** | 分析员、营销活动经理 |
-| **预修课程** | 与MCP兼容的AI客户端、CJA访问 |
+| CX企业级应用程序 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| 受众 | 分析员、营销活动经理 |
+| 先决条件 | 与MCP兼容的AI客户端、CJA访问 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -276,4 +276,4 @@ Save this analysis as a Workspace project for executive reporting.
 | [CJA MCP Server文档](https://developer.adobe.com/analytics-mcp/docs/cja/) | 完整的工具参考和设置指南 |
 | [CJA MCP使用指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | 详细使用指南 |
 | AI注册表中的[CJA MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP服务器工具和可用性 |
-| [Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing) | 完整的CJA应用程序文档 |
+| [Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | 完整的CJA应用程序文档 |

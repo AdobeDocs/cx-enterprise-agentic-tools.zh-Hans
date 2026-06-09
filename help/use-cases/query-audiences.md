@@ -3,7 +3,7 @@ title: 了解您的受众及其激活位置
 description: 使用CX Enterprise MCP监视受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前对其进行处理。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 3%
@@ -21,10 +21,10 @@ ht-degree: 3%
 
 | 方案详细信息 | |
 | --- | --- |
-| **CX Enterprise应用程序** | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
-| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **受众** | 营销人员、分析人员、操作员 |
-| **预修课程** | 与MCP兼容的AI客户端、Real-Time CDP访问 |
+| CX企业级应用程序 | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
+| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| 受众 | 营销人员、分析人员、操作员 |
+| 先决条件 | 与MCP兼容的AI客户端、Real-Time CDP访问 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -230,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | 资源 | 您将找到什么 |
 | --- | --- |
-| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP服务器设置和工具参考 |
+| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP服务器设置和工具参考 |
 | [Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=mcp) | MCP服务器元数据和可用性 |
 | [Real-Time CDP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) | 完整的Real-Time CDP应用程序文档 |
 | [AEP目标文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home) | 完整目标参考 |
