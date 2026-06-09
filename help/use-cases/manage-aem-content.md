@@ -22,7 +22,7 @@ Adobe Experience Manager中的内容操作（从查找页面和查看内容到�
 | 方案详细信息 | |
 | --- | --- |
 | CX企业级应用程序 | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
-| 代理工具 | [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| 代理工具 | [AEM Content MCP Server](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | 受众 | 内容经理、营销团队 |
 | 先决条件 | 与MCP兼容的AI客户端、AEM as a Cloud Service访问 |
 
@@ -264,8 +264,8 @@ Promote the May Updates launch to production.
 
 | 资源 | 您将找到什么 |
 | --- | --- |
-| [AEM Content MCP Server文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | 《 MCP服务器安装和使用指南》 |
+| [AEM Content MCP Server文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | 《 MCP服务器安装和使用指南》 |
 | AI注册表中的[AEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | 工具列表和可用性 |
-| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
-| [AEM内容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | 内容片段创作引用 |
+| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
+| [AEM内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | 内容片段创作引用 |
 | [MCP服务器](../tools/mcp-servers.md) | 将AI客户端连接到Adobe MCP服务器 |
