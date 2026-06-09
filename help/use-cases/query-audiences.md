@@ -3,9 +3,9 @@ title: 了解您的受众及其激活位置
 description: 使用CX Enterprise MCP Gateway监视受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前发现问题。
 last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![使用自然语言查询受众](https://placehold.co/1600x900?text=Query+Audiences)
+![AI客户端提供带有激活建议的优先级受众策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
 了解哪些受众已激活、正在哪里流动以及目标是否健康通常意味着打开Real-Time CDP并导航多个屏幕。 本演练展示了如何通过人工智能客户端获得相同的答案，使用RTCDP MCP服务器通过纯语言问题呈现目标配置、激活状态和数据流运行状况。
 
@@ -230,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | 资源 | 您将找到什么 |
 | --- | --- |
-| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP服务器设置和工具参考 |
+| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP服务器设置和工具参考 |
 | [Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=mcp) | MCP服务器元数据和可用性 |
 | [Real-Time CDP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) | 完整的Real-Time CDP应用程序文档 |
 | [AEP目标文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/home) | 完整目标参考 |
