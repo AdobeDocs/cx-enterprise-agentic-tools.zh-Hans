@@ -21,7 +21,7 @@ ht-degree: 0%
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| CX企业级应用程序 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | 受众 | 分析员、营销活动经理 |
 | 先决条件 | 与MCP兼容的AI客户端、CJA访问 |
@@ -274,4 +274,4 @@ Save this analysis as a Workspace project for executive reporting.
 | 资源 | 您将找到什么 |
 | --- | --- |
 | AI注册表中的[CJA MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP服务器工具和可用性 |
-| [Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"} | 完整的CJA应用程序文档 |
+| [Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-landing){target="_blank"} | 完整的CJA应用程序文档 |
