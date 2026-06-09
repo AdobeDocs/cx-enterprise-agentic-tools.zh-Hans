@@ -3,10 +3,10 @@ title: 在旅程问题影响客户之前对其进行捕获
 description: 使用CX Enterprise MCP监视活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 3%
+source-wordcount: '984'
+ht-degree: 2%
 
 ---
 
@@ -253,7 +253,5 @@ What channel configurations are set up in our AJO environment?
 
 | 资源 | 您将找到什么 |
 | --- | --- |
-| AI注册表中的[AJO MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP服务器工具和可用性 |
-| [AJO文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home) | 完整的AJO应用程序文档 |
-| [AJO API](https://developer.adobe.com/journey-optimizer-apis/) | 自定义集成的AJO API参考 |
-| [AJO教程](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/overview) | 视频教程和学习路径 |
+| AI注册表中的[AJO MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | AJO MCP服务器工具和可用性 |
+| [AJO文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"} | 完整的AJO应用程序文档 |
