@@ -1,12 +1,12 @@
 ---
 title: 放心地部署到AEM as a Cloud Service
 description: 在不离开AI客户端的情况下检查环境运行状况、查看管道历史记录以及触发或管理部署。
-last-substantial-update: 2026-05-21T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 1%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480352/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 管理Adobe Experience Manager环境通常意味着登录到Cloud Manager，通过管道和环境导航，并切换上下文以跟踪部署状态。 此演练展示了如何使用AEM Cloud Manager MCP服务器从人工智能客户端处理这些操作，因此开发人员和运营团队可以在不离开其人工智能环境的情况下检查状态、审查管道并对部署详细信息执行操作。
 
-| | |
+| 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | Adobe Experience Manager Cloud Manager |
-| 代理工具 | AEM Cloud Manager MCP服务器 |
-| 受众 | 开发人员、DevOps、运营团队 |
-| 先决条件 | 与MCP兼容的AI客户端、AEM Cloud Manager访问 |
+| **CX Enterprise应用程序** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| **代理工具** | [AEM Cloud Manager MCP服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| **受众** | 开发人员、DevOps、运营团队 |
+| **预修课程** | 与MCP兼容的AI客户端、AEM Cloud Manager访问 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 随后还有&#x200B;**更多提示尝试**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -111,11 +111,11 @@ https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 
 >[!NOTE]
 >
->出现提示时，请使用您的Adobe ID登录，然后选择链接到您的AEM as a Cloud Service项目的IMS组织。 权限是在Cloud Manager级别强制实施的 — 您的AI客户端只能执行您的帐户授权的操作。
+>出现提示时，请使用您的Adobe ID登录，然后选择链接到您的AEM as a Cloud Service项目的IMS组织。 权限是在Cloud Manager级别强制实施的。 您的AI客户端只能执行您的帐户授权的操作。
 >
 >在首次连接时，您的AI客户端可能会要求您确认您的组织或AEM项目。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
 >
->某些工具在执行之前会提示您审批。 查看建议的操作，然后批准或拒绝 — 未经您的确认，不执行任何操作。
+>某些工具在执行之前会提示您审批。 审查提议的行动，并批准或拒绝。 未经确认，不执行任何操作。
 
 ## 步骤1：检查环境状态
 
@@ -279,5 +279,5 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 | 资源 | 您将找到什么 |
 | --- | --- |
 | [AEM Cloud Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | 完整的Cloud Manager应用程序文档 |
-| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
+| [AEM as a Cloud Service 文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | 完整的AEM应用程序文档 |
 | [MCP服务器](../tools/mcp-servers.md) | 将AI客户端连接到Adobe MCP服务器 |

@@ -3,9 +3,9 @@ title: 根据性能数据优化内容
 description: 在一次AI会话中同时使用CJA和AEM来查找具有转化缺口的营销活动、诊断原因并更新内容，而无需切换工具。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 1%
 
 ![AI客户端并排比较原始页面内容和更新的页面内容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-通常情况下，关闭营销活动效果数据和内容更新之间的循环意味着在分析工具和CMS之间切换。 本演练说明如何在同一AI会话中连接Customer Journey Analytics和AEM — 显示存在转化差距的营销活动、诊断驱动它们的因素、检查内容、获取有针对性的推荐并在不离开对话的情况下应用更改。
+通常情况下，关闭营销活动效果数据和内容更新之间的循环意味着在分析工具和CMS之间切换。 本演练展示了如何在同一AI会话中连接Customer Journey Analytics和AEM：揭示存在转化差距的营销活动、诊断驱动它们的因素、检查内容、获取有针对性的推荐并在不离开对话的情况下应用更改。
 
-| | |
+| 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | Customer Journey Analytics、Adobe Experience Manager as a Cloud Service |
-| 代理工具 | CX Enterprise MCP Gateway 、 AEM Content MCP Server |
-| 受众 | 营销活动经理、内容策划师、营销运营 |
-| 先决条件 | 与MCP兼容的AI客户端、CJA访问、AEM as a Cloud Service访问 |
+| **CX Enterprise应用程序** | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **代理工具** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **受众** | 营销活动经理、内容策划师、营销运营 |
+| **预修课程** | 与MCP兼容的AI客户端、CJA访问、AEM as a Cloud Service访问 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 | Server | 终结点 |
 | --- | --- |
-| CX Enterprise MCP网关 | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 完整设置： [Claude.ai自定义连接器文档](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 | Server | 终结点 |
 | --- | --- |
-| CX Enterprise MCP网关 | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 完整设置： [ChatGPT MCP文档](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 | Server | 终结点 |
 | --- | --- |
-| CX Enterprise MCP网关 | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 所有受支持客户端的完整设置说明： [连接到您的AI客户端](../tools/mcp-servers.md)
@@ -82,12 +82,12 @@ ht-degree: 1%
 >
 >在首次连接时，您的AI客户端可能会要求您选择IMS组织或指定沙盒。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
 >
->某些工具在执行之前会提示您审批。 查看请求并批准或拒绝 — 未经您的确认不会采取任何操作。
+>某些工具在执行之前会提示您审批。 查看请求并批准或拒绝。 未经确认，不执行任何操作。
 
 
 ## 步骤1：查找存在转化差距的营销活动
 
-使用CJA公开点进率高但转化率低的营销活动。 这种模式（高意图、低完成率）通常指向登陆页面上的内容或体验问题。
+使用CJA公开点进率高但转化率低的营销活动。 此模式（意图高、完成率低）通常指向登陆页面上的内容或体验问题。
 
 ```
 Which campaigns have strong click-through but low conversion in the last 30 days?
@@ -171,7 +171,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 ## 您完成了哪些工作
 
-您在单个AI会话中连接Customer Journey Analytics和AEM，并从营销活动数据移动到部署的内容更改，而无需切换工具。 您识别了存在转化缺口的营销活动、诊断了根本原因、检查了登陆页面、收到了以数据和内容为基础的针对性建议，并在同一对话中应用了更改。 这缩短了Analytics insight与已发布内容之间的反馈循环，并可在同一会话中扩展到任意数量的性能不佳页面。
+您在单个AI会话中连接Customer Journey Analytics和AEM，并从营销活动数据移动到部署的内容更改，而无需切换工具。 您识别了存在转化缺口的营销活动、诊断了根本原因、检查了登陆页面、收到了以数据和内容为基础的针对性建议，并在同一对话中应用了更改。 这缩短了Analytics insight与已发布内容之间的反馈循环，并扩展到同一会话中任意数量的性能不佳页面。
 
 
 ## 您可以完成更多任务
@@ -257,7 +257,7 @@ Publish all confirmed changes and share the updated URLs.
 | 资源 | 您将找到什么 |
 | --- | --- |
 | [CJA MCP Server文档](https://developer.adobe.com/analytics-mcp/docs/cja/) | CJA MCP设置和工具参考 |
-| [AEM Content MCP Server文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | 《AEM Content MCP设置和使用指南》 |
+| [AEM Content MCP Server文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | 《AEM Content MCP设置和使用指南》 |
 | AI注册表中的[CJA MCP服务器](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP服务器工具和可用性 |
 | AI注册表中的[AEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Server工具和可用性 |
 | [MCP服务器](../tools/mcp-servers.md) | 将AI客户端连接到Adobe MCP服务器 |
