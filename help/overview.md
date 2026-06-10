@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491255/?captions=chi_hans&learn=on&enablevpops)
 
 让AI成为您的Adobe CX Enterprise协作者。 将您的AI客户端连接到营销活动、受众、历程和内容。 使用您已经使用的任何工具以纯语言与他们交互。 没有新接口，没有上下文切换，无需编码即可开始。
 
