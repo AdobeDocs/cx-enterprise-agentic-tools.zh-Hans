@@ -3,9 +3,9 @@ title: 了解您的受众及其激活位置
 description: 使用CX Enterprise MCP监视受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前对其进行处理。
 last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '869'
 ht-degree: 2%
 
 ---
@@ -230,5 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | 资源 | 您将找到什么 |
 | --- | --- |
-| [Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | MCP服务器元数据和可用性 |
+| [Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | 选定Adobe MCP服务器的托管连接器和服务器详细信息 |
 | [Real-Time CDP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home){target="_blank"} | 完整的Real-Time CDP应用程序文档 |

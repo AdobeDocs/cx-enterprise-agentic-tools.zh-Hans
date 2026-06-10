@@ -3,10 +3,10 @@ title: 资源
 description: 所有Adobe CX Enterprise Agentic Tools文档、注册表、API和开发人员指南的单一入口点。
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 16%
+source-wordcount: '552'
+ht-degree: 17%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 16%
 
 | 资源 | 您将找到什么 |
 |---|---|
-| [Adobe AI注册表：MCP服务器](https://developer.adobe.com/ai-registry/?type=mcp) | 包含元数据、端点和状态的可用MCP服务器的完整目录 |
-| [Adobe AI注册表：代理技能](https://developer.adobe.com/ai-registry/?type=skill) | 可用代理技能的完整目录以及可用性和设置详细信息 |
+| [Adobe AI注册表：MCP服务器](https://developer.adobe.com/ai-registry/?type=mcp) | 选定Adobe MCP服务器的托管连接器和服务器详细信息 |
+| [Adobe AI注册表：代理技能](https://developer.adobe.com/ai-registry/?type=skill) | 座席技能列表，以及所选技能的可用性和设置详细信息 |
 | [Adobe API目录](https://developer.adobe.com/apis) | 完整Adobe CX Enterprise API参考 |
 
 ## MCP服务器
@@ -40,7 +40,7 @@ ht-degree: 16%
 | 资源 | 您将找到什么 |
 |---|---|
 | [Adobe技能存储库](https://github.com/adobe/skills) | 所有代理技能、安装方法和实施详细信息的规范来源 |
-| [Adobe AI注册表：代理技能](https://developer.adobe.com/ai-registry/?type=skill) | 包含元数据和可用性状态的可用代理技能的完整目录 |
+| [Adobe AI注册表：代理技能](https://developer.adobe.com/ai-registry/?type=skill) | 座席技能列表，以及所选技能的可用性和元数据 |
 
 ## 用于构建器的API
 
