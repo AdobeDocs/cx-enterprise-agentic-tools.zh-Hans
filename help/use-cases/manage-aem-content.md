@@ -1,11 +1,11 @@
 ---
 title: 保持内容最新，更快地发送更新
 description: 使用AEM Content MCP Server查找、查看、更新和发布AEM内容，而无需在工具之间切换。
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ![AI客户端确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
-Adobe Experience Manager中的内容操作（从查找页面和查看内容到进行更新和发布）通常需要直接在AEM界面中进行导航。 本演练展示了如何使用AEM Content MCP Server通过AI客户端处理这些操作，以便内容团队可以更快速地移动，而无需在工具之间切换上下文。
+让网站内容保持最新状态是一项持续不断的操作压力。 本演练展示了内容团队如何使用AEM Content MCP Server通过AI客户端查找、查看、更新和发布AEM页面和内容片段，以缩短内容决策和实时更新之间的时间。
 
 | 方案详细信息 | |
 | --- | --- |

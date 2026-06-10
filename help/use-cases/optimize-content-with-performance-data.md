@@ -1,22 +1,22 @@
 ---
-title: 根据性能数据优化内容
+title: 通过数据驱动型更新弥合内容性能差距
 description: 在一次AI会话中同时使用CJA和AEM来查找具有转化缺口的营销活动、诊断原因并更新内容，而无需切换工具。
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
 
 
-# 根据性能数据优化内容
-<!-- last-modified: 2026-06-08 -->
+# 通过数据驱动型更新弥合内容性能差距
+<!-- last-modified: 2026-06-10 -->
 
 ![AI客户端并排比较原始页面内容和更新的页面内容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-通常情况下，关闭营销活动效果数据和内容更新之间的循环意味着在分析工具和CMS之间切换。 本演练展示了如何在同一AI会话中连接Customer Journey Analytics和AEM：揭示存在转化差距的营销活动、诊断驱动它们的因素、检查内容、获取有针对性的推荐并在不离开对话的情况下应用更改。
+内容性能差距会影响促销活动结果，消除这些差距通常意味着在分析工具和CMS之间切换。 本演练说明如何在单个AI会话中执行此操作：在Customer Journey Analytics中显示存在转化缺口的营销活动、诊断原因、在AEM中检查性能不佳的内容，并在不离开对话的情况下应用更新。
 
 | 方案详细信息 | |
 | --- | --- |

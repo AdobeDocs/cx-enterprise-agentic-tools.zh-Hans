@@ -1,11 +1,11 @@
 ---
 title: 在旅程问题影响客户之前对其进行捕获
 description: 使用CX Enterprise MCP监视活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '979'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ![AI客户端使用执行摘要总结活动和历程策略](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
-清楚地了解哪些历程处于活动状态、哪些条件驱动它们以及营销活动的配置方式通常意味着打开Adobe Journey Optimizer并导航其界面。 本演练展示了如何通过AI客户端获得同样的可见性，并使用CX Enterprise MCP通过纯语言问题查询AJO历程和营销活动数据。
+未检测到的历程问题可在任何人注意到之前联系客户。 本演练展示了如何通过检查活动的AJO历程、查看Campaign配置和通过AI客户端显示操作问题，以及使用CX Enterprise MCP以纯语言获得答案而不打开Adobe Journey Optimizer ，继续走在前面。
 
 | 方案详细信息 | |
 | --- | --- |

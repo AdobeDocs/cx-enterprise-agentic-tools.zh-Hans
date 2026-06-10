@@ -1,11 +1,11 @@
 ---
 title: 了解您的受众及其激活位置
 description: 使用CX Enterprise MCP监视受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前对其进行处理。
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![AI客户端提供带有激活建议的优先级受众策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
-了解哪些受众已激活、正在哪里流动以及目标是否健康通常意味着打开Real-Time CDP并导航多个屏幕。 本演练展示了如何通过人工智能客户端获得相同的答案，使用RTCDP MCP服务器通过纯语言问题呈现目标配置、激活状态和数据流运行状况。
+了解哪些受众是实时的、在哪里流动的，以及目标是否健康至关重要，之后才能启动营销活动，否则表现会不佳。 本演练展示了如何使用CX Enterprise MCP通过AI客户端在几秒钟内显示受众状态和目标运行状况，而无需打开Real-Time CDP，从而全面了解激活情况。
 
 | 方案详细信息 | |
 | --- | --- |

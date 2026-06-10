@@ -1,11 +1,11 @@
 ---
 title: 放心地部署到AEM as a Cloud Service
 description: 在不离开AI客户端的情况下检查环境运行状况、查看管道历史记录以及触发或管理部署。
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '938'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480352/?captions=chi_hans&learn=on&enablevpops)
 
-管理Adobe Experience Manager环境通常意味着登录到Cloud Manager，通过管道和环境导航，并切换上下文以跟踪部署状态。 此演练展示了如何使用AEM Cloud Manager MCP服务器从人工智能客户端处理这些操作，因此开发人员和运营团队可以在不离开其人工智能环境的情况下检查状态、审查管道并对部署详细信息执行操作。
+部署信心来自于在推送之前知道您的环境是健康的。 此演练展示了如何使用AEM Cloud Manager MCP服务器从AI客户端检查AEM环境状态、查看管道历史记录和触发部署，以使团队可以快速移动而不会失去可见性。
 
 | 方案详细信息 | |
 | --- | --- |
