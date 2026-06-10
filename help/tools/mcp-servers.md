@@ -3,9 +3,9 @@ title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 index: false
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2167'
 ht-degree: 3%
 
 ---
@@ -257,9 +257,9 @@ Microsoft Copilot Studio使用“MCP载入向导”连接到远程MCP服务器�
 
 >[!ENDTABS]
 
-## 正在使用的代理工具
+## 正在运行的MCP服务器
 
-请参阅应用于实际业务工作流的Adobe CX Enterprise MCP服务器。
+请参见Adobe CX Enterprise MCP Server来解决实际业务问题。 每次演练都从真正的操作挑战开始，并显示AI客户端如何以简单的语言解决它，而无需切换工具或编写代码。
 
 <!--
 CARDS

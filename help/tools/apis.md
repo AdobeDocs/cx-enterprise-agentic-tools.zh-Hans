@@ -3,10 +3,10 @@ title: 用于构建器的API
 description: 使用Adobe CX Enterprise API构建自定义应用程序和集成。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 10%
+source-wordcount: '886'
+ht-degree: 9%
 
 ---
 
@@ -194,6 +194,8 @@ project/
 当Adobe发布新的API版本时：将新的快照下载到`/specs`中，更新`README.md`中的日期，并重新生成索引和`AGENTS.md`。
 
 ## 正在运行的API
+
+API为开发团队提供了完全的编程控制，以构建可自动执行特定CX Enterprise工作流的重点应用程序。 这些演练展示了端对端构建的实际集成，从凭据设置到组织可发送的工作代码。
 
 <!--
 CARDS

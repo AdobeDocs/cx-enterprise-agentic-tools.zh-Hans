@@ -3,9 +3,9 @@ title: 座席技能
 description: 由Adobe策划的工作流和说明，可引导AI代理始终如一地完成CX Enterprise任务。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -84,6 +84,8 @@ Adobe CX Enterprise的![代理技能](../assets/hero-agent-skills.png)
 - **GitHub CLI**： `gh upskill list`
 
 ## 座席操作技能
+
+“代理技能”可让Adobe的域专业知识在您的AI客户端中起作用，因此代理遵循经过验证的工作流而不是即兴创作。 下面的每个演练都显示了以Adobe最佳实践为指导，从头到尾以可靠的方式完成的特定业务任务。
 
 <!--
 CARDS
