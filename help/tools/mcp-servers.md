@@ -2,10 +2,10 @@
 title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 index: false
-last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+last-substantial-update: 2026-06-10T00:00:00Z
+source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2140'
 ht-degree: 3%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 3%
 
 # MCP服务器
 
-<!-- last-modified: 2026-06-09 -->
+<!-- last-modified: 2026-06-10 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491332/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Adobe CX Enterprise MCP服务器允许任何兼容的AI客户端直接、受管地访问Adobe数据和工作流。 连接一次，您就可以查询营销活动效果、激活受众、查看历程、管理内容等，所有这些操作都以纯语言进行，而无需离开您的AI环境。 由于MCP服务器位于AI客户端和Adobe的基础系统之间，因此您可以在组织保持有效的访问控制和数据治理的同时获得自然语言的灵活性。
 
@@ -41,12 +41,14 @@ https://cx-enterprise.adobe.io/mcp
 
 | CX企业级应用程序 | 您可以做什么 |
 | --- | --- |
-| Adobe Analytics | 报表包发现、区段创作和工作区创建 |
-| Adobe Experience Platform | 数据集发现、架构浏览和沙盒管理 |
-| Adobe Journey Optimizer | 查看历程、营销活动和渠道配置 |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/analytics-mcp) | 报表包发现、区段创作和工作区创建 |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/aep-mcp) | 数据集发现、架构浏览和沙盒管理 |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | 查看历程、营销活动和渠道配置 |
 | Adobe Journey Optimizer B2B edition | 管理B2B历程、帐户计划、购买组和个性化 |
-| Customer Journey Analytics | 查询报表、发现数据视图和创作工作区 |
-| Real-Time CDP | 检查受众激活状态、目标运行状况和数据流运行状况 |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | 查询报表、发现数据视图和创作工作区 |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | 检查受众激活状态、目标运行状况和数据流运行状况 |
+
+有关完整文档，请参阅[CX Enterprise MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)。
 
 >[!NOTE]
 >
@@ -58,13 +60,13 @@ Adobe Experience Manager有多台MCP服务器用于不同的工作流。
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| [AEM（代码模式）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 通过自然语言查找、读取、写入和删除，直接通过REST API访问AEM |
+| [AEM（代码模式）](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 通过自然语言查找、读取、写入和删除，直接通过REST API访问AEM |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理项目、环境、管道和存储库 |
-| [AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理页面、内容片段、资源和启动项 |
-| [AEM内容（只读）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查询页面、内容片段以及没有写入权限的启动项 |
+| [AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理页面、内容片段、资源和启动项 |
+| [AEM内容（只读）](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查询页面、内容片段以及没有写入权限的启动项 |
 | AEM文档创作 | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 在文档创作中管理文件、版本历史记录和媒体引用 |
 | [AEM体验管理](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | 根据品牌准则和合规性规则评估内容和图像 |
-| [AEM Experience Production](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | 使用AI驱动的内容简报大规模转换和创建AEM页面 |
+| [AEM Experience Production](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | 使用AI驱动的内容简报大规模转换和创建AEM页面 |
 
 >[!NOTE]
 >
@@ -84,11 +86,11 @@ Adobe Experience Manager有多台MCP服务器用于不同的工作流。
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 |
 
 >[!NOTE]
 >
->Marketo Engage MCP使用Marketo原生服务凭据，而不是Adobe IMS。 有关身份验证设置，请参阅[Marketo Engage MCP Server文档](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server)。 访问取决于您的Marketo Engage订阅和API用户的权限。
+>Marketo Engage MCP使用Marketo原生服务凭据，而不是Adobe IMS。 有关身份验证设置，请参阅[Marketo Engage MCP Server文档](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server)。 访问取决于您的Marketo Engage订阅和API用户的权限。
 
 >[!TAB Target]
 
@@ -96,7 +98,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 查看活动、选件、受众、mbox和性能报表 |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 查看活动、选件、受众、mbox和性能报表 |
 
 >[!NOTE]
 >
@@ -106,7 +108,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| Adobe Workfront | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 |
+| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 |
 
 >[!NOTE]
 >
@@ -116,13 +118,11 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 ## 连接到您的AI客户端
 
-所有Adobe MCP服务器都将OAuth与Adobe Identity Management服务(IMS)结合使用。 出现提示时，选择正确的IMS组织。 选择错误是身份验证错误最常见的来源。
-
-在手动配置之前，请检查[Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=connector)以获取AI客户端和Adobe应用程序的托管连接器。 受管连接器会自动处理身份验证。 如果某个连接器可用于您的客户端和应用程序，请使用该连接器，而不是执行以下手动步骤。
-
-以下步骤使用CX Enterprise MCP端点作为示例。 同一过程适用于任何Adobe MCP服务器：交换要连接的服务器的端点URL。
+大多数Adobe MCP服务器都将OAuth与Adobe Identity Management服务(IMS)结合使用。 出现提示时，选择正确的IMS组织。 选择错误是身份验证错误最常见的来源。
 
 ![连接到Adobe MCP服务器的AI代理](../assets/hero-connect-mcp-servers.gif)
+
+以下步骤使用CX Enterprise MCP端点作为示例。 同一过程适用于任何Adobe MCP服务器：交换要连接的服务器的端点URL。
 
 >[!BEGINTABS]
 
@@ -265,39 +265,39 @@ Microsoft Copilot Studio使用“MCP载入向导”连接到远程MCP服务器�
 CARDS
 
 * ../use-cases/analyze-campaign-performance.md
-  {title = Analyze campaign performance}
-  {description = Use CX Enterprise MCP to surface Customer Journey Analytics metrics and insights from any AI client.}
-  {cta = Start walkthrough}
+  {title = Campaign insights without reports}
+  {description = Ask performance questions in plain language and get answers from Customer Journey Analytics, without building a single report.}
+  {cta = Surface campaign insights}
 
 * ../use-cases/query-audiences.md
-  {title = Query audiences}
-  {description = Use CX Enterprise MCP to query Real-Time CDP audience and destination data using plain language prompts.}
-  {cta = Start walkthrough}
+  {title = Audience activation at a glance}
+  {description = See which audiences are live, where they are flowing, and whether destinations are healthy, without navigating Real-Time CDP.}
+  {cta = Check audience activation}
 
 * ../use-cases/manage-ajo-journeys.md
-  {title = Review AJO journeys}
-  {description = Use CX Enterprise MCP to access AJO journeys, campaign status, and journey conditions from your AI client.}
-  {cta = Start walkthrough}
+  {title = Catch journey issues early}
+  {description = Monitor active journeys and surface operational issues before they reach your audience.}
+  {cta = Monitor your journeys}
 
 * ../use-cases/manage-aem-content.md
-  {title = Manage AEM content with AI}
-  {description = Discover, update, and publish pages and content fragments in AEM using natural language.}
-  {cta = Start walkthrough}
+  {title = Ship content updates faster}
+  {description = Find, update, and publish AEM pages and content fragments faster, without switching to the AEM interface.}
+  {cta = Ship content faster}
 
 * ../use-cases/optimize-content-with-performance-data.md
-  {title = Optimize content based on performance data}
-  {description = Combine CX Enterprise MCP and AEM Content MCP Server to find underperforming content and update it in one session.}
-  {cta = Start walkthrough}
+  {title = Close content performance gaps}
+  {description = Surface conversion gaps in CJA, trace them to underperforming content in AEM, and apply the fix in a single AI session.}
+  {cta = Close performance gaps}
 -->
 
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Campaign insights without reports">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/analyze-campaign-performance.md" title="分析营销活动效果">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="分析营销活动效果"
+                    <a href="../use-cases/analyze-campaign-performance.md" title="不带报表的营销活动洞察">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="不带报表的营销活动洞察"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -305,22 +305,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/analyze-campaign-performance.md" title="分析营销活动效果">分析营销活动效果</a>
+                        <a href="../use-cases/analyze-campaign-performance.md" title="不带报表的营销活动洞察">没有报表的营销活动分析</a>
                     </p>
-                    <p class="is-size-6">使用CX Enterprise MCP从任何AI客户端显示Customer Journey Analytics指标和见解。</p>
+                    <p class="is-size-6">使用简单的语言提出性能问题并从Customer Journey Analytics获得答案，而无需构建单个报表。</p>
                 </div>
                 <a href="../use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">表面营销活动分析</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Audience activation at a glance">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/query-audiences.md" title="查询受众">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="查询受众"
+                    <a href="../use-cases/query-audiences.md" title="Audience Activation概览">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="Audience Activation概览"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -328,22 +328,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/query-audiences.md" title="查询受众">查询受众</a>
+                        <a href="../use-cases/query-audiences.md" title="Audience Activation概览">Audience Activation概览</a>
                     </p>
-                    <p class="is-size-6">使用CX Enterprise MCP通过纯语言提示查询Real-Time CDP受众和目标数据。</p>
+                    <p class="is-size-6">无需导航Real-Time CDP，即可查看哪些受众处于实时状态、流量在哪里，以及目标是否健康。</p>
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">检查受众激活</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Review AJO journeys">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Catch journey issues early">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/manage-ajo-journeys.md" title="查看AJO历程">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="查看AJO历程"
+                    <a href="../use-cases/manage-ajo-journeys.md" title="及早发现历程问题">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="及早发现历程问题"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -351,22 +351,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/manage-ajo-journeys.md" title="查看AJO历程">查看AJO历程</a>
+                        <a href="../use-cases/manage-ajo-journeys.md" title="及早发现历程问题">提早发现历程问题</a>
                     </p>
-                    <p class="is-size-6">使用CX Enterprise MCP从AI客户端访问AJO历程、营销活动状态和历程条件。</p>
+                    <p class="is-size-6">在活动历程和表面操作问题影响受众之前，对其进行监控。</p>
                 </div>
                 <a href="../use-cases/manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">监视您的历程</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage AEM content with AI">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Ship content updates faster">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/manage-aem-content.md" title="使用AI管理AEM内容">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="使用AI管理AEM内容"
+                    <a href="../use-cases/manage-aem-content.md" title="更快地发送内容更新">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="更快地发送内容更新"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -374,22 +374,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/manage-aem-content.md" title="使用AI管理AEM内容">使用AI管理AEM内容</a>
+                        <a href="../use-cases/manage-aem-content.md" title="更快地发送内容更新">更快地发送内容更新</a>
                     </p>
-                    <p class="is-size-6">使用自然语言在AEM中发现、更新和发布页面和内容片段。</p>
+                    <p class="is-size-6">无需切换到AEM界面，即可更快地查找、更新和发布AEM页面和内容片段。</p>
                 </div>
                 <a href="../use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">更快地发送内容</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Optimize content based on performance data">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Close content performance gaps">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/optimize-content-with-performance-data.md" title="根据性能数据优化内容">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="根据性能数据优化内容"
+                    <a href="../use-cases/optimize-content-with-performance-data.md" title="弥补内容性能差距">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="弥补内容性能差距"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -397,12 +397,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/optimize-content-with-performance-data.md" title="根据性能数据优化内容">根据性能数据优化内容</a>
+                        <a href="../use-cases/optimize-content-with-performance-data.md" title="弥补内容性能差距">弥补内容性能差距</a>
                     </p>
-                    <p class="is-size-6">将CX Enterprise MCP与AEM Content MCP Server结合使用，找出性能不佳的内容并在一个会话中进行更新。</p>
+                    <p class="is-size-6">在CJA中显示转化差距，跟踪它们以发现AEM中的内容性能不佳，并在单个AI会话中应用修复。</p>
                 </div>
                 <a href="../use-cases/optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">开始演练</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">弥补性能差距</span>
                 </a>
             </div>
         </div>
