@@ -3,10 +3,10 @@ title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 index: false
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 9dda1df512aea64703843cfb22603af5f239a490
+source-git-commit: 9c5cbca16b2e40e8c3859d84dcb9a8330a3b7d83
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 5%
+source-wordcount: '2372'
+ht-degree: 6%
 
 ---
 
@@ -45,15 +45,19 @@ Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextpro
 https://cx-enterprise.adobe.io/mcp
 ```
 
-| CX企业级应用程序 | 您可以做什么 |
-| --- | --- |
-| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/analytics-mcp) | 报表包发现、区段创作和工作区创建 |
-| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/aep-mcp) | 数据集发现、架构浏览和沙盒管理 |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | 查看历程、营销活动和渠道配置 |
-| Adobe Journey Optimizer B2B edition | 管理B2B历程、帐户计划、购买组和个性化 |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | 查询报表、发现数据视图和创作工作区 |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 |
-| [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | 检查受众激活状态、目标运行状况和数据流运行状况 |
+| CX企业级应用程序 | 您可以做什么 | 需要额外权利 |
+| --- | --- | --- |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/analytics-mcp) | 报表包发现、区段创作和工作区创建 | 否 |
+| Campaign Classic | Campaign实例发现、架构浏览、查询执行、工作流控制和SOAP/JS执行 | 是 |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/aep-mcp) | 数据集发现、架构浏览和沙盒管理 | 否 |
+| 试验 | A/B、MVT和MAB实验报告、量度、见解、机会和样本量规划 | 否 |
+| GenStudio | Advertising分析（支出、CTR、营销活动、创意内容、标记和自定义量度）和最新快速草稿 | 是 |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | 查看历程、营销活动和渠道配置 | 否 |
+| Adobe Journey Optimizer B2B edition | 管理B2B历程、帐户计划、购买组和个性化 | 否 |
+| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | 审核活动、选件、受众、mbox、性能报表和预览URL | 是 |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | 查询报表、发现数据视图和创作工作区 | 否 |
+| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 | 是 |
+| [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | 检查受众激活状态、目标运行状况和数据流运行状况 | 否 |
 
 有关完整文档，请参阅[CX Enterprise MCP](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)。
 
@@ -92,7 +96,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 查看活动、选件、受众、mbox和性能报表 |
+| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 审核活动、选件、受众、mbox、性能报表和预览URL |
 
 >[!NOTE]
 >
