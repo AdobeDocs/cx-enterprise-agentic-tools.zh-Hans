@@ -2,8 +2,7 @@
 title: 在旅程问题影响客户之前对其进行捕获
 description: 使用CX Enterprise MCP监视活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 2%

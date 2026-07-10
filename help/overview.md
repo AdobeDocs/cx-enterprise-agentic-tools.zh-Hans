@@ -2,11 +2,10 @@
 title: Adobe CX Enterprise Agentic Tools
 description: 使用MCP服务器、代理技能和API将AI代理和开发工具连接到Adobe CX Enterprise功能。
 last-substantial-update: 2026-06-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 3%
+source-wordcount: '803'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491255/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 让AI成为您的Adobe CX Enterprise协作者。 将您的AI客户端连接到营销活动、受众、历程和内容。 使用您已经使用的任何工具以纯语言与他们交互。 没有新接口，没有上下文切换，无需编码即可开始。
 
@@ -64,7 +63,7 @@ CARDS
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">浏览MCP服务器</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -87,7 +86,7 @@ CARDS
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索代理技能</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -110,7 +109,7 @@ CARDS
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">浏览生成器的API</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -141,7 +140,7 @@ CARDS
 
 [浏览座席技能](tools/agent-skills.md)
 
->[!TAB 生成器的 API]
+>生成器的[!TAB API]
 
 以编程方式直接访问支持Adobe产品的相同API。 构建自定义应用程序和集成，让您的团队能够专注并管理特定CX Enterprise工作流的访问。
 
@@ -192,7 +191,7 @@ CARDS
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">表面营销活动分析</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -215,7 +214,7 @@ CARDS
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">更快地发送内容</span>
-                </a>
+                
             </div>
         </div>
     </div>

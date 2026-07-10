@@ -2,11 +2,10 @@
 title: 放心地部署到AEM as a Cloud Service
 description: 在不离开AI客户端的情况下检查环境运行状况、查看管道历史记录以及触发或管理部署。
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480352/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 部署信心来自于在推送之前知道您的环境是健康的。 此演练展示了如何使用AEM Cloud Manager MCP服务器从AI客户端检查AEM环境状态、查看管道历史记录和触发部署，以使团队可以快速移动而不会失去可见性。
 

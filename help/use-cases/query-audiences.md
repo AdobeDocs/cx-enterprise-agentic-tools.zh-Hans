@@ -2,8 +2,7 @@
 title: 了解您的受众及其激活位置
 description: 使用CX Enterprise MCP监视受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前对其进行处理。
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 2%
