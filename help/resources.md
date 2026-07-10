@@ -32,7 +32,7 @@ ht-degree: 20%
 |---|---|
 | [Analytics MCP文档](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP服务器安装指南和工具参考 |
 | [Analytics MCP指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP服务器的详细使用指南 |
-| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 《RTCDP MCP服务器安装指南》 |
+| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 《RTCDP MCP服务器安装指南》 |
 
 ## 座席技能
 
