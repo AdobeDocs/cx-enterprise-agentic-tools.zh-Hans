@@ -20,7 +20,7 @@ ht-degree: 5%
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
+| CX企业级应用程序 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | 受众 | 营销活动经理、营销运营 |
 | 先决条件 | 与MCP兼容的人工智能客户端，访问AJO、CJA和Real-Time CDP |
