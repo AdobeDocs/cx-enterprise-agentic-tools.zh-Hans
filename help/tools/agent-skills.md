@@ -70,7 +70,7 @@ Adobe CX Enterprise的![代理技能](../assets/hero-agent-skills.png)
 - **节点环境**： `npx skills add adobe/skills`
 - **GitHub CLI**： `gh upskill adobe/skills`
 
-其他客户端要求您下载技能文件并将其直接添加到您的AI客户端。 有关客户端的完整安装说明，请参阅GitHub](https://github.com/adobe/skills#installation)上的[Adobe技能自述文件。
+其他客户端要求您下载技能文件并将其直接添加到您的AI客户端。 有关客户端的完整安装说明，请参阅GitHub[&#128279;](https://github.com/adobe/skills#installation)上的Adobe技能自述文件。
 
 ### 查找座席技能
 
