@@ -2,8 +2,7 @@
 title: 运行跨渠道营销活动审核
 description: 在单次AI会话中使用CX Enterprise MCP可跨历程、受众和性能统一查看AJO、CJA和Real-Time CDP营销活动运行状况。
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 5%
@@ -91,7 +90,7 @@ What journeys are currently active in AJO?
 | 购买后跟进 | 电子邮件、短信 | 2026年5月14日 |
 | 忠诚度重新参与 | 电子邮件 | 2026年5月20日 |
 | 已放弃的购物车：24小时 | 电子邮件、短信 | 2026年5月10日 |
-| Spring Promotion | 电子邮件、推送 | 2026年5月19日 |
+| Spring Promotion | 电子邮件、推送 | 2026 年 5 月 19 日 |
 | 回送：90天不活动 | 电子邮件 | 2026年4月28日 |
 | 生日奖励 | 电子邮件 | 2026年4月15日 |
 | 重新参与：推送选择退出 | 短信 | 2026年5月12日 |

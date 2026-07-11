@@ -2,11 +2,10 @@
 title: 在不构建报表的情况下显示营销活动见解
 description: 使用CX Enterprise MCP以简单的语言询问Customer Journey Analytics性能问题，并且无需浏览Report Builder即可获得答案。
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1007'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
