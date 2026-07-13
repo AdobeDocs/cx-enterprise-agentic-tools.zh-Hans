@@ -2,9 +2,9 @@
 title: 了解您的受众及其激活位置
 description: 使用CX Enterprise MCP监视受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前对其进行处理。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![AI客户端提供带有激活建议的优先级受众策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
+![AI客户端提供带有激活建议的优先级受众策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+
+*选择缩放。*
 
 了解哪些受众是实时的、在哪里流动的，以及目标是否健康至关重要，之后才能启动营销活动，否则表现会不佳。 本演练展示了如何使用CX Enterprise MCP通过AI客户端在几秒钟内显示受众状态和目标运行状况，而无需打开Real-Time CDP，从而全面了解激活情况。
 
@@ -78,7 +80,9 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++查看示例响应
 
-![AI客户端列出了可用受众及其代表的客户行为](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
+![AI客户端列出了可用受众及其代表的客户行为](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -93,7 +97,9 @@ Which audiences are the largest and what makes them valuable?
 
 +++查看示例响应
 
-![AI客户端，用于识别最大的受众并解释其价值所在](../assets/use-cases/query-audiences/query-audiences-step2.gif)
+![AI客户端，用于识别最大的受众并解释其价值所在](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -108,7 +114,9 @@ Where are our audiences currently being activated and to which destinations?
 
 +++查看示例响应
 
-![AI客户端显示受众激活状态和目标映射](../assets/use-cases/query-audiences/query-audiences-step3.gif)
+![AI客户端显示受众激活状态和目标映射](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -123,7 +131,9 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++查看示例响应
 
-![提供优先级受众策略建议的AI客户端](../assets/use-cases/query-audiences/query-audiences-step4.gif)
+![提供优先级受众策略建议的AI客户端](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 

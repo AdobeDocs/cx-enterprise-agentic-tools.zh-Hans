@@ -2,9 +2,9 @@
 title: 通过数据驱动型更新弥合内容性能差距
 description: 在一次AI会话中同时使用CJA和AEM来查找具有转化缺口的营销活动、诊断原因并更新内容，而无需切换工具。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -13,14 +13,16 @@ ht-degree: 2%
 # 通过数据驱动型更新弥合内容性能差距
 <!-- last-modified: 2026-06-10 -->
 
-![AI客户端并排比较原始页面内容和更新的页面内容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
+![AI客户端并排比较原始页面内容和更新的页面内容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+
+*选择缩放。*
 
 内容性能差距会影响促销活动结果，消除这些差距通常意味着在分析工具和CMS之间切换。 本演练说明如何在单个AI会话中执行此操作：在Customer Journey Analytics中显示存在转化缺口的营销活动、诊断原因、在AEM中检查性能不佳的内容，并在不离开对话的情况下应用更新。
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
-| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP Server](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| CX企业级应用程序 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
+| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | 受众 | 营销活动经理、内容策划师、营销运营 |
 | 先决条件 | 与MCP兼容的AI客户端、CJA访问、AEM as a Cloud Service访问 |
 
@@ -94,7 +96,9 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++查看示例响应
 
-来自CJA的高点进率但转化率较低的![AI客户端展示营销活动](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
+来自CJA的高点进率但转化率较低的![AI客户端展示营销活动](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -110,7 +114,9 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++查看示例响应
 
-![AI客户端按设备、区段和内容因子诊断转化流失](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
+![AI客户端按设备、区段和内容因子诊断转化流失](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -126,7 +132,9 @@ Show me the Bali Surf Camp page.
 
 +++查看示例响应
 
-![AI客户端显示来自AEM的登陆页面的当前内容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+![AI客户端显示来自AEM的登陆页面的当前内容](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -142,7 +150,9 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++查看示例响应
 
-![AI客户端识别性能不佳的内容部分并推荐特定更改](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+![AI客户端识别性能不佳的内容部分并推荐特定更改](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -158,7 +168,9 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++查看示例响应
 
-![AI客户端创建页面的优化版本并汇总更改](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif)
+![AI客户端创建页面的优化版本并汇总更改](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 

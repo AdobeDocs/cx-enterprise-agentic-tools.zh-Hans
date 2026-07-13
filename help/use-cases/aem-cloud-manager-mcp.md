@@ -2,9 +2,9 @@
 title: 放心地部署到AEM as a Cloud Service
 description: 在不离开AI客户端的情况下检查环境运行状况、查看管道历史记录以及触发或管理部署。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480352/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 部署信心来自于在推送之前知道您的环境是健康的。 此演练展示了如何使用AEM Cloud Manager MCP服务器从AI客户端检查AEM环境状态、查看管道历史记录和触发部署，以使团队可以快速移动而不会失去可见性。
 
@@ -126,7 +126,9 @@ What is the status of the production environment?
 
 +++查看示例响应
 
-![AI客户端显示来自Cloud Manager的生产环境状态](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png)
+![AI客户端显示来自Cloud Manager的生产环境状态](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -141,7 +143,9 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++查看示例响应
 
-![显示生产管道最后五个管道运行的AI客户端](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png)
+![显示生产管道最后五个管道运行的AI客户端](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -156,7 +160,9 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++查看示例响应
 
-![显示管道触发器确认的AI客户端和反映正在运行的管道的Cloud Manager UI](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
+![显示管道触发器确认的AI客户端和反映正在运行的管道的Cloud Manager UI](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -175,7 +181,9 @@ What is the status of the triggered pipeline?
 
 +++查看示例响应
 
-![AI客户端显示触发的管道运行的状态](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
+![AI客户端显示触发的管道运行的状态](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 

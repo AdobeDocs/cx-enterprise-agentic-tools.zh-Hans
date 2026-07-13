@@ -2,9 +2,9 @@
 title: 运行跨渠道营销活动审核
 description: 在单次AI会话中使用CX Enterprise MCP可跨历程、受众和性能统一查看AJO、CJA和Real-Time CDP营销活动运行状况。
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1415'
 ht-degree: 5%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 5%
 
 <!-- last-modified: 2026-05-21 -->
 
-![运行跨渠道营销活动审核](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review)
+![运行跨渠道营销活动审核](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
+
+*选择缩放。*
 
 要全面了解营销活动的运行状况，需要来自多个系统的数据：来自AJO的活动历程、来自Real-Time CDP的受众激活状态以及来自CJA的性能指标。 本演练展示了如何在单个AI会话中连接所有三个，以使您能够通过一次会话而不是通过三个单独的工具从历程状态转变为受众健康状况以及性能趋势。
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
+| CX企业级应用程序 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | 受众 | 营销活动经理、营销运营 |
 | 先决条件 | 与MCP兼容的人工智能客户端，访问AJO、CJA和Real-Time CDP |
