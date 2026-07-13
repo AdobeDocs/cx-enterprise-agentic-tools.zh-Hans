@@ -2,9 +2,9 @@
 title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+source-git-commit: 331736994515eb978ab9f24208d65f05ecd4c0b4
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2408'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ https://cx-enterprise.adobe.io/mcp
 | Campaign Classic | Campaign实例发现、架构浏览、查询执行、工作流控制和SOAP/JS执行 | 是 |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | 数据集发现、架构浏览和沙盒管理 | 否 |
 | 试验 | A/B、MVT和MAB实验报告、量度、见解、机会和样本量规划 | 否 |
-| GenStudio | Advertising分析（支出、CTR、营销活动、创意内容、标记和自定义量度）和最新快速草稿 | 是 |
+| 用于性能营销的 GenStudio | 访问广告效果数据和创意见解 | 是 |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | 查看历程、营销活动和渠道配置 | 否 |
 | Adobe Journey Optimizer B2B edition | 管理B2B历程、帐户计划、购买组和个性化 | 否 |
 | [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | 审核活动、选件、受众、mbox、性能报表和预览URL | [是](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
