@@ -23,7 +23,7 @@ ht-degree: 3%
 | 方案详细信息 | |
 | --- | --- |
 | CX企业级应用程序 | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
-| 代理工具 | [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| 代理工具 | [AEM Content MCP Server](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | 受众 | 内容经理、营销团队 |
 | 先决条件 | 与MCP兼容的AI客户端、AEM as a Cloud Service访问 |
 

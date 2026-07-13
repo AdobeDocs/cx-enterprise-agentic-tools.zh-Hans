@@ -22,7 +22,7 @@ ht-degree: 1%
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| CX企业级应用程序 | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview) |
 | 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | 受众 | 分析员、营销活动经理 |
 | 先决条件 | 与MCP兼容的AI客户端、CJA访问 |
