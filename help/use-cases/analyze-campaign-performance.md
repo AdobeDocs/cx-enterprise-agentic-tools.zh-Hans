@@ -2,9 +2,9 @@
 title: 在不构建报表的情况下显示营销活动见解
 description: 使用CX Enterprise MCP以简单的语言询问Customer Journey Analytics性能问题，并且无需浏览Report Builder即可获得答案。
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-02 -->
 
-![AI客户端显示改善营销活动性能的建议后续步骤](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
+![AI客户端显示改善营销活动性能的建议后续步骤](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+
+*选择缩放。*
 
 以前，营销活动分析需要在单独的工具中构建报表，但现在该对话了。 此演练展示了如何将AI客户端连接到Customer Journey Analytics (CJA)，并以简单的语言询问性能问题。 这样可以加快到insight的时间，而无需手动构建报表。
 
@@ -82,7 +84,9 @@ What data views are available in my CJA account?
 
 +++查看示例响应
 
-![AI客户端列出可用的CJA数据视图](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png)
+![AI客户端列出可用的CJA数据视图](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -97,7 +101,9 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++查看示例响应
 
-![AI客户端，按Omni-Channel — 多行业数据视图中的收入和转化率显示热门促销活动](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
+![AI客户端，按Omni-Channel — 多行业数据视图中的收入和转化率显示热门促销活动](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -116,7 +122,9 @@ What factors are driving the results for these campaign groups?
 
 +++查看示例响应
 
-![AI客户端说明驱动营销活动组性能的因素](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif)
+![AI客户端说明驱动营销活动组性能的因素](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -131,7 +139,9 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++查看示例响应
 
-![AI客户端按客户区段划分促销电子邮件促销活动效果](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png)
+![AI客户端按客户区段划分促销电子邮件促销活动效果](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -146,7 +156,9 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++查看示例响应
 
-![AI客户端推荐具有估计业务值的优先级操作](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
+![AI客户端推荐具有估计业务值的优先级操作](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 

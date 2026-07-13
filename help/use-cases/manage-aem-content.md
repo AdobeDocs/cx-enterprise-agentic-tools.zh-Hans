@@ -2,9 +2,9 @@
 title: 保持内容最新，更快地发送更新
 description: 使用AEM Content MCP Server查找、查看、更新和发布AEM内容，而无需在工具之间切换。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1001'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-22 -->
 
-![AI客户端确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
+![AI客户端确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+
+*选择缩放。*
 
 让网站内容保持最新状态是一项持续不断的操作压力。 本演练展示了内容团队如何使用AEM Content MCP Server通过AI客户端查找、查看、更新和发布AEM页面和内容片段，以缩短内容决策和实时更新之间的时间。
 
@@ -84,7 +86,9 @@ From WKND Dev environment, find all ski related content.
 
 +++查看示例响应
 
-![AI客户端显示来自WKND开发AEM环境的滑雪内容搜索结果](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
+![AI客户端显示来自WKND开发AEM环境的滑雪内容搜索结果](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -99,7 +103,9 @@ Show me the US English Home Page.
 
 +++查看示例响应
 
-![AI客户端显示AEM中的美国英语主页内容结构](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
+![AI客户端显示AEM中的美国英语主页内容结构](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -114,7 +120,9 @@ Improve the Hero CTAs.
 
 +++查看示例响应
 
-![AI客户端在应用更改之前提出带有确认提示的改进Hero CTA副本](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
+![AI客户端在应用更改之前提出带有确认提示的改进Hero CTA副本](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -133,7 +141,9 @@ Publish the changes and share the URL.
 
 +++查看示例响应
 
-![AI客户端确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
+![AI客户端确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 

@@ -2,9 +2,9 @@
 title: 在旅程问题影响客户之前对其进行捕获
 description: 使用CX Enterprise MCP监视活动的AJO历程，审查活动配置，并在它们触及到您的受众之前发现操作问题。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '997'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # 在旅程问题影响客户之前对其进行捕获
 <!-- last-modified: 2026-06-08 -->
 
-![AI客户端使用执行摘要总结活动和历程策略](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
+![AI客户端使用执行摘要总结活动和历程策略](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+
+*选择缩放。*
 
 未检测到的历程问题可在任何人注意到之前联系客户。 本演练展示了如何通过检查活动的AJO历程、查看Campaign配置和通过AI客户端显示操作问题，以及使用CX Enterprise MCP以纯语言获得答案而不打开Adobe Journey Optimizer ，继续走在前面。
 
@@ -83,7 +85,9 @@ What customer journeys are currently available and what business objectives do t
 
 +++查看示例响应
 
-![AI客户端列出可用的客户历程及其业务目标](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![AI客户端列出可用的客户历程及其业务目标](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -99,7 +103,9 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++查看示例响应
 
-![AI客户端正在经历欢迎新客户历程步骤和客户体验](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![AI客户端正在经历欢迎新客户历程步骤和客户体验](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -119,7 +125,9 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++查看示例响应
 
-![AI客户端列出了活动营销活动及其受众定位和预期结果](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![AI客户端列出了活动营销活动及其受众定位和预期结果](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -135,7 +143,9 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++查看示例响应
 
-![AI客户端，用于说明营销活动与历程之间的关系](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![AI客户端，用于说明营销活动与历程之间的关系](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
@@ -151,7 +161,9 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++查看示例响应
 
-![提供优先级生命周期营销建议的AI客户端](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif)
+![提供优先级生命周期营销建议的AI客户端](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+
+*选择缩放。*
 
 +++
 
