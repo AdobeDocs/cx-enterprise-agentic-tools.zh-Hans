@@ -1,8 +1,8 @@
 ---
 title: 通过数据驱动型更新弥合内容性能差距
 description: 在一次AI会话中同时使用CJA和AEM来查找具有转化缺口的营销活动、诊断原因并更新内容，而无需切换工具。
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 2%
@@ -21,8 +21,8 @@ ht-degree: 2%
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
-| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)，[AEM Content MCP Server](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| CX企业级应用程序 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
+| 代理工具 | [CX Co-worker Gateway](../tools/mcp-servers.md#cx-coworker-gateway)，[AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | 受众 | 营销活动经理、内容策划师、营销运营 |
 | 先决条件 | 与MCP兼容的AI客户端、CJA访问、AEM as a Cloud Service访问 |
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 | Server | 终结点 |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| CX Co-worker网关 | `https://cx-coworker-gateway.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 完整设置： [Claude.ai自定义连接器文档](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 | Server | 终结点 |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| CX Co-worker网关 | `https://cx-coworker-gateway.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 完整设置： [ChatGPT MCP文档](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 | Server | 终结点 |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| CX Co-worker网关 | `https://cx-coworker-gateway.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 所有受支持客户端的完整设置说明： [连接到您的AI客户端](../tools/mcp-servers.md)
