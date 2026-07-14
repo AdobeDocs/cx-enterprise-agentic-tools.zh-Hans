@@ -2,9 +2,9 @@
 title: MCP服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 331736994515eb978ab9f24208d65f05ecd4c0b4
+source-git-commit: 49e3c0cdb77cca3ff39f3aea591cc0fe8d4be4c9
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2404'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextpro
 
 **一个终结点。 多个CX Enterprise应用程序。**
 
-只需连接一次，您的AI客户端即可根据您组织的许可证访问CX Enterprise应用程序。 若要启用您的组织，请发送电子邮件至[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)以请求获取访问权限。
+只需连接一次，您的AI客户端即可根据您组织的许可证访问CX Enterprise应用程序。 若要启用您的组织，请发送电子邮件至[adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com)以请求获取访问权限。
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -62,7 +62,7 @@ https://cx-enterprise.adobe.io/mcp
 
 >[!NOTE]
 >
->对每个CX Enterprise应用程序的访问取决于贵组织在Adobe Admin Console中的权利和用户权限。 要为贵组织启用CX Enterprise MCP，请发送电子邮件至[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)。
+>对每个CX Enterprise应用程序的访问取决于贵组织在Adobe Admin Console中的权利和用户权限。 要为贵组织启用CX Enterprise MCP，请发送电子邮件至[adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com)。
 
 >[!TAB Experience Manager]
 
