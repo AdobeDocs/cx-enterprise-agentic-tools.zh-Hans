@@ -1,8 +1,8 @@
 ---
 title: Adobe CX Enterprise Agentic Tools
 description: 使用MCP服务器、代理技能和API将AI代理和开发工具连接到Adobe CX Enterprise功能。
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 让AI成为您的Adobe CX Enterprise协作者。 将您的AI客户端连接到营销活动、受众、历程和内容。 使用您已经使用的任何工具以纯语言与他们交互。 没有新接口，没有上下文切换，无需编码即可开始。
 
 >[!TIP]
->**从CX Enterprise MCP开始。** 一个连接让您的AI客户端能够根据贵组织的许可证访问Adobe Journey Optimizer、Customer Journey Analytics和Real-Time CDP。 [立即连接](tools/mcp-servers.md#cx-enterprise-mcp-servers)
+>**开始使用CX Co-worker Gateway。** 一个连接让您的AI客户端能够根据贵组织的许可证访问Adobe Journey Optimizer、Customer Journey Analytics和Real-Time CDP。 [立即连接](tools/mcp-servers.md#cx-coworker-gateway)
 
 <!--
 CARDS
@@ -122,7 +122,7 @@ CARDS
 
 >[!TAB MCP服务器]
 
-使用任何兼容的AI客户端以纯语言访问CX Enterprise应用程序。 无需编码。 从CX Enterprise MCP开始，通过单个连接连接到AJO、CJA和Real-Time CDP，或直接连接到AEM和其他应用程序。
+使用任何兼容的AI客户端以纯语言访问CX Enterprise应用程序。 无需编码。 从CX Co-worker Gateway开始，通过单一连接连接到AJO、CJA和Real-Time CDP ，或直接连接到AEM和其他应用程序。
 
 - 在几分钟内从Claude 、 Cursor 、 ChatGPT和其他与MCP兼容的客户端连接
 - 使用自然语言查询营销活动、受众和历程数据

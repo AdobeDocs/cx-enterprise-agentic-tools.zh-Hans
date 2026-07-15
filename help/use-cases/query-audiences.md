@@ -1,8 +1,8 @@
 ---
 title: 了解您的受众及其激活位置
-description: 使用CX Enterprise MCP监视受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前对其进行处理。
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: 使用CX Co-worker Gateway监控受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前解决这些问题。
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 2%
@@ -18,12 +18,12 @@ ht-degree: 2%
 
 *选择缩放。*
 
-了解哪些受众是实时的、在哪里流动的，以及目标是否健康至关重要，之后才能启动营销活动，否则表现会不佳。 本演练展示了如何使用CX Enterprise MCP通过AI客户端在几秒钟内显示受众状态和目标运行状况，而无需打开Real-Time CDP，从而全面了解激活情况。
+了解哪些受众是实时的、在哪里流动的，以及目标是否健康至关重要，之后才能启动营销活动，否则表现会不佳。 本演练展示了如何使用CX Co-worker Gateway通过AI客户端快速了解受众状态和目标运行状况，而无需打开Real-Time CDP。
 
 | 方案详细信息 | |
 | --- | --- |
 | CX企业级应用程序 | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
-| 代理工具 | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| 代理工具 | [CX Co-worker网关](../tools/mcp-servers.md#cx-coworker-gateway) |
 | 受众 | 营销人员、分析人员、操作员 |
 | 先决条件 | 与MCP兼容的AI客户端、Real-Time CDP访问 |
 
@@ -35,31 +35,31 @@ ht-degree: 2%
 
 >[!TAB 克劳德.ai]
 
-将CX Enterprise MCP作为自定义连接器连接以访问Real-Time CDP工具。
+将CX Co-worker Gateway作为自定义连接器连接以访问Real-Time CDP工具。
 
 1. 转到Claude.ai中的&#x200B;**设置>集成**。
-2. 选择&#x200B;**添加自定义连接器**&#x200B;并输入服务器URL： `https://cx-enterprise.adobe.io/mcp`
+2. 选择&#x200B;**添加自定义连接器**&#x200B;并输入服务器URL： `https://cx-coworker-gateway.adobe.io/mcp`
 3. 选择&#x200B;**连接**&#x200B;并使用您的Adobe ID登录。
 
 完整设置： [Claude.ai自定义连接器文档](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-使用ChatGPT Developer Mode （需要Pro 、 Plus 、 Business 、 Enterprise或Education计划）连接CX Enterprise MCP。
+使用ChatGPT Developer Mode （需要Pro 、 Plus 、 Business 、 Enterprise或Education计划）连接CX Co-worker Gateway。
 
 1. 在&#x200B;**ChatGPT设置**&#x200B;中启用&#x200B;**开发人员模式**。
 2. 转到&#x200B;**设置>集成**，然后选择&#x200B;**添加自定义连接器>远程MCP服务器**。
-3. 输入服务器URL： `https://cx-enterprise.adobe.io/mcp`
+3. 输入服务器URL： `https://cx-coworker-gateway.adobe.io/mcp`
 4. 选择&#x200B;**连接**&#x200B;并使用您的Adobe ID登录。
 
 完整设置： [ChatGPT MCP文档](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB 其他AI客户端]
 
-使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用以下端点连接到CX Enterprise MCP：
+使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用此端点连接到CX Co-worker Gateway ：
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 所有受支持客户端的完整设置说明： [连接到您的AI客户端](../tools/mcp-servers.md)
@@ -123,7 +123,7 @@ Where are our audiences currently being activated and to which destinations?
 
 ## 步骤4：获取战略建议
 
-CX Enterprise MCP的RTCDP工具是只读的 — 它们会显示激活状态、目标运行状况和数据流数据，但不会修改配置。 确定问题后，将在应用程序中修复。
+CX Co-worker Gateway的RTCDP工具是只读的 — 它们会显示激活状态、目标运行状况和数据流数据，但不会修改配置。 确定问题后，将在应用程序中修复。
 
 ```
 If you were our audience strategist, what would you prioritize next and why?
@@ -140,7 +140,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 >[!NOTE]
 >
->CX Enterprise MCP的RTCDP工具会显示目标和激活数据，但无法修改目标配置、区段定义或数据流设置。 在Real-Time CDP应用程序中执行修正步骤。
+>CX Co-worker Gateway的RTCDP工具会显示目标和激活数据，但无法修改目标配置、区段定义或数据流设置。 在Real-Time CDP应用程序中执行修正步骤。
 
 ## 您完成了哪些工作
 
@@ -148,7 +148,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 ## 您可以完成更多任务
 
-CX Enterprise MCP的Real-Time CDP工具支持范围广泛的受众和激活查询。 展开下面的方案以查看可在同一会话中尝试的提示。
+CX Co-worker Gateway的Real-Time CDP工具支持范围广泛的受众和激活查询。 展开下面的方案以查看可在同一会话中尝试的提示。
 
 +++准确地了解在营销活动发送之前流向何处
 
