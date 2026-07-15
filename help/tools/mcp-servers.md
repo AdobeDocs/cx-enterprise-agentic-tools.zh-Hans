@@ -14,7 +14,7 @@ ht-degree: 5%
 
 <!-- last-modified: 2026-06-11 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491332/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Adobe MCP服务器允许任何兼容的AI客户端直接、受管地访问Adobe数据和工作流。 连接一次，您就可以查询营销活动效果、激活受众、查看历程、管理内容等，所有这些操作都以纯语言进行，而无需离开您的AI环境。 由于MCP服务器位于AI客户端和Adobe的基础系统之间，因此您可以在组织保持有效的访问控制和数据治理的同时获得自然语言的灵活性。
 
@@ -46,17 +46,17 @@ https://cx-coworker-gateway.adobe.io/mcp
 
 | CX企业级应用程序 | 您可以做什么 | 需要额外权利 |
 | --- | --- | --- |
-| [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | 报表包发现、区段创作和工作区创建 | 否 |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | 报表包发现、区段创作和工作区创建 | 否 |
 | Campaign Classic | Campaign实例发现、架构浏览、查询执行、工作流控制和SOAP/JS执行 | 是 |
-| [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | 数据集发现、架构浏览和沙盒管理 | 否 |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | 数据集发现、架构浏览和沙盒管理 | 否 |
 | 试验 | A/B、MVT和MAB实验报告、量度、见解、机会和样本量规划 | 否 |
 | 用于性能营销的 GenStudio | 访问广告效果数据和创意见解 | 是 |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | 查看历程、营销活动和渠道配置 | 否 |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | 查看历程、营销活动和渠道配置 | 否 |
 | Adobe Journey Optimizer B2B edition | 管理B2B历程、帐户计划、购买组和个性化 | 否 |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | 审核活动、选件、受众、mbox、性能报表和预览URL | [是](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | 查询报表、发现数据视图和创作工作区 | 否 |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 | [是](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server#get-marketo-credentials) |
-| [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 检查受众激活状态、目标运行状况和数据流运行状况 | 否 |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | 审核活动、选件、受众、mbox、性能报表和预览URL | [是](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | 查询报表、发现数据视图和创作工作区 | 否 |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 | [是](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server#get-marketo-credentials) |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 检查受众激活状态、目标运行状况和数据流运行状况 | 否 |
 
 有关完整文档，请参阅[CX Co-worker网关](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)。
 
@@ -71,8 +71,8 @@ Adobe Experience Manager有多台MCP服务器用于不同的工作流。
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理项目、环境、管道和存储库 |
-| [AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理页面、内容片段、资源和启动项 |
-| [AEM内容（只读）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查询页面、内容片段以及没有写入权限的启动项 |
+| [AEM内容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理页面、内容片段、资源和启动项 |
+| [AEM内容（只读）](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查询页面、内容片段以及没有写入权限的启动项 |
 | [AEM体验管理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | 根据品牌准则和合规性规则评估内容和图像 |
 
 >[!NOTE]
@@ -95,7 +95,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 审核活动、选件、受众、mbox、性能报表和预览URL |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 审核活动、选件、受众、mbox、性能报表和预览URL |
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 | MCP服务器 | 终结点 | 您可以做什么 |
 | --- | --- | --- |
-| [Adobe Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 |
+| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 |
 
 >[!NOTE]
 >
