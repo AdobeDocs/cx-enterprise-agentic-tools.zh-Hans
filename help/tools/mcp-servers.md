@@ -32,16 +32,16 @@ Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextpro
 
 | MCP服务器 | 终结点 | 您可以做什么 | 也通过CX Enterprise Coworker |
 | --- | --- | --- | --- |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | 查看历程、营销活动和渠道配置 | 是 |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | 查询报表、发现数据视图和创作工作区 | 是 |
-| [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | 报表包发现、区段创作和工作区创建 | 是 |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 审核活动、选件、受众、mbox、性能报表和预览URL（公共测试版：工具为只读，规划了写入工具以供正式发布） | 是 |
-| [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | 搜索受众、目标、源和流运行；检查身份命名空间和合并策略（公共测试版：需要允许列表，所有工具均为只读） | 是 |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | 查看历程、营销活动和渠道配置 | 是 |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | 查询报表、发现数据视图和创作工作区 | 是 |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | 报表包发现、区段创作和工作区创建 | 是 |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 审核活动、选件、受众、mbox、性能报表和预览URL（公共测试版：工具为只读，规划了写入工具以供正式发布） | 是 |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | 搜索受众、目标、源和流运行；检查身份命名空间和合并策略（公共测试版：需要允许列表，所有工具均为只读） | 是 |
 | [AEM MCP服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 管理页面、内容片段、资源和启动项；根据品牌准则和合规性规则评估内容和图像 | 是 |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理项目、环境、管道和存储库 | 否 |
 | Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | 跨AEP应用程序编排受众分析、AEP诊断和AJO B2B历程构建 | 否 |
-| [Adobe Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 | 否 |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理表单、智能营销活动、潜在客户、列表、程序、电子邮件和批量操作 | 是 |
+| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 | 否 |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理表单、智能营销活动、潜在客户、列表、程序、电子邮件和批量操作 | 是 |
 | Adobe Experience Platform | 通过[CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | 数据集发现、架构浏览和沙盒管理 | 不适用 |
 | Campaign Classic | 通过[CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | Campaign实例发现、架构浏览、查询执行、工作流控制和SOAP/JS执行 | 不适用 |
 | 试验 | 通过[CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | A/B、MVT和MAB实验报告、量度、见解、机会和样本量规划 | 不适用 |
