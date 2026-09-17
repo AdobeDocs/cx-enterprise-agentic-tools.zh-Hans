@@ -1,20 +1,16 @@
 ---
-title: MCP服务器
+title: MCP 服务器
 description: 使用模型上下文协议服务器将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: a619c651d13834f53ecf1dd524aae3e7e5efcca5
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2400'
 ht-degree: 6%
-
 ---
 
+# MCP 服务器
 
-# MCP服务器
-
-<!-- last-modified: 2026-06-11 -->
-
->[!VIDEO](https://video.tv.adobe.com/v/3491332/?captions=chi_hans&learn=on&enablevpops)
+<!-- last-modified: 2026-09-16 -->
 
 Adobe MCP服务器允许任何兼容的AI客户端直接、受管地访问Adobe数据和工作流。 连接一次，您就可以查询营销活动效果、激活受众、查看历程、管理内容等，所有这些操作都以纯语言进行，而无需离开您的AI环境。 由于MCP服务器位于AI客户端和Adobe的基础系统之间，因此您可以在组织保持有效的访问控制和数据治理的同时获得自然语言的灵活性。
 
@@ -24,94 +20,37 @@ Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextpro
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="CX Coworker 网关"
->abstract="通过单一 MCP 端点访问您的 CX Enterprise 应用程序。 通过您的 AI 客户端使用自然语言进行提问、分析并执行操作。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="CX Coworker 网关文档"
+>title="CX Enterprise Coworker"
+>abstract="以简单的语言询问、分析您的CX Enterprise应用程序并采取行动，无需服务器设置。 对于具有自己MCP服务器的单个应用程序，请直接连接。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home" text="CX Enterprise Coworker文档"
 
-![CX Co-worker Gateway将您的AI客户端连接到整个Adobe CX Enterprise套件中的工具](../assets/mcp-gateway-hero.gif)
+![CX Enterprise Coworker将AI客户端连接到CX Enterprise应用程序](../assets/mcp-sub-hero.gif)
 
-选择一个应用程序以查看端点和功能。
+**跨您的CX Enterprise应用程序最快的工作方式是CX Enterprise Coworker。** 它连接到您的CX Enterprise应用程序，不需要服务器设置，不需要注册端点，也不需要AI客户端配置。 [尝试CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
 
->[!BEGINTABS]
+如果您希望将自己的AI客户端直接连接到特定的Adobe应用程序，则多个应用程序还具有自己的MCP服务器。
 
->[!TAB CX Co-worker网关]
-
-**一个终结点。 多个CX Enterprise应用程序。**
-
-只需连接一次，您的AI客户端即可根据您组织的许可证访问CX Enterprise应用程序。 若要启用您的组织，请发送电子邮件至[cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com)以请求获取访问权限。
-
-```
-https://cx-coworker-gateway.adobe.io/mcp
-```
-
-| CX企业级应用程序 | 您可以做什么 | 需要额外权利 |
-| --- | --- | --- |
-| [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | 报表包发现、区段创作和工作区创建 | 否 |
-| Campaign Classic | Campaign实例发现、架构浏览、查询执行、工作流控制和SOAP/JS执行 | 是 |
-| [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | 数据集发现、架构浏览和沙盒管理 | 否 |
-| 试验 | A/B、MVT和MAB实验报告、量度、见解、机会和样本量规划 | 否 |
-| 用于性能营销的 GenStudio | 访问广告效果数据和创意见解 | 是 |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | 查看历程、营销活动和渠道配置 | 否 |
-| Adobe Journey Optimizer B2B edition | 管理B2B历程、帐户计划、购买组和个性化 | 否 |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | 审核活动、选件、受众、mbox、性能报表和预览URL | [是](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | 查询报表、发现数据视图和创作工作区 | 否 |
-| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | 管理项目、营销策划、潜在客户、智能列表、电子邮件和表单 | [是](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server#get-marketo-credentials) |
-| [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 检查受众激活状态、目标运行状况和数据流运行状况 | 否 |
-
-有关完整文档，请参阅[CX Co-worker网关](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)。
+| MCP服务器 | 终结点 | 您可以做什么 | 也通过CX Enterprise Coworker |
+| --- | --- | --- | --- |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | 查看历程、营销活动和渠道配置 | 是 |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | 查询报表、发现数据视图和创作工作区 | 是 |
+| [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | 报表包发现、区段创作和工作区创建 | 是 |
+| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 审核活动、选件、受众、mbox、性能报表和预览URL（公共测试版：工具为只读，规划了写入工具以供正式发布） | 是 |
+| [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | 搜索受众、目标、源和流运行；检查身份命名空间和合并策略（公共测试版：需要允许列表，所有工具均为只读） | 是 |
+| [AEM MCP服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 管理页面、内容片段、资源和启动项；根据品牌准则和合规性规则评估内容和图像 | 是 |
+| [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理项目、环境、管道和存储库 | 否 |
+| Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | 跨AEP应用程序编排受众分析、AEP诊断和AJO B2B历程构建 | 否 |
+| [Adobe Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 | 否 |
+| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理表单、智能营销活动、潜在客户、列表、程序、电子邮件和批量操作 | 是 |
+| Adobe Experience Platform | 通过[CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | 数据集发现、架构浏览和沙盒管理 | 不适用 |
+| Campaign Classic | 通过[CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | Campaign实例发现、架构浏览、查询执行、工作流控制和SOAP/JS执行 | 不适用 |
+| 试验 | 通过[CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | A/B、MVT和MAB实验报告、量度、见解、机会和样本量规划 | 不适用 |
+| GenStudio for Performance Marketing | 通过[CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | 访问广告效果数据和创意见解 | 不适用 |
+| Adobe Journey Optimizer B2B edition | 通过[CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | 管理B2B历程、帐户计划、购买组和个性化 | 不适用 |
 
 >[!NOTE]
 >
->对网关的访问基于贵组织的现有CX Enterprise应用程序许可证以及用户在Adobe Admin Console中的权限。 不需要CX Co-worker许可证 — 至少需要网关后面的一个CX Enterprise应用程序的活动许可证。 要为贵组织启用CX Co-worker Gateway，请发送电子邮件至[cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com)。
-
->[!TAB Experience Manager]
-
-Adobe Experience Manager有多台MCP服务器用于不同的工作流。
-
-| MCP服务器 | 终结点 | 您可以做什么 |
-| --- | --- | --- |
-| [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理项目、环境、管道和存储库 |
-| [AEM内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | 管理页面、内容片段、资源和启动项 |
-| [AEM内容（只读）](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 探索和查询页面、内容片段以及没有写入权限的启动项 |
-| [AEM体验管理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | 根据品牌准则和合规性规则评估内容和图像 |
-
->[!NOTE]
->
->对每个AEM环境的访问取决于贵组织的AEM Cloud Service权利和用户在该环境中的权限。
-
->[!TAB Experience Platform]
-
-| MCP服务器 | 终结点 | 您可以做什么 |
-| --- | --- | --- |
-| Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | 跨AEP应用程序编排受众分析、AEP诊断和AJO B2B历程构建 |
-
->[!NOTE]
->
->访问取决于贵组织的Adobe Experience Platform权利和用户的权限。
-
->[!TAB Target]
-
-Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只读。 已计划正式提供写入工具。
-
-| MCP服务器 | 终结点 | 您可以做什么 |
-| --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 审核活动、选件、受众、mbox、性能报表和预览URL |
-
->[!NOTE]
->
->访问权限取决于您的Adobe Target权利和用户的权限。
-
->[!TAB Workfront]
-
-| MCP服务器 | 终结点 | 您可以做什么 |
-| --- | --- | --- |
-| [Adobe Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 |
-
->[!NOTE]
->
->访问取决于您的Adobe Workfront许可证和用户的权限。
-
->[!ENDTABS]
+>对每个MCP服务器的访问取决于贵组织对该应用程序的权利以及用户在该应用程序中的权限。 最后五行还没有自己的MCP服务器可用于直接连接。 立即使用CX Enterprise Coworker联系他们。
 
 ## 连接到您的AI客户端
 
@@ -119,9 +58,15 @@ Adobe Target MCP处于公开测试阶段。 所有当前可用的工具均为只
 
 ![连接到Adobe MCP服务器的AI代理](../assets/hero-connect-mcp-servers.gif)
 
-以下步骤以CX Co-worker Gateway端点为例。 同一过程适用于任何Adobe MCP服务器：交换要连接的服务器的端点URL。
+如果您使用CX Enterprise Coworker，这些连接会自动发生。 以下内容不适用于您。 以下步骤用于将您自己的AI客户端直接连接到Adobe MCP服务器，并使用AEM MCP服务器端点作为示例。 同一过程适用于任何Adobe MCP服务器：交换要连接的服务器的端点URL。
 
 >[!BEGINTABS]
+
+>[!TAB CX Enterprise Coworker]
+
+CX Enterprise Coworker已包含其中的许多MCP功能。 没有要添加的服务器，没有要注册的端点，也没有要配置的AI客户端。 登录到CX Enterprise Coworker，此时它已经可以使用。
+
+完整文档： [CX Enterprise Coworker文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
 
 >[!TAB 克劳德.ai]
 
@@ -135,7 +80,7 @@ Claude.ai通过帐户设置中的自定义连接器支持远程MCP服务器。
 
 1. 转到&#x200B;**设置>集成**。
 2. 单击&#x200B;**添加自定义连接器**。
-3. 输入服务器端点，作为URL（例如， CX Co-worker Gateway为`https://cx-coworker-gateway.adobe.io/mcp`）和您选择的显示名称。
+3. 输入服务器端点，作为URL（例如，AEM MCP服务器的`https://mcp.adobeaemcloud.com/adobe/mcp/aem`）和您选择的显示名称。
 4. 单击&#x200B;**连接**&#x200B;并使用您的Adobe ID登录。 选择正确的IMS组织。
 
 完整设置： [Claude.ai自定义连接器文档](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -144,10 +89,10 @@ Claude.ai通过帐户设置中的自定义连接器支持远程MCP服务器。
 
 ### 使用CLI
 
-运行`claude mcp add`以注册Adobe MCP服务器。 将服务器名称和URL替换为要连接的服务器的值。 此示例使用CX Co-worker Gateway ：
+运行`claude mcp add`以注册Adobe MCP服务器。 将服务器名称和URL替换为要连接的服务器的值。 此示例使用AEM MCP服务器：
 
 ```bash
-claude mcp add --transport http adobe-cx-coworker-gateway https://cx-coworker-gateway.adobe.io/mcp
+claude mcp add --transport http adobe-aem https://mcp.adobeaemcloud.com/adobe/mcp/aem
 ```
 
 ### 编辑您的设置文件
@@ -157,9 +102,9 @@ claude mcp add --transport http adobe-cx-coworker-gateway https://cx-coworker-ga
 ```json
 {
   "mcpServers": {
-    "adobe-cx-coworker-gateway": {
+    "adobe-aem": {
       "type": "http",
-      "url": "https://cx-coworker-gateway.adobe.io/mcp"
+      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/aem"
     }
   }
 }
@@ -171,7 +116,7 @@ Adobe MCP服务器使用OAuth。 在首次调用工具时，克劳德代码会�
 
 >[!TAB 游标]
 
-将Adobe MCP服务器添加到您的Cursor `mcp.json`配置文件中，然后通过&#x200B;**设置> MCP**&#x200B;进行连接。 将密钥和URL替换为您要连接的服务器的值。 此示例使用CX Co-worker Gateway ：
+将Adobe MCP服务器添加到您的Cursor `mcp.json`配置文件中，然后通过&#x200B;**设置> MCP**&#x200B;进行连接。 将密钥和URL替换为您要连接的服务器的值。 此示例使用AEM MCP服务器：
 
 - **全局（所有项目）：** `~/.cursor/mcp.json`
 - 项目根目录中的&#x200B;**项目级别：** `.cursor/mcp.json`
@@ -179,9 +124,9 @@ Adobe MCP服务器使用OAuth。 在首次调用工具时，克劳德代码会�
 ```json
 {
   "mcpServers": {
-    "adobe-cx-coworker-gateway": {
+    "adobe-aem": {
       "type": "http",
-      "url": "https://cx-coworker-gateway.adobe.io/mcp"
+      "url": "https://mcp.adobeaemcloud.com/adobe/mcp/aem"
     }
   }
 }
@@ -201,14 +146,27 @@ Adobe MCP服务器使用OAuth。 在首次调用工具时，克劳德代码会�
 
 ### 使用远程MCP服务器连接
 
-ChatGPT通过Pro、Plus、Business、Enterprise和Education计划提供的[开发人员模式](https://developers.openai.com/api/docs/guides/developer-mode)支持远程MCP服务器。
+请让您的ChatGPT管理员为您的组织添加MCP服务器。 这样，每个用户无需进行以下设置即可连接。
 
-1. 在&#x200B;**ChatGPT设置**&#x200B;中启用开发人员模式。
-2. 转到&#x200B;**设置>集成**。
-3. 单击&#x200B;**添加自定义连接器**&#x200B;并选择&#x200B;**远程MCP服务器**。
-4. 输入服务器端点，作为URL（例如， CX Co-worker Gateway为`https://cx-coworker-gateway.adobe.io/mcp`）和您选择的显示名称。
-5. 将身份验证设置为&#x200B;**OAuth**。
-6. 单击&#x200B;**连接**&#x200B;并使用您的Adobe ID登录。 选择正确的IMS组织。
+如果管理员无法添加该连接，或者您仅希望为帐户建立连接，请按照以下步骤操作。
+
+**一次性设置：**&#x200B;在注册自定义MCP URL之前打开开发人员模式。
+
+1. 转到&#x200B;**设置>安全和登录**。
+2. 打开&#x200B;**开发人员模式**。
+
+**添加服务器：**
+
+1. 转到&#x200B;**设置>插件>浏览插件**。
+2. 选择&#x200B;**+**&#x200B;以添加新插件。
+3. 输入名称，例如`AEM Content AI`或`Adobe Journey Optimizer`。
+4. 输入说明。
+5. 选择&#x200B;**服务器URL**。
+6. 在&#x200B;**连接**&#x200B;下，输入完整的Adobe MCP URL。 例如，`https://mcp.adobeaemcloud.com/adobe/mcp/aem`用于AEM，或`https://ajo-mcp.adobe.io/mcp`用于Adobe Journey Optimizer。
+7. 将&#x200B;**身份验证**&#x200B;设置为&#x200B;**OAuth**。
+8. 阅读并接受服务条款。
+9. 选择&#x200B;**创建**。
+10. 使用有权访问MCP服务器所连接的CX企业应用程序的Adobe帐户登录。
 
 完整设置： [ChatGPT MCP文档](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
@@ -221,11 +179,11 @@ OpenAI Codex CLI支持通过TOML配置进行远程MCP服务器。
 - **用户级别（所有项目）：** `~/.codex/config.toml`
 - 项目根中的&#x200B;**项目作用域：** `.codex/config.toml`
 
-将部分名称和URL替换为要连接的服务器的值。 此示例使用CX Co-worker Gateway ：
+将部分名称和URL替换为要连接的服务器的值。 此示例使用AEM MCP服务器：
 
 ```toml
-[mcp_servers.adobe-cx-coworker-gateway]
-url = "https://cx-coworker-gateway.adobe.io/mcp"
+[mcp_servers.adobe-aem]
+url = "https://mcp.adobeaemcloud.com/adobe/mcp/aem"
 enabled = true
 ```
 
@@ -240,9 +198,9 @@ Microsoft Copilot Studio使用“MCP载入向导”连接到远程MCP服务器�
 1. 在Copilot Studio中打开您的代理。
 2. 转到&#x200B;**工具**&#x200B;页面。
 3. 选择&#x200B;**添加工具>新建工具>模型上下文协议**。
-4. 在MCP载入向导中，输入服务器详细信息。 例如，对于CX Co-worker Gateway ：
-   - **服务器名称：** `CX Coworker Gateway`
-   - **服务器URL：** `https://cx-coworker-gateway.adobe.io/mcp`
+4. 在MCP载入向导中，输入服务器详细信息。 例如，对于AEM MCP服务器：
+   - **服务器名称：** `AEM`
+   - **服务器URL：** `https://mcp.adobeaemcloud.com/adobe/mcp/aem`
 5. 将身份验证设置为&#x200B;**OAuth 2.0**，并使用Adobe IMS授权和令牌URL进行配置。
 6. 选择&#x200B;**创建**，然后选择&#x200B;**添加到代理**。
 
@@ -256,7 +214,7 @@ Microsoft Copilot Studio使用“MCP载入向导”连接到远程MCP服务器�
 
 ## 正在运行的MCP服务器
 
-请参见CX Co-worker Gateway来解决实际业务问题。 每次演练都从真正的操作挑战开始，并显示AI客户端如何以简单的语言解决它，而无需切换工具或编写代码。
+请参见解决实际业务问题的Adobe MCP服务器。 每次演练都从真正的操作挑战开始，并显示AI客户端如何以简单的语言解决它，而无需切换工具或编写代码。
 
 <!--
 CARDS
