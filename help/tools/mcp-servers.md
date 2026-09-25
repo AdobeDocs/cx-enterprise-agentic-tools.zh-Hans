@@ -5,7 +5,7 @@ last-substantial-update: 2026-09-16
 source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
 source-wordcount: '2400'
-ht-degree: 6%
+ht-degree: 8%
 ---
 
 # MCP 服务器
@@ -21,12 +21,12 @@ Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextpro
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="CX Enterprise Coworker"
->abstract="以简单的语言询问、分析您的CX Enterprise应用程序并采取行动，无需服务器设置。 对于具有自己MCP服务器的单个应用程序，请直接连接。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home" text="CX Enterprise Coworker文档"
+>abstract="使用自然语言，在各个 CX Enterprise 应用程序中提问、分析并执行操作，无需设置服务器。 对于拥有独立 MCP 服务器的应用程序，请直接连接到相应服务器。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home" text="CX Enterprise Coworker 文档"
 
 ![CX Enterprise Coworker将AI客户端连接到CX Enterprise应用程序](../assets/mcp-sub-hero.gif)
 
-**跨您的CX Enterprise应用程序最快的工作方式是CX Enterprise Coworker。** 它连接到您的CX Enterprise应用程序，不需要服务器设置，不需要注册端点，也不需要AI客户端配置。 [尝试CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
+**使用CX Enterprise应用程序最快的方法是CX Enterprise Coworker。** 它连接到您的CX Enterprise应用程序，无需设置服务器，无需注册端点，也不需要配置AI客户端。 [尝试CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
 
 如果您希望将自己的AI客户端直接连接到特定的Adobe应用程序，则多个应用程序还具有自己的MCP服务器。
 
