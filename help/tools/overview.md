@@ -1,16 +1,14 @@
 ---
 title: 代理工具
-description: 比较MCP服务器、代理技能和Builders的API ，并为Adobe CX Enterprise工作流选择合适的代理工具。
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: 比较MCP服务器、代理技能以及构建器的API，并为Adobe CX Enterprise工作流选择合适的代理工具。
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 0%
-
+source-wordcount: '1129'
+ht-degree: 1%
 ---
 
-
-# 代理工具
+# 代理式工具
 
 <!-- last-modified: 2026-06-08 -->
 
@@ -21,7 +19,7 @@ CARDS
 
 * mcp-servers.md
   {title = MCP Servers}
-  {description = Connect any compatible AI client to Adobe CX Enterprise data and workflows. No coding required.}
+  {description = Connect any compatible AI platform to Adobe CX Enterprise data and workflows. No coding required.}
   {cta = Explore MCP Servers}
   {image = ../assets/mcp-servers-card.png}
 
@@ -44,8 +42,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="mcp-servers.md" title="MCP服务器">
-                        <img class="is-bordered-r-small" src="../assets/mcp-servers-card.png" alt="MCP服务器"
+                    <a href="mcp-servers.md" title="MCP 服务器">
+                        <img class="is-bordered-r-small" src="../assets/mcp-servers-card.png" alt="MCP 服务器"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -53,13 +51,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="mcp-servers.md" title="MCP服务器">MCP服务器</a>
+                        <a href="mcp-servers.md" title="MCP 服务器">MCP服务器</a>
                     </p>
-                    <p class="is-size-6">将任何兼容的AI客户端连接到Adobe CX Enterprise数据和工作流。 无需编码。</p>
+                    <p class="is-size-6">将任何兼容的AI平台连接到Adobe CX Enterprise数据和工作流。 无需编码。</p>
                 </div>
                 <a href="mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">浏览MCP服务器</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -78,11 +76,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="agent-skills.md" title="座席技能">代理技能</a>
                     </p>
-                    <p class="is-size-6">由Adobe策划的工作流说明，可指导代理始终如一地完成CX Enterprise任务。</p>
+                    <p class="is-size-6">由Adobe策划的工作流说明，可始终指导座席完成CX Enterprise任务。</p>
                 </div>
                 <a href="agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索代理技能</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -105,7 +103,7 @@ CARDS
                 </div>
                 <a href="apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">浏览生成器的API</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -115,29 +113,29 @@ CARDS
 
 ## 比较代理工具
 
-| | MCP服务器 | 座席技能 | 用于构建器的API |
+| | MCP 服务器 | 座席技能 | 用于构建器的API |
 | --- | --- | --- | --- |
-| 最适合 | CX Enterprise应用程序用户 | CX企业应用程序用户和开发人员 | 开发者 |
+| 最适合 | CX Enterprise应用程序用户 | CX Enterprise应用程序用户和开发人员 | 开发者 |
 | 需要编码 | 否 | 否 | 是 |
 | 设置时间 | Minutes | Minutes | 小时到天 |
-| 您获得的内容 | 从您的AI客户端访问CX企业应用程序 | 引导式可重复工作流 | 完全程序化控制 |
+| 您获得的内容 | 从AI平台访问CX Enterprise应用程序 | 引导式可重复工作流 | 完全程序化控制 |
 
 ## 不确定从哪里开始？
 
 - 要使用AI与CX Enterprise应用程序进行交互（执行操作、查询数据以及让AI通过自然对话发现下一步要做什么），[MCP服务器](mcp-servers.md)是最灵活的起点。
-- 为了使代理始终遵循CX企业工作流的Adobe最佳实践而不进行即兴操作，[代理技能](agent-skills.md)在可重用说明中对域专业知识进行编码。
-- 为了构建一个能够简化或自动化用户的特定CX Enterprise工作流的重点应用程序，[Builders的API](apis.md)为您提供了直接、可编程的控制功能，让您能够控制实际发生的情况。
+- 为了使代理始终遵循CX Enterprise工作流的Adobe最佳实践而不进行即兴操作，[代理技能](agent-skills.md)可在可重用说明中对域专业知识进行编码。
+- 要构建可简化或自动执行用户特定CX Enterprise工作流的重点应用程序，[Builders的API](apis.md)可让您直接、可编程地控制所发生的情况。
 
 >[!BEGINTABS]
 
 >[!TAB MCP服务器]
 
-将MCP服务器视为AI客户端与CX企业应用程序之间的实时线路。 只需连接一次，您的AI就可以查询营销活动、拉取受众、检查历程状态等，所有这些操作都使用纯语言，无需代码。
+可以将MCP服务器视为连接您的AI平台和CX Enterprise应用程序的实时网络。 从[适用于AI平台的Adobe CX Enterprise Coworker](mcp-servers.md#connect-to-your-ai-platform)开始：连接一次，您的AI平台可以使用Adobe CX Enterprise Coworker查询营销活动、拉取受众、检查历程状态等，所有这些操作都使用纯语言，无需代码。 如果它不适用于您，请直接连接到[产品MCP服务器](mcp-servers.md#connect-to-your-ai-platform)。
 
 **在以下情况下使用MCP服务器：**
 
-- 您希望将AI直接集成到CX Enterprise工作流中
-- 您希望CX Enterprise数据位于已使用的AI客户端中
+- 要将AI直接集成到CX Enterprise工作流
+- 您希望CX Enterprise数据位于已使用的AI平台中
 - 您正在执行探索性分析或临时数据检索
 - 您希望快速获得结果，而不使项目变得繁琐
 
@@ -145,11 +143,11 @@ CARDS
 
 >[!TAB 代理技能]
 
-“代理技能”是Adobe的域专业知识，按照您的代理可遵循的说明进行编码。 与其希望您的代理能够指出正确的步骤，不如用一种技能准确地告诉您应该做什么，而且这一技能可靠、可重复而且已经针对CX Enterprise工作流进行了调整。
+“代理技能”是Adobe的域专业知识，按照您的代理可遵循的说明进行编码。 技能不能让您的代理找出正确的步骤，而是确切地告诉您应该做什么，并且是可靠、可重复和已针对CX Enterprise工作流调整的。
 
 **在以下情况下使用代理技能：**
 
-- 当您通过AI客户端在CX Enterprise应用程序中执行工作时，希望遵循Adobe最佳实践
+- 当您通过AI平台在Adobe应用程序中执行工作时，希望遵循CX Enterprise最佳实践
 - 您每次都希望以相同的方式完成相同的任务
 - 您正在运行可重复的内容或媒体生产工作流
 
@@ -172,11 +170,11 @@ API是构建块。 借助这些功能，开发人员可以使用支持Adobe自�
 
 ## 将它们一起使用
 
-这些工具旨在协同工作。 将它们组合在一起可让您充分利用Adobe AI。 代理技能可以指导AI客户端如何使用MCP服务器，使代理在CX Enterprise工作流程中保持正确跟踪。 技能还可以指导如何以及何时调用API，将Adobe最佳实践护栏添加到自定义自动化。 你不必只选一个。
+这些工具旨在协同工作。 将它们组合在一起可让您充分利用Adobe AI。 代理技能可以指导AI平台如何使用MCP服务器，使代理保持CX Enterprise工作流的正确跟踪。 技能还可以指导如何以及何时调用API，将Adobe最佳实践护栏添加到自定义自动化。 你不必只选一个。
 
 ## 正在使用的代理工具
 
-请参见这些应用于实际CX Enterprise工作流的工具。
+请参阅这些应用于实际CX Enterprise工作流的工具。
 
 <!--
 CARDS
@@ -220,7 +218,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">检查受众激活</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -243,7 +241,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">尝试使用代理技能</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -266,7 +264,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">尝试使用API</span>
-                
+                </a>
             </div>
         </div>
     </div>

@@ -1,10 +1,10 @@
 ---
 title: Adobe CX Enterprise Agentic Tools
 description: 使用 MCP 服务器、代理技能和 API 将 AI 代理和开发工具连接到 Adobe CX Enterprise 的功能。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '863'
 ht-degree: 6%
 ---
 
@@ -14,17 +14,19 @@ ht-degree: 6%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491255/?captions=chi_hans&learn=on&enablevpops)
 
-让AI成为您的Adobe CX Enterprise协作者。 将您的AI客户端连接到营销活动、受众、历程和内容。 使用您已经使用的任何工具以纯语言与他们交互。 没有新接口，没有上下文切换，无需编码即可开始。
+让AI成为您的Adobe CX Enterprise协作者。 将您的AI平台连接到营销活动、受众、历程和内容。 使用您已经使用的任何工具以纯语言与他们交互。 没有新接口，没有上下文切换，无需编码即可开始。
 
 >[!TIP]
->**开始使用CX Enterprise Coworker。** 它无需服务器设置或AI客户端配置即可连接到您的CX Enterprise应用程序。 [尝试CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
+>**开始使用Adobe CX Enterprise Coworker。** 它与CX Enterprise应用程序兼容，无需服务器设置或AI平台配置。 [尝试同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
+>
+>更愿意停留在Claude、ChatGPT、Microsoft 365 Copilot或其他AI平台？ 使用适用于AI平台的[Adobe CX Enterprise Coworker](tools/mcp-servers.md#connect-to-your-ai-platform)。 如果两者都不适用，请将您的AI平台连接到[产品MCP服务器](tools/mcp-servers.md#connect-to-your-ai-platform)。
 
 <!--
 CARDS
 
 * tools/mcp-servers.md
   {title = MCP Servers}
-  {description = Connect any MCP-compatible AI client to Adobe CX Enterprise workflows. Query data, analyze campaigns, and access audiences without leaving your AI tool.}
+  {description = Connect any MCP-compatible AI platform to Adobe CX Enterprise workflows. Query data, analyze campaigns, and access audiences without leaving your AI tool.}
   {cta = Explore MCP Servers}
   {image = assets/mcp-servers-card.png}
 
@@ -57,7 +59,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="tools/mcp-servers.md" title="MCP 服务器">MCP服务器</a>
                     </p>
-                    <p class="is-size-6">将任何与MCP兼容的AI客户端连接到Adobe CX Enterprise工作流。 在不离开AI工具的情况下查询数据、分析营销活动并访问受众。</p>
+                    <p class="is-size-6">将任何与MCP兼容的AI平台连接到Adobe CX Enterprise工作流。 在不离开AI工具的情况下查询数据、分析营销活动并访问受众。</p>
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">浏览MCP服务器</span>
@@ -80,7 +82,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="tools/agent-skills.md" title="座席技能">代理技能</a>
                     </p>
-                    <p class="is-size-6">由Adobe策划的工作流，可引导代理完成CX Enterprise任务。 域专业知识编码一次，应用一致。</p>
+                    <p class="is-size-6">由Adobe策划的工作流，可指导代理完成CX Enterprise任务。 域专业知识编码一次，应用一致。</p>
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">探索代理技能</span>
@@ -120,9 +122,9 @@ CARDS
 
 >[!TAB MCP服务器]
 
-使用任何兼容的AI客户端以纯语言访问CX Enterprise应用程序。 无需编码。 从CX Enterprise Coworker开始，获得跨应用程序的最快路径，或者使用自己的MCP服务器直接连接到AJO、CJA、AEM和其他应用程序。
+使用任何兼容的AI平台以纯语言访问CX Enterprise应用程序。 无需编码。 从Co-worker开始，跨应用程序实现最快的路径。 要停留在您自己的AI平台中，请使用AI平台的Co-worker 。 如果这两种方法都不适合您，请使用他们自己的MCP服务器直接连接到AJO、CJA、AEM和其他应用程序。
 
-- 在几分钟内从Claude 、 Cursor 、 ChatGPT和其他与MCP兼容的客户端连接
+- 在几分钟内从Claude 、 Cursor 、 ChatGPT和其他与MCP兼容的AI平台连接
 - 使用自然语言查询营销活动、受众和历程数据
 - 无需新界面或培训
 
@@ -130,17 +132,17 @@ CARDS
 
 >[!TAB 代理技能]
 
-代理技能会编码Adobe域专业知识，作为您的AI客户端可以遵循的说明。 代理程序不会即兴发挥，而是确切知道要做什么，可以可靠、重复执行，并符合Adobe最佳实践。
+代理技能会编码Adobe域专业知识，作为您的AI平台可以遵循的说明。 代理程序不会即兴发挥，而是确切知道要做什么，可以可靠、重复执行，并符合Adobe最佳实践。
 
-- 可重复的CX Enterprise工作流程的一致结果
+- 可重复的CX Enterprise工作流获得一致的结果
 - 无需向座席解释Adobe：技能驾驭它
-- 跨支持代理技能的AI客户端工作
+- 跨支持代理技能的AI平台工作
 
 [浏览座席技能](tools/agent-skills.md)
 
 >[!TAB 生成器的 API]
 
-以编程方式直接访问支持Adobe产品的相同API。 构建自定义应用程序和集成，让您的团队能够专注并管理特定CX Enterprise工作流的访问。
+以编程方式直接访问支持Adobe产品的相同API。 构建自定义应用程序和集成，为您的团队提供对特定CX Enterprise工作流的集中、可控的访问权限。
 
 - 构建一次，在整个组织中部署
 - 添加团队所需的护栏、批准和自定义逻辑
@@ -152,7 +154,7 @@ CARDS
 
 ## 正在使用的代理工具
 
-了解Adobe CX Enterprise代理工具在实践中的样子。 每个演练都涵盖了一个从设置到结果的真实商业场景，具体展示了如何连接AI客户端、应问什么以及应得到什么。
+了解Adobe CX Enterprise代理工具在实践中的外观。 每次演练都涵盖了一个从设置到结果的真实业务场景，具体展示了如何开始使用同事或您的AI平台、需要询问什么以及您能得到什么。
 
 <!--
 CARDS
@@ -226,8 +228,8 @@ CARDS
 | 资源 | 您将找到什么 |
 | --- | --- |
 | [Adobe AI注册表](https://developer.adobe.com/ai-registry/?type=mcp) | 选定Adobe MCP服务器的托管连接器和服务器详细信息 |
-| [Adobe代理技能](https://github.com/adobe/skills) | 适用于CX Enterprise工作流的Adobe策划代理技能 |
-| [Adobe API目录](https://developer.adobe.com/apis) | 完整Adobe CX Enterprise API参考 |
+| [Adobe代理技能](https://github.com/adobe/skills) | 适用于CX Enterprise工作流的Adobe策划的代理技能 |
+| [Adobe API目录](https://developer.adobe.com/apis) | 完成Adobe CX Enterprise API参考 |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API项目设置和身份验证 |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | 用户和产品访问管理 |
 | [Experience League](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home) | 完整的Adobe应用程序文档和教程 |

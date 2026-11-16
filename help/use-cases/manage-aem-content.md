@@ -1,29 +1,29 @@
 ---
 title: 保持内容最新，更快地发送更新
 description: 使用AEM MCP服务器查找、查看、更新和发布AEM内容，而无需在工具之间切换。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 8%
+source-wordcount: '1104'
+ht-degree: 7%
 ---
 
 # 保持内容最新，更快地发送更新
 
 <!-- last-modified: 2026-05-22 -->
 
-![AI客户端确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+![AI平台确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
 
 *选择缩放。*
 
-让网站内容保持最新状态是一项持续不断的操作压力。 本演练展示了内容团队如何通过AI客户端使用AEM MCP服务器查找、查看、更新和发布AEM页面和内容片段，以缩短内容决策和实时更新之间的时间。
+让网站内容保持最新状态是一项持续不断的操作压力。 本演练展示了内容团队如何通过AI平台查找、审阅、更新和发布AEM页面和内容片段，以及如何使用AEM MCP服务器在内容决策和实时更新之间缩短时间。
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
-| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)或[AEM MCP服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
+| CX Enterprise应用程序 | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
+| 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)、[适用于AI平台的Adobe CX Enterprise Coworker](../tools/mcp-servers.md#connect-to-your-ai-platform)或[AEM MCP服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | 受众 | 内容经理、营销团队 |
-| 先决条件 | 与MCP兼容的AI客户端、AEM as a Cloud Service访问 |
+| 先决条件 | AEM as a Cloud Service访问，加上Co-worker、具有Co-worker for AI平台的AI平台或MCP兼容的AI平台 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -31,11 +31,15 @@ ht-degree: 8%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-最快的方法是CX Enterprise Coworker，它无需服务器设置或AI客户端配置。 [尝试CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
+最快的方法是协同工作，它不需要服务器设置或AI平台配置。 [尝试同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
 
-如果您希望将自己的AI客户端直接连接到AEM，请参阅以下选项卡。
+如果您不能或不希望直接使用同事，请改用您自己的AI平台中的同事。 请参阅&#x200B;**Co-worker for AI platforms**&#x200B;选项卡。 如果上述方法也不适合您，请使用其余选项卡，将您的AI平台直接连接到AEM MCP服务器。
+
+>[!TAB AI平台的协同工作]
+
+您还可以从您自己的AI平台与AI平台的同事完成此演练。 [为AI平台设置协同工作](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe文档](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB 克劳德.ai]
 
@@ -58,7 +62,7 @@ ht-degree: 8%
 
 完整设置： [ChatGPT MCP文档](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB 其他AI客户端]
+>[!TAB 其他AI平台]
 
 使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用以下端点连接到AEM MCP服务器：
 
@@ -66,21 +70,21 @@ ht-degree: 8%
 https://mcp.adobeaemcloud.com/adobe/mcp/aem
 ```
 
-所有受支持客户端的完整设置说明： [连接到您的AI客户端](../tools/mcp-servers.md)
+所有受支持的AI平台的完整设置说明： [连接到您的AI平台](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->出现提示时，请使用您的Adobe ID登录，然后选择链接到您的AEM as a Cloud Service环境的IMS组织。 权限是在AEM级别强制实施的。 您的AI客户端只能执行您的帐户授权的操作。
+>出现提示时，请使用您的Adobe ID登录，然后选择链接到您的AEM as a Cloud Service环境的IMS组织。 权限是在AEM级别强制实施的。 您的AI平台只能执行您的帐户授权的操作。
 >
->首次连接时，AI客户端可能会要求您确认组织或AEM环境。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
+>在首次连接时，您的AI平台可能会要求您确认您的组织或AEM环境。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
 >
 >某些工具在执行之前会提示您审批。 审查提议的行动，并批准或拒绝。 未经您的确认，不会进行任何更改。
 
 ## 步骤1：在AEM环境中查找内容
 
-首先，请您的AI客户端发现AEM环境和搜索内容。 您可以按主题、关键词或内容类型搜索，而无需知道确切路径。
+首先要求您的AI平台发现AEM环境和搜索内容。 您可以按主题、关键词或内容类型搜索，而无需知道确切路径。
 
 ```
 From WKND Dev environment, find all ski related content.
@@ -88,7 +92,7 @@ From WKND Dev environment, find all ski related content.
 
 +++查看示例响应
 
-![AI客户端显示来自WKND开发AEM环境的滑雪内容搜索结果](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+![AI平台显示来自WKND开发AEM环境的滑雪内容搜索结果](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
 
 *选择缩放。*
 
@@ -97,7 +101,7 @@ From WKND Dev environment, find all ski related content.
 
 ## 第2步：查看特定页面
 
-找到相关内容后，请让您的AI客户端向您显示特定页面。 您可以按名称或路径引用页面。 MCP服务器解析引用并返回内容结构。
+找到相关内容后，请让您的AI平台向您显示特定页面。 您可以按名称或路径引用页面。 MCP服务器解析引用并返回内容结构。
 
 ```
 Show me the US English Home Page.
@@ -105,7 +109,7 @@ Show me the US English Home Page.
 
 +++查看示例响应
 
-![AI客户端显示AEM中的美国英语主页内容结构](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+![AI平台显示AEM中的美国英语主页内容结构](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
 
 *选择缩放。*
 
@@ -114,7 +118,7 @@ Show me the US English Home Page.
 
 ## 步骤3：改进内容
 
-查看页面内容后，请让您的AI客户端提出改进或应用改进。 AI可以根据页面当前所显示的内容提出副本更改，并在编写任何内容之前请求确认。
+查看页面内容后，请让您的AI平台提出改进或应用改进。 AI可以根据页面当前所显示的内容提出副本更改，并在编写任何内容之前请求确认。
 
 ```
 Improve the Hero CTAs.
@@ -122,7 +126,7 @@ Improve the Hero CTAs.
 
 +++查看示例响应
 
-![AI客户端在应用更改之前提出带有确认提示的改进Hero CTA副本](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+![AI平台在应用更改之前提出带有确认提示的改进Hero CTA副本](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
 
 *选择缩放。*
 
@@ -143,7 +147,7 @@ Publish the changes and share the URL.
 
 +++查看示例响应
 
-![AI客户端确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+![AI平台确认页面已发布并返回实时URL](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
 
 *选择缩放。*
 
