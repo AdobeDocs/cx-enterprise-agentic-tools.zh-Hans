@@ -19,7 +19,7 @@ ht-degree: 5%
 
 | 方案详细信息 | |
 | --- | --- |
-| CX Enterprise应用程序 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
+| CX Enterprise应用程序 | [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction) |
 | 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)、[Adobe CX Enterprise Coworker for AI Platforms](../tools/mcp-servers.md#connect-to-your-ai-platform)或[Customer Journey Analytics MCP服务器](../tools/mcp-servers.md)和[AEM MCP服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | 受众 | 营销活动经理、内容策划师、营销运营 |
 | 先决条件 | CJA访问、AEM as a Cloud Service访问以及同事、具有适用于AI平台的同事的AI平台或与MCP兼容的AI平台 |
@@ -39,7 +39,7 @@ Co-worker涵盖了整个演练，无需服务器设置。 [尝试同事](https:/
 
 >[!TAB AI平台的协同工作]
 
-您还可以从您自己的AI平台与AI平台的同事完成此演练。 [为AI平台设置协同工作](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe文档](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+您还可以从您自己的AI平台与AI平台的同事完成此演练。 [为AI平台设置协同工作](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe文档](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB 克劳德.ai]
 

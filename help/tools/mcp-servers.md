@@ -22,7 +22,7 @@ Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextpro
 >
 >* **一个连接，不多。** 您可以设置一个MCP服务器，而不是分别连接每个Adobe应用程序。
 >* **您的访问权限，已转移。** 您使用Adobe凭据登录，同事将使用您现有的访问权限。 没有单独的权限设置。
->* **安全且受设计控制。** Co-worker允许每个用户受控地访问其后面的CX Enterprise应用程序。 某些用户可以只读访问某些内容或数据，而其他用户可以读写访问，具体取决于其用户的配置方式以及授予他们的访问权限。 [了解有关协同工作进程中的访问权限的更多信息](https://experienceleague.adobe.com/en/docs/coworker/content/administration/access-control)。
+>* **安全且受设计控制。** Co-worker允许每个用户受控地访问其后面的CX Enterprise应用程序。 某些用户可以只读访问某些内容或数据，而其他用户可以读写访问，具体取决于其用户的配置方式以及授予他们的访问权限。 [了解有关协同工作进程中的访问权限的更多信息](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/administration/access-control)。
 >
 >已经在其他AI平台中工作并围绕它们构建了工作流？ 您也可以从这些平台访问Co-worker的功能，而无需更改您的工作方式。 [为AI平台设置协同工作](#connect-to-your-ai-platform)
 >
@@ -48,16 +48,16 @@ Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextpro
 
 | MCP服务器 | 终结点 | 您可以做什么 | 也通过同事 |
 | --- | --- | --- | --- |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | 查看历程、营销活动和渠道配置 | 是 |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | 查询报表、发现数据视图和创作工作区 | 是 |
-| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | 报表包发现、区段创作和工作区创建 | 是 |
-| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 审核活动、选件、受众、mbox、性能报表和预览URL（公共测试版：工具为只读，规划了写入工具以供正式发布） | 是 |
-| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | 搜索受众、目标、源和流运行；检查身份命名空间和合并策略（公共测试版：需要允许列表，所有工具均为只读） | 是 |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | 查看历程、营销活动和渠道配置 | 是 |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | 查询报表、发现数据视图和创作工作区 | 是 |
+| [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | 报表包发现、区段创作和工作区创建 | 是 |
+| [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | 审核活动、选件、受众、mbox、性能报表和预览URL（公共测试版：工具为只读，规划了写入工具以供正式发布） | 是 |
+| [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | 搜索受众、目标、源和流运行；检查身份命名空间和合并策略（公共测试版：需要允许列表，所有工具均为只读） | 是 |
 | [AEM MCP服务器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 管理页面、内容片段、资源和启动项；根据品牌准则和合规性规则评估内容和图像 | 是 |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | 管理项目、环境、管道和存储库 | 否 |
 | Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | 跨AEP应用程序编排受众分析、AEP诊断和AJO B2B历程构建 | 否 |
-| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 | 否 |
-| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理表单、智能营销活动、潜在客户、列表、程序、电子邮件和批量操作 | 是 |
+| [Adobe Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 管理工作、项目、规划记录、见解和内容审批 | 否 |
+| [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | 管理表单、智能营销活动、潜在客户、列表、程序、电子邮件和批量操作 | 是 |
 | Adobe Experience Platform | 通过[同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | 数据集发现、架构浏览和沙盒管理 | 不适用 |
 | Campaign Classic | 通过[同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | Campaign实例发现、架构浏览、查询执行、工作流控制和SOAP/JS执行 | 不适用 |
 | 试验 | 通过[同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | A/B、MVT和MAB实验报告、量度、见解、机会和样本量规划 | 不适用 |
@@ -88,7 +88,7 @@ Co-worker已经包括许多MCP功能。 没有要添加的服务器，没有要�
 
 Co-worker for AI平台是一种MCP服务器，用于将AI平台连接到Co-worker。 Co-worker中的所有可用内容都可通过它获得。 您使用Claude、ChatGPT、Microsoft 365 Copilot或Gemini Enterprise等AI平台作为聊天界面，由同事在后台工作，与直接使用同事时相同。
 
-您使用Adobe凭据登录，而同事使用与您的Adobe身份关联的访问权限。 同事安全且受设计管理。 您可以读取或更改的内容取决于您的用户配置方式、在您同事中授予的访问权限以及在您代表您使用的应用程序中授予的访问权限。 查看[同事的访问控制](https://experienceleague.adobe.com/en/docs/coworker/content/administration/access-control)。
+您使用Adobe凭据登录，而同事使用与您的Adobe身份关联的访问权限。 同事安全且受设计管理。 您可以读取或更改的内容取决于您的用户配置方式、在您同事中授予的访问权限以及在您代表您使用的应用程序中授予的访问权限。 查看[同事的访问控制](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/administration/access-control)。
 
 在开始之前，请确保：
 
@@ -96,7 +96,7 @@ Co-worker for AI平台是一种MCP服务器，用于将AI平台连接到Co-worke
 * 您的组织具有Adobe Experience Platform以及Adobe Real-Time CDP、Adobe Journey Optimizer或Adobe Customer Journey Analytics中的至少一个。
 * 您有权访问支持的AI平台。
 
-服务器终结点为`https://mcp.coworker.experience.adobe.io`。 设置因AI平台而异，通常从管理员为您的组织批准Adobe CX Enterprise Coworker开始。 [为AI平台设置协同工作](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+服务器终结点为`https://mcp.coworker.experience.adobe.io`。 设置因AI平台而异，通常从管理员为您的组织批准Adobe CX Enterprise Coworker开始。 [为AI平台设置协同工作](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB 克劳德.ai]
 
