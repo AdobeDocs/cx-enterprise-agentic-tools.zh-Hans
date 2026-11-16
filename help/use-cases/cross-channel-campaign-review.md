@@ -1,10 +1,10 @@
 ---
 title: 运行跨渠道营销活动审核
 description: 在单个AI会话中，跨历程、受众和性能统一查看AJO、CJA和Real-Time CDP营销活动健康状况。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1651'
 ht-degree: 6%
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 6%
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
-| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)或[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)和[Real-Time CDP](../tools/mcp-servers.md) MCP服务器 |
+| CX Enterprise应用程序 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home)，[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)，[Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
+| 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)、[Adobe CX Enterprise Coworker for AI Platforms](../tools/mcp-servers.md#connect-to-your-ai-platform)或[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)和[Real-Time CDP](../tools/mcp-servers.md) MCP服务器 |
 | 受众 | 营销活动经理、营销运营 |
-| 先决条件 | 与MCP兼容的人工智能客户端，访问AJO、CJA和Real-Time CDP |
+| 先决条件 | 访问AJO、CJA和Real-Time CDP，以及同事、具有同事的AI平台或MCP兼容的AI平台 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -31,11 +31,15 @@ ht-degree: 6%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworker在一个位置连接到AJO、CJA和Real-Time CDP，无需服务器设置或AI客户端配置。 [尝试CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
+同事可以在一个位置连接到AJO、CJA和Real-Time CDP，无需服务器设置或AI平台配置。 [尝试同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
 
-如果您希望直接连接自己的AI客户端，请使用下面的选项卡连接所有三个MCP服务器。 Real-Time CDP MCP Server处于公共测试版，需要列入允许列表您的组织。
+如果您不能或不希望直接使用同事，请改用您自己的AI平台中的同事。 请参阅&#x200B;**Co-worker for AI platforms**&#x200B;选项卡。 如果上述方法也不适合您，请使用其余选项卡，将您的AI平台直接连接到AJO、CJA和Real-Time CDP MCP服务器。 Real-Time CDP MCP Server处于公共测试版，需要列入允许列表您的组织。
+
+>[!TAB AI平台的协同工作]
+
+您还可以从您自己的AI平台与AI平台的同事完成此演练。 [为AI平台设置协同工作](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe文档](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB 克劳德.ai]
 
@@ -70,7 +74,7 @@ CX Enterprise Coworker在一个位置连接到AJO、CJA和Real-Time CDP，无需
 
 完整设置： [ChatGPT MCP文档](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB 其他AI客户端]
+>[!TAB 其他AI平台]
 
 使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用以下端点连接到所有三个MCP服务器：
 
@@ -80,7 +84,7 @@ CX Enterprise Coworker在一个位置连接到AJO、CJA和Real-Time CDP，无需
 | Customer Journey Analytics MCP服务器 | `https://cja-mcp.adobe.io/mcp` |
 | Real-Time CDP MCP服务器 | `https://rtcdp-mcp.adobe.io/mcp` |
 
-所有受支持客户端的完整设置说明： [连接到您的AI客户端](../tools/mcp-servers.md)
+所有受支持的AI平台的完整设置说明： [连接到您的AI平台](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ CX Enterprise Coworker在一个位置连接到AJO、CJA和Real-Time CDP，无需
 >
 >出现提示时，使用您的Adobe ID登录并选择链接到您的AJO、CJA和Real-Time CDP环境的IMS组织。 选择错误的组织是身份验证错误最常见的来源。
 >
->在首次连接时，您的AI客户端可能会要求您选择IMS组织或指定沙盒。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
+>在首次连接时，您的AI平台可能会要求您选择IMS组织或指定沙盒。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
 >
 >某些工具在执行之前会提示您审批。 查看请求并批准或拒绝。 未经确认，不执行任何操作。
 
@@ -108,11 +112,11 @@ What journeys are currently active in AJO?
 | --- | --- | --- |
 | 欢迎系列：新成员 | 电子邮件、推送 | 2026年5月18日 |
 | 购买后跟进 | 电子邮件、短信 | 2026年5月14日 |
-| 忠诚度重新参与 | 电子邮件 | 2026年5月20日 |
+| 忠诚度重新参与 | 电子邮件地址 | 2026年5月20日 |
 | 已放弃的购物车：24小时 | 电子邮件、短信 | 2026年5月10日 |
 | Spring Promotion | 电子邮件、推送 | 2026 年 5 月 19 日 |
-| 回送：90天不活动 | 电子邮件 | 2026年4月28日 |
-| 生日奖励 | 电子邮件 | 2026年4月15日 |
+| 回送：90天不活动 | 电子邮件地址 | 2026年4月28日 |
+| 生日奖励 | 电子邮件地址 | 2026年4月15日 |
 | 重新参与：推送选择退出 | 短信 | 2026年5月12日 |
 
 过去7天内修改了3个历程。 要了解其中任何一项的详细信息吗？
@@ -134,10 +138,10 @@ Show me the activation status for the high-value loyalty segment.
 
 | 目标 | 状态 | 上次成功运行 | 受众规模 |
 | --- | --- | --- | --- |
-| Google Ads | 活动 | 2026年5月21日凌晨02点14分 | 48,320 |
-| Meta Ads | 活动 | 2026年5月21日半夜01点58分 | 48,295 |
-| Salesforce Marketing Cloud | 活动 | 2026年5月20日晚上11:30 | 47,940 |
-| Adobe Target | 活动 | 2026年5月21日半夜12点 | 48,320 |
+| Google Ads | 活跃 | 2026年5月21日凌晨02点14分 | 48,320 |
+| Meta Ads | 活跃 | 2026年5月21日半夜01点58分 | 48,295 |
+| Salesforce Marketing Cloud | 活跃 | 2026年5月20日晚上11:30 | 47,940 |
+| Adobe Target | 活跃 | 2026年5月21日半夜12点 | 48,320 |
 
 未检测到数据流错误。 过去3小时内完成的所有激活。
 
@@ -159,7 +163,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 | 渠道 | 发送 | CTR | 转化 | 同意 评价 |
 | --- | --- | --- | --- | --- |
-| 电子邮件 | 48,320 | 8.4% | 1,973 | 4.1% |
+| 电子邮件地址 | 48,320 | 8.4% | 1,973 | 4.1% |
 | 推送 | 31,200 | 12.1% | 987 | 3.2% |
 
 综合转化率：3.8%。 Email CTR与之前30天相比增长了1.2%。 推送转化保持不变。
@@ -169,7 +173,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 ## 步骤4：综合营销活动运行状况摘要
 
-请您的AI客户在所有三个来源中汇集图像，并展示任何需要关注的内容。
+要求您的AI平台将来自所有三个来源的图片汇集在一起，并展示任何需要关注的内容。
 
 ```
 Give me a summary of our campaign health: what is running, which audiences are activated, and how performance looks against last month.
@@ -195,11 +199,11 @@ Give me a summary of our campaign health: what is running, which audiences are a
 +++
 
 
-这就是多服务器方法取得成效的地方：在一次对话中跨越历程配置、受众状态和性能数据的AI客户端原因。
+这就是多服务器方法取得成效的地方：在一次对话中，跨越历程配置、受众状态和性能数据的AI平台原因。
 
 ## 步骤5：对所找到的内容执行操作
 
-审查发现了两个项目。 请咨询您的AI客户端，帮助您确定每个项目的优先级并为其路由选择。
+审查发现了两个项目。 请咨询您的AI平台，帮助您确定每个项目的优先级并设置其路由。
 
 ```
 For each flag you identified, what should I do and where should I go to do it?

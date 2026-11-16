@@ -1,28 +1,28 @@
 ---
 title: 在旅程问题影响客户之前对其进行捕获
 description: 使用Adobe Journey Optimizer MCP服务器可在活动中的AJO历程到达受众之前，监控其运行情况、审查营销活动配置和表面操作问题。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 4%
+source-wordcount: '1158'
+ht-degree: 3%
 ---
 
 # 在旅程问题影响客户之前对其进行捕获
 <!-- last-modified: 2026-06-08 -->
 
-![AI客户端使用执行摘要总结活动和历程策略](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+![AI平台使用执行摘要总结活动和历程策略](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
 
 *选择缩放。*
 
-未检测到的历程问题可在任何人注意到之前联系客户。 本演练展示了如何通过检查活动的AJO历程、查看Campaign配置和通过AI客户端显示操作问题、使用Adobe Journey Optimizer MCP服务器以纯语言获取答案而不打开Adobe Journey Optimizer，保持其领先地位。
+未检测到的历程问题可在任何人注意到之前联系客户。 本演练展示了如何通过检查活动的AJO历程、查看Campaign配置和通过AI平台显示操作问题、使用Adobe Journey Optimizer MCP服务器以纯语言获取答案而不打开Adobe Journey Optimizer，保持其领先地位。
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home) |
-| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)或[Adobe Journey Optimizer MCP服务器](../tools/mcp-servers.md) |
+| CX Enterprise应用程序 | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home) |
+| 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)、[适用于AI平台的Adobe CX Enterprise Coworker](../tools/mcp-servers.md#connect-to-your-ai-platform)或[Adobe Journey Optimizer MCP服务器](../tools/mcp-servers.md) |
 | 受众 | 营销活动经理、营销人员 |
-| 先决条件 | 与MCP兼容的AI客户端、AJO访问 |
+| 先决条件 | AJO访问，加上Co-worker、具有Co-worker for AI平台的AI平台或MCP兼容的AI平台 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -31,11 +31,15 @@ ht-degree: 4%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-获得这些答案的最快方法是CX Enterprise Coworker，它不需要服务器设置或AI客户端配置。 [尝试CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
+获得这些答案的最快方法是协同工作，它不需要服务器设置或AI平台配置。 [尝试同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
 
-如果您希望将自己的AI客户端直接连接到Adobe Journey Optimizer，请参阅以下选项卡。
+如果您不能或不希望直接使用同事，请改用您自己的AI平台中的同事。 请参阅&#x200B;**Co-worker for AI platforms**&#x200B;选项卡。 如果上述方法也不适合您，请使用其余选项卡，将您的AI平台直接连接到Adobe Journey Optimizer MCP服务器。
+
+>[!TAB AI平台的协同工作]
+
+您还可以从您自己的AI平台与AI平台的同事完成此演练。 [为AI平台设置协同工作](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe文档](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB 克劳德.ai]
 
@@ -58,7 +62,7 @@ ht-degree: 4%
 
 完整设置： [ChatGPT MCP文档](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB 其他AI客户端]
+>[!TAB 其他AI平台]
 
 使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用以下端点连接到Adobe Journey Optimizer MCP服务器：
 
@@ -66,7 +70,7 @@ ht-degree: 4%
 https://ajo-mcp.adobe.io/mcp
 ```
 
-所有受支持客户端的完整设置说明： [连接到您的AI客户端](../tools/mcp-servers.md)
+所有受支持的AI平台的完整设置说明： [连接到您的AI平台](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -74,7 +78,7 @@ https://ajo-mcp.adobe.io/mcp
 >
 >出现提示时，请使用您的Adobe ID登录，然后选择链接到您的AJO环境的IMS组织。 选择错误的组织是身份验证错误最常见的来源。
 >
->在首次连接时，您的AI客户端可能会要求您选择IMS组织或指定沙盒。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
+>在首次连接时，您的AI平台可能会要求您选择IMS组织或指定沙盒。 设置该上下文后，MCP服务器会将其用于会话的其余部分。
 >
 >某些工具在执行之前会提示您审批。 查看请求并批准或拒绝。 未经确认，不执行任何操作。
 
@@ -89,7 +93,7 @@ What customer journeys are currently available and what business objectives do t
 
 +++查看示例响应
 
-![AI客户端列出可用的客户历程及其业务目标](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+![AI平台列出可用的客户历程及其业务目标](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
 
 *选择缩放。*
 
@@ -99,7 +103,7 @@ What customer journeys are currently available and what business objectives do t
 
 ## 步骤2：查看历程的步骤和客户体验
 
-查看历程列表后，请让您的AI客户浏览特定历程的步骤，并解释客户在每个阶段的体验。
+查看历程列表后，请让您的AI平台浏览特定历程的步骤，并解释客户在每个阶段的体验。
 
 ```
 Walk me through the [journey name] journey and explain the customer experience.
@@ -107,7 +111,7 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++查看示例响应
 
-![AI客户端正在经历欢迎新客户历程步骤和客户体验](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+![AI平台浏览欢迎新客户历程步骤和客户体验](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
 
 *选择缩放。*
 
@@ -129,7 +133,7 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++查看示例响应
 
-![AI客户端列出了活动营销活动及其受众定位和预期结果](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+![AI平台列出了活动营销活动及其受众定位和预期结果](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
 
 *选择缩放。*
 
@@ -139,7 +143,7 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 ## 步骤4：了解营销活动和历程如何关联
 
-要求您的AI客户将营销活动和历程之间的圆点连接起来，并解释他们如何共同努力实现共享参与目标。
+要求您的AI平台将营销活动和历程之间的圆点连接起来，并解释它们如何共同努力实现共享参与目标。
 
 ```
 How do our campaigns and journeys work together to improve customer engagement?
@@ -147,7 +151,7 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++查看示例响应
 
-![AI客户端，用于说明营销活动与历程之间的关系](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+![AI平台解释营销活动与历程之间的关系](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
 
 *选择缩放。*
 
@@ -165,7 +169,7 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++查看示例响应
 
-![提供优先级生命周期营销建议的AI客户端](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+![提供优先级生命周期营销建议的AI平台](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
 
 *选择缩放。*
 
@@ -179,7 +183,7 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 ## 您完成了哪些工作
 
-您将AI客户端连接到Adobe Journey Optimizer，并通过五个提示全面了解您的旅程和活动组合。 您清点活动历程及其业务目标，审查特定历程的分步客户体验，将活动营销活动映射到其受众和预期结果，了解营销活动和历程如何协作，并收到关于下一步重点位置的优先级建议。 这样无需打开AJO界面，即可让生命周期营销和营销活动经理从战略上了解情况。
+您将Co-worker或您的AI平台与Adobe Journey Optimizer结合使用，并通过五个提示全面介绍了您的旅程和活动组合。 您清点活动历程及其业务目标，审查特定历程的分步客户体验，将活动营销活动映射到其受众和预期结果，了解营销活动和历程如何协作，并收到关于下一步重点位置的优先级建议。 这样无需打开AJO界面，即可让生命周期营销和营销活动经理从战略上了解情况。
 
 
 ## 您可以完成更多任务

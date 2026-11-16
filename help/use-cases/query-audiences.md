@@ -1,22 +1,22 @@
 ---
 title: 了解您的受众及其激活位置
 description: 使用Real-Time CDP MCP服务器监控受众激活状态，检查目标运行状况，并在问题影响您的营销活动之前解决表面问题。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 4%
+source-wordcount: '1080'
+ht-degree: 3%
 ---
 
 # 了解您的受众及其激活位置
 
 <!-- last-modified: 2026-06-04 -->
 
-![AI客户端提供带有激活建议的优先级受众策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+![AI平台提供带有激活建议的优先级受众策略](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
 
 *选择缩放。*
 
-了解哪些受众是实时的、在哪里流动的，以及目标是否健康至关重要，之后才能启动营销活动，否则表现会不佳。 本演练展示了如何使用Real-Time CDP MCP服务器通过AI客户端在几秒钟内显示受众状态和目标运行状况，而无需打开Real-Time CDP来获取完整的激活图片。
+了解哪些受众是实时的、在哪里流动的，以及目标是否健康至关重要，之后才能启动营销活动，否则表现会不佳。 本演练展示了如何使用Real-Time CDP MCP服务器通过AI平台在几秒钟内显示受众状态和目标运行状况，而无需打开Real-Time CDP来获取完整的激活图片。
 
 >[!NOTE]
 >
@@ -24,10 +24,10 @@ ht-degree: 4%
 
 | 方案详细信息 | |
 | --- | --- |
-| CX企业级应用程序 | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
-| 代理式工具 | [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)或[Real-Time CDP MCP服务器](../tools/mcp-servers.md) |
+| CX Enterprise应用程序 | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/rtcdp/home) |
+| 代理式工具 | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)、[适用于AI平台的Adobe CX Enterprise Coworker](../tools/mcp-servers.md#connect-to-your-ai-platform)或[Real-Time CDP MCP服务器](../tools/mcp-servers.md) |
 | 受众 | 营销人员、分析人员、操作员 |
-| 先决条件 | 与MCP兼容的AI客户端、Real-Time CDP访问 |
+| 先决条件 | Real-Time CDP访问，加上Co-worker、具有Co-worker for AI平台的AI平台或MCP兼容的AI平台 |
 
 每个步骤显示一个代表性提示和一个AI响应示例。 您还可完成&#x200B;**更多**&#x200B;部分，以供在同一会话中进行其他探索。
 
@@ -35,11 +35,15 @@ ht-degree: 4%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-获取此激活图片的最快方式是CX Enterprise Coworker，它无需服务器设置或AI客户端配置。 [尝试CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
+获取此激活图片的最快方法是协同工作，它不需要服务器设置或AI平台配置。 [尝试同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
 
-如果您希望将自己的AI客户端直接连接到Real-Time CDP，请参阅以下选项卡。 Real-Time CDP MCP Server处于公共测试版，需要列入允许列表您的组织。
+如果您不能或不希望直接使用同事，请改用您自己的AI平台中的同事。 请参阅&#x200B;**Co-worker for AI platforms**&#x200B;选项卡。 如果上述方法也不适合您，请使用其余选项卡，将您的AI平台直接连接到Real-Time CDP MCP服务器。 Real-Time CDP MCP Server处于公共测试版，需要列入允许列表您的组织。
+
+>[!TAB AI平台的协同工作]
+
+您还可以从您自己的AI平台与AI平台的同事完成此演练。 [为AI平台设置协同工作](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe文档](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB 克劳德.ai]
 
@@ -62,7 +66,7 @@ ht-degree: 4%
 
 完整设置： [ChatGPT MCP文档](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB 其他AI客户端]
+>[!TAB 其他AI平台]
 
 使用Gemini、Microsoft Copilot、Cursor、Claude Code或其他与MCP兼容的环境？ 使用以下端点连接到Real-Time CDP MCP服务器：
 
@@ -70,7 +74,7 @@ ht-degree: 4%
 https://rtcdp-mcp.adobe.io/mcp
 ```
 
-所有受支持客户端的完整设置说明： [连接到您的AI客户端](../tools/mcp-servers.md)
+所有受支持的AI平台的完整设置说明： [连接到您的AI平台](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++查看示例响应
 
-![AI客户端列出了可用受众及其代表的客户行为](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+![AI平台列出了可用受众及其代表的客户行为](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
 
 *选择缩放。*
 
@@ -105,7 +109,7 @@ Which audiences are the largest and what makes them valuable?
 
 +++查看示例响应
 
-![AI客户端，用于识别最大的受众并解释其价值所在](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+![AI平台，用于识别最大的受众并解释其价值所在](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
 
 *选择缩放。*
 
@@ -122,7 +126,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++查看示例响应
 
-![AI客户端显示受众激活状态和目标映射](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+![AI平台显示受众激活状态和目标映射](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
 
 *选择缩放。*
 
@@ -139,7 +143,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++查看示例响应
 
-![提供优先级受众策略建议的AI客户端](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+![提供优先级受众策略建议的AI平台](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
 
 *选择缩放。*
 
@@ -152,7 +156,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 ## 您完成了哪些工作
 
-您将一个AI客户端连接到Real-Time CDP，并通过四个提示构建了受众组合的战略图。 您将可用受众映射到其捕获的客户行为，确定最大和最有价值的区段，确认每个受众流向何处以及流向何处，并在下次激活时收到优先推荐。 这取代了通过直接的战略对话导航多个Real-Time CDP屏幕。
+您在Real-Time CDP中使用了同事或AI平台，并在四个提示中构建了受众组合的战略图。 您将可用受众映射到其捕获的客户行为，确定最大和最有价值的区段，确认每个受众流向何处以及流向何处，并在下次激活时收到优先推荐。 这取代了通过直接的战略对话导航多个Real-Time CDP屏幕。
 
 ## 您可以完成更多任务
 
