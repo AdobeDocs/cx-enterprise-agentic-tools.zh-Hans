@@ -1,14 +1,12 @@
 ---
 title: 座席技能
-description: 由Adobe策划的工作流和说明，可引导AI代理始终如一地完成CX Enterprise任务。
-last-substantial-update: 2026-05-19T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: 由Adobe策划的工作流和说明，可始终指导AI代理完成CX Enterprise任务。
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '619'
 ht-degree: 1%
-
 ---
-
 
 # 座席技能
 
@@ -16,7 +14,7 @@ ht-degree: 1%
 
 Adobe CX Enterprise的![代理技能](../assets/hero-agent-skills.png)
 
-“代理技能”是Adobe策划的工作流，可为AI代理提供分步说明，以便可靠地完成Adobe CX Enterprise任务。 每个Agent Skill都编码域专业知识和最佳实践，这样Agent便可以生成一致、经过验证的结果，而无需即兴发挥。 当您希望跨对话进行可重复、引导式行为时，“座席技能”很有意义，特别是对于每次都需要详细提示的任务。 它们补充了MCP服务器和API：代理技能定义代理的工作方式；MCP服务器和API提供底层访问。
+代理技能是由Adobe策划的工作流，它为AI代理提供了可靠完成Adobe CX Enterprise任务的分步说明。 每个Agent Skill都编码域专业知识和最佳实践，这样Agent便可以生成一致、经过验证的结果，而无需即兴发挥。 当您希望跨对话进行可重复、引导式行为时，“座席技能”很有意义，特别是对于每次都需要详细提示的任务。 它们补充了MCP服务器和API：代理技能定义代理的工作方式；MCP服务器和API提供底层访问。
 
 ## Adobe CX Enterprise代理技能
 
@@ -64,19 +62,19 @@ Adobe CX Enterprise的![代理技能](../assets/hero-agent-skills.png)
 
 ### 安装代理技能
 
-代理技能是根据您使用的AI客户端安装的。 某些客户端支持从命令行直接安装：
+代理技能是基于您使用的AI平台安装的。 某些AI平台支持从命令行直接安装：
 
 - **克劳德代码**： `/plugin install adobe/skills`
 - **节点环境**： `npx skills add adobe/skills`
 - **GitHub CLI**： `gh upskill adobe/skills`
 
-其他客户端要求您下载技能文件并将其直接添加到您的AI客户端。 有关客户端的完整安装说明，请参阅GitHub[&#128279;](https://github.com/adobe/skills#installation)上的Adobe技能自述文件。
+其他AI平台要求您下载技能文件并将其直接添加到您的AI平台。 有关客户端的完整安装说明，请参阅GitHub](https://github.com/adobe/skills#installation)上的[Adobe技能自述文件。
 
 ### 查找座席技能
 
 浏览[Adobe Skills GitHub存储库](https://github.com/adobe/skills)中可用技能的完整列表。 每个座席技能都包含一个`SKILL.md`文件，其中包含详细的指导、参考和示例。
 
-安装或添加`adobe/skills`包后，某些AI客户端允许您直接列出所有可用技能：
+安装或添加`adobe/skills`包后，某些AI平台允许您直接列出所有可用的技能：
 
 - **克劳德代码**： `claude /plugin list`
 - **节点环境**： `npx skills list`
@@ -84,12 +82,12 @@ Adobe CX Enterprise的![代理技能](../assets/hero-agent-skills.png)
 
 ## 座席操作技能
 
-“代理技能”可让Adobe的域专业知识在您的AI客户端中起作用，因此代理遵循经过验证的工作流而不是即兴创作。 下面的每个演练都显示了以Adobe最佳实践为指导，从头到尾以可靠的方式完成的特定业务任务。
+“代理技能”可让Adobe的域专业知识在您的AI平台中使用，因此代理遵循经过验证的工作流而不是即兴创作。 下面的每个演练都显示了以Adobe最佳实践为指导，从头到尾以可靠的方式完成的特定业务任务。
 
 <!--
 CARDS
 
-* https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
   {title = Develop AEM components with AI}
   {description = Use Claude Code or Cursor with Agent Skills to scaffold, code, and refine AEM components guided by Adobe best practices.}
   {cta = Try with Agent Skills}
@@ -102,7 +100,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="使用AI开发AEM组件" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="使用AI开发AEM组件" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="使用AI开发AEM组件"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -111,13 +109,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="使用AI开发AEM组件">使用AI开发AEM组件</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="使用AI开发AEM组件">使用AI开发AEM组件</a>
                     </p>
                     <p class="is-size-6">使用具有代理技能的克劳德代码或光标建立、编码和优化AEM组件，以Adobe最佳实践为指导。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">尝试使用代理技能</span>
-                
+                </a>
             </div>
         </div>
     </div>

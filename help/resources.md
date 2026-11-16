@@ -1,14 +1,12 @@
 ---
 title: 资源
 description: 所有Adobe CX Enterprise Agentic Tools文档、注册表、API和开发人员指南的单一入口点。
-last-substantial-update: 2026-05-08T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 20%
-
+source-wordcount: '591'
+ht-degree: 19%
 ---
-
 
 # 资源
 
@@ -16,7 +14,7 @@ ht-degree: 20%
 
 ![资源](https://placehold.co/1600x900?text=Adobe+CX+Enterprise+Resources)
 
-在一个位置使用Adobe CX Enterprise Agentic Tools的所有关键Adobe资源。
+在一个地方使用Adobe Agentic Tools的所有关键Adobe CX Enterprise资源。
 
 ## 登记册和目录
 
@@ -24,15 +22,16 @@ ht-degree: 20%
 |---|---|
 | [Adobe AI注册表：MCP服务器](https://developer.adobe.com/ai-registry/?type=mcp) | 选定Adobe MCP服务器的托管连接器和服务器详细信息 |
 | [Adobe AI注册表：代理技能](https://developer.adobe.com/ai-registry/?type=skill) | 座席技能列表，以及所选技能的可用性和设置详细信息 |
-| [Adobe API目录](https://developer.adobe.com/apis) | 完整Adobe CX Enterprise API参考 |
+| [Adobe API目录](https://developer.adobe.com/apis) | 完成Adobe CX Enterprise API参考 |
 
-## MCP服务器
+## MCP 服务器
 
 | 资源 | 您将找到什么 |
 |---|---|
+| 适用于AI平台的[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker) | 使用Claude、ChatGPT、Microsoft 365 Copilot、Gemini Enterprise和其他AI平台的同事的先决条件和设置 |
 | [Analytics MCP文档](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP服务器安装指南和工具参考 |
 | [Analytics MCP指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP服务器的详细使用指南 |
-| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 《RTCDP MCP服务器安装指南》 |
+| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 《RTCDP MCP服务器安装指南》 |
 
 ## 座席技能
 
@@ -62,7 +61,7 @@ ht-degree: 20%
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API项目设置、身份验证和凭据管理 |
 | [开发人员快速入门指南](https://developer.adobe.com/dep/) | 使用Adobe API构建简介 |
 
-## AI客户端设置
+## AI平台设置
 
 | 资源 | 您将找到什么 |
 |---|---|
