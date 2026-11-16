@@ -28,10 +28,10 @@ ht-degree: 19%
 
 | 资源 | 您将找到什么 |
 |---|---|
-| 适用于AI平台的[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker) | 使用Claude、ChatGPT、Microsoft 365 Copilot、Gemini Enterprise和其他AI平台的同事的先决条件和设置 |
+| 适用于AI平台的[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/ai-platforms#set-up-coworker) | 使用Claude、ChatGPT、Microsoft 365 Copilot、Gemini Enterprise和其他AI平台的同事的先决条件和设置 |
 | [Analytics MCP文档](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP服务器安装指南和工具参考 |
 | [Analytics MCP指南](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP服务器的详细使用指南 |
-| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 《RTCDP MCP服务器安装指南》 |
+| [Real-Time CDP MCP文档](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | 《RTCDP MCP服务器安装指南》 |
 
 ## 座席技能
 
