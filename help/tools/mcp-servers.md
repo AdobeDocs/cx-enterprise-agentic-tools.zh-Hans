@@ -88,7 +88,7 @@ Co-worker已经包括许多MCP功能。 没有要添加的服务器，没有要�
 
 Co-worker for AI平台是一种MCP服务器，用于将AI平台连接到Co-worker。 Co-worker中的所有可用内容都可通过它获得。 您使用Claude、ChatGPT、Microsoft 365 Copilot或Gemini Enterprise等AI平台作为聊天界面，由同事在后台工作，与直接使用同事时相同。
 
->[!VIDEO](https://video.tv.adobe.com/v/3508455/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3508463/?captions=chi_hans&learn=on&enablevpops)
 
 您使用Adobe凭据登录，而同事使用与您的Adobe身份关联的访问权限。 同事安全且受设计管理。 您可以读取或更改的内容取决于您的用户配置方式、在您同事中授予的访问权限以及在您代表您使用的应用程序中授予的访问权限。 查看[同事的访问控制](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/administration/access-control)。
 
