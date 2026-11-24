@@ -34,7 +34,7 @@ Adobe MCP服务器遵循打开的[模型上下文协议](https://modelcontextpro
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="Coworker"
 >abstract="使用自然语言，在各个 CX Enterprise 应用程序中提问、分析并执行操作，无需设置服务器。 对于拥有独立 MCP 服务器的应用程序，请直接连接到相应服务器。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home" text="同事文档"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home" text="Coworker 文档"
 
 ![将AI平台连接到CX Enterprise应用程序的同事](../assets/mcp-sub-hero.gif)
 
@@ -190,10 +190,10 @@ Adobe MCP服务器使用OAuth。 在首次调用工具时，克劳德代码会�
 **添加服务器：**
 
 1. 转到&#x200B;**设置>插件>浏览插件**。
-2. 选择&#x200B;**+**&#x200B;以添加新插件。
+2. Select **+**&#x200B;以添加新插件。
 3. 输入名称，例如`AEM MCP Server`或`Adobe Journey Optimizer`。
 4. 输入说明。
-5. 选择&#x200B;**服务器URL**。
+5. Select **服务器URL**。
 6. 在&#x200B;**连接**&#x200B;下，输入完整的Adobe MCP URL。 例如，`https://mcp.adobeaemcloud.com/adobe/mcp/aem`用于AEM，或`https://ajo-mcp.adobe.io/mcp`用于Adobe Journey Optimizer。
 7. 将&#x200B;**身份验证**&#x200B;设置为&#x200B;**OAuth**。
 8. 阅读并接受服务条款。
